@@ -161,7 +161,7 @@
     pos: [6, 0, 0],
     state: 0
   }, {
-    pos: [6, 0, 1],
+    pos: [6, 0, 2],
     state: 0
   }, {
     pos: [6, 0, 3],
@@ -1227,7 +1227,7 @@
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
-    pos: [6, 0, 2],
+    pos: [6, 0, 1],
     state: 10
   }, {
     nbt: {
@@ -1372,5 +1372,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3465
+  DataVersion: 3567
 }
