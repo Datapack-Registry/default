@@ -101,5 +101,5 @@
   palette: [{
     Name: "minecraft:coal_ore"
   }],
-  DataVersion: 3698
+  DataVersion: 3699
 }
