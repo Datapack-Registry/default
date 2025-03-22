@@ -50135,6 +50135,9 @@
     pos: [28, 12, 13],
     state: 10
   }, {
+    pos: [28, 12, 14],
+    state: 10
+  }, {
     pos: [28, 12, 15],
     state: 10
   }, {
@@ -56464,13 +56467,6 @@
     state: 16
   }, {
     nbt: {
-      Items: [],
-      id: "minecraft:chest"
-    },
-    pos: [28, 12, 14],
-    state: 22
-  }, {
-    nbt: {
       joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:empty",
@@ -56507,7 +56503,7 @@
       target: "minecraft:left_staircase"
     },
     pos: [29, 13, 16],
-    state: 23
+    state: 22
   }, {
     nbt: {
       joint: "rollable",
@@ -56782,16 +56778,9 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
-      waterlogged: "false",
-      facing: "east",
-      type: "single"
-    },
-    Name: "minecraft:chest"
-  }, {
-    Properties: {
       orientation: "south_up"
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4058
+  DataVersion: 4060
 }

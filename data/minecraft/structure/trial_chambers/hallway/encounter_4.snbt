@@ -7658,9 +7658,6 @@
     pos: [1, 15, 12],
     state: 0
   }, {
-    pos: [1, 15, 13],
-    state: 0
-  }, {
     pos: [1, 15, 15],
     state: 0
   }, {
@@ -17573,6 +17570,13 @@
       LootTable: "minecraft:dispensers/trial_chambers/corridor",
       id: "minecraft:dispenser"
     },
+    pos: [1, 15, 13],
+    state: 16
+  }, {
+    nbt: {
+      LootTable: "minecraft:dispensers/trial_chambers/corridor",
+      id: "minecraft:dispenser"
+    },
     pos: [1, 15, 14],
     state: 16
   }, {
@@ -17696,5 +17700,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4058
+  DataVersion: 4060
 }
