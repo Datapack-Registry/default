@@ -75,10 +75,10 @@
             id: "minecraft:skeleton",
             HandItems: [{
               Count: 1,
-              id: "bow"
+              id: "minecraft:bow"
             }, {
               Count: 1,
-              id: "tipped_arrow",
+              id: "minecraft:tipped_arrow",
               tag: {
                 Potion: "minecraft:poison"
               }
@@ -137,5 +137,5 @@
     },
     Name: "minecraft:trial_spawner"
   }],
-  DataVersion: 3700
+  DataVersion: 3801
 }
