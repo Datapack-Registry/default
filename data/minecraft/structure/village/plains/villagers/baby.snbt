@@ -14,7 +14,6 @@
       FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 0b,
       id: "minecraft:villager",
       UUID: [I; 895037032, -995736946, -1319125422, -1224629455],
@@ -27,7 +26,6 @@
       OnGround: 1b,
       Rotation: [0f, -25.827711f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-1740.6339469144218d, 5d, 496.0697962117287d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -67,5 +65,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

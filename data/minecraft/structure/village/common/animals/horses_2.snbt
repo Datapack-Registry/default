@@ -14,7 +14,6 @@
       InLove: 0,
       EatingHaystack: 0b,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:horse",
       UUID: [I; -1427474246, 390680113, -2038584555, -403291149],
@@ -29,7 +28,6 @@
       Rotation: [60.220142f, -9.624206f],
       HandItems: [{}, {}],
       Variant: 773,
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-1725.6767578125d, 4d, 498.3232421875d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -83,7 +81,6 @@
       InLove: 0,
       EatingHaystack: 0b,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:horse",
       UUID: [I; 1187682076, -533118836, -1149808569, -1741801379],
@@ -98,7 +95,6 @@
       Rotation: [0f, 0f],
       HandItems: [{}, {}],
       Variant: 768,
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-1725.6767578125d, 4d, 498.6767578125d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -160,5 +156,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

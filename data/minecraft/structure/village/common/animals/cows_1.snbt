@@ -11,7 +11,6 @@
       FallDistance: 0f,
       InLove: 0,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:cow",
       UUID: [I; -1361869468, 529090201, -2039296741, -2131567754],
@@ -25,7 +24,6 @@
       OnGround: 1b,
       Rotation: [153.60942f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-1725.925000011921d, 4d, 483.07499998807907d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -72,7 +70,6 @@
       FallDistance: 0f,
       InLove: 0,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:cow",
       UUID: [I; -1865549295, -1871426108, -1397859800, -383448021],
@@ -86,7 +83,6 @@
       OnGround: 1b,
       Rotation: [-88.56763f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-1725.074999988079d, 4d, 483.92500001192093d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -149,5 +145,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

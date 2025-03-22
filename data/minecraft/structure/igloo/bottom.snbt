@@ -12,7 +12,6 @@
       FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:villager",
       UUID: [I; -1630920815, 245714788, -1593885403, 1511953888],
@@ -53,7 +52,6 @@
       OnGround: 1b,
       Rotation: [-4.3276978f, -3.41655f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-986.5d, 8d, -1060.5d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -79,12 +77,12 @@
         id: "minecraft:armor_toughness",
         base: 0d
       }, {
+        id: "minecraft:follow_range",
         modifiers: [{
           amount: -0.07807250298271795d,
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "minecraft:follow_range",
         base: 16d
       }],
       HurtTime: 0s,
@@ -103,7 +101,6 @@
       FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:zombie_villager",
       UUID: [I; 669208369, 1839481473, -1764747872, -1340605115],
@@ -117,7 +114,6 @@
       OnGround: 1b,
       Rotation: [-95.78888f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       CanBreakDoors: 0b,
       Pos: [-984.5d, 8d, -1060.699999988079d],
       ArmorItems: [{}, {}, {}, {}],
@@ -922,15 +918,39 @@
   }, {
     nbt: {
       front_text: {
-        filtered_messages: ["{"text":""}", "{"text":"<----"}", "{"text":"---->"}", "{"text":""}"],
+        filtered_messages: [{
+          text: ""
+        }, {
+          text: "<----"
+        }, {
+          text: "---->"
+        }, {
+          text: ""
+        }],
+        messages: [{
+          text: ""
+        }, {
+          text: "<----"
+        }, {
+          text: "---->"
+        }, {
+          text: ""
+        }],
         has_glowing_text: 0b,
-        color: "black",
-        messages: ["{"text":""}", "{"text":"<----"}", "{"text":"---->"}", "{"text":""}"]
+        color: "black"
       },
       back_text: {
-        has_glowing_text: 0b,
         color: "black",
-        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
+        messages: [{
+          text: ""
+        }, {
+          text: ""
+        }, {
+          text: ""
+        }, {
+          text: ""
+        }],
+        has_glowing_text: 0b
       },
       id: "minecraft:sign"
     },
@@ -1059,5 +1079,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

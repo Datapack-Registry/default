@@ -14,7 +14,6 @@
       InLove: 0,
       DeathTime: 0s,
       variant: "minecraft:british_shorthair",
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:cat",
       UUID: [I; -1845145170, -1254342509, -1757105393, -529596160],
@@ -29,7 +28,6 @@
       OnGround: 1b,
       Rotation: [130.67245f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       OwnerUUID: "",
       Pos: [98.1028744671547d, 70d, -8.359899483462057d],
       ArmorItems: [{}, {}, {}, {}],
@@ -93,5 +91,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

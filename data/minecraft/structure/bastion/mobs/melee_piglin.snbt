@@ -14,7 +14,6 @@
       FallDistance: 0f,
       CannotHunt: 1b,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:piglin_brute",
       UUID: [I; 1627868579, 1287341710, -1086553724, 1316702896],
@@ -26,7 +25,6 @@
       OnGround: 1b,
       Rotation: [0f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-4.511166846057204d, 82d, 79.51012831044396d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -63,5 +61,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

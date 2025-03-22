@@ -14,7 +14,6 @@
       FallDistance: 0f,
       CannotHunt: 1b,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:piglin",
       UUID: [I; -1395216256, 1853377251, -1848462727, -510543557],
@@ -29,7 +28,6 @@
         count: 1,
         id: "minecraft:golden_sword"
       }, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-8.573428015303032d, 82d, 79.34353135322355d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -67,5 +65,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

@@ -14,7 +14,6 @@
       InLove: 0,
       DeathTime: 0s,
       variant: "minecraft:tabby",
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:cat",
       UUID: [I; -825753700, 1130906265, -1586988053, 428001104],
@@ -29,7 +28,6 @@
       OnGround: 1b,
       Rotation: [-113.609924f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       OwnerUUID: "",
       Pos: [102.6606286838719d, 70d, -8.191039682127876d],
       ArmorItems: [{}, {}, {}, {}],
@@ -93,5 +91,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

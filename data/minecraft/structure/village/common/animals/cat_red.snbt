@@ -14,7 +14,6 @@
       InLove: 0,
       DeathTime: 0s,
       variant: "minecraft:red",
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:cat",
       UUID: [I; 54188730, 246500305, -1526174494, 616100662],
@@ -29,7 +28,6 @@
       OnGround: 1b,
       Rotation: [0f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       OwnerUUID: "",
       Pos: [90.62d, 70d, -9.074999988079071d],
       ArmorItems: [{}, {}, {}, {}],
@@ -88,5 +86,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

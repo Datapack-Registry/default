@@ -9,7 +9,6 @@
       PortalCooldown: 0,
       FallDistance: 0f,
       DeathTime: 0s,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 0b,
       id: "minecraft:iron_golem",
       UUID: [I; -220108635, -1676652742, -1267561444, -1997805178],
@@ -23,7 +22,6 @@
       OnGround: 1b,
       Rotation: [0f, 17.929129f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-845.3000000119209d, 57d, 1600.699999988079d],
       ArmorItems: [{}, {}, {}, {}],
       Fire: -1s,
@@ -758,5 +756,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }

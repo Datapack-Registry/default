@@ -12,7 +12,6 @@
       FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
-      HandDropChances: [0.085f, 0.085f],
       PersistenceRequired: 1b,
       id: "minecraft:zombie_villager",
       UUID: [I; 1383272762, 272124144, -1415224788, -1032494613],
@@ -27,7 +26,6 @@
       OnGround: 1b,
       Rotation: [48.821632f, 0f],
       HandItems: [{}, {}],
-      ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-178.2795013809144d, 5d, 184.63145528989816d],
       lastRestock: 0l,
       ArmorItems: [{}, {}, {}, {}],
@@ -71,5 +69,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4189
+  DataVersion: 4298
 }
