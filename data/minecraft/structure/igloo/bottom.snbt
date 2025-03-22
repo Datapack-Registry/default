@@ -64,19 +64,19 @@
         type: "minecraft:plains"
       },
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 20d
       }, {
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.5d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 0d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }, {
         modifiers: [{
@@ -84,7 +84,7 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "generic.follow_range",
+        id: "minecraft:follow_range",
         base: 48d
       }],
       HurtTime: 0s,
@@ -129,7 +129,7 @@
         type: "minecraft:plains"
       },
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 20d
       }, {
         modifiers: [{
@@ -137,16 +137,16 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_value"
         }],
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.23000000417232513d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 2d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }, {
         modifiers: [{
@@ -154,13 +154,13 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "generic.follow_range",
+        id: "minecraft:follow_range",
         base: 35d
       }, {
-        id: "generic.attack_damage",
+        id: "minecraft:attack_damage",
         base: 3d
       }, {
-        id: "zombie.spawn_reinforcements",
+        id: "minecraft:spawn_reinforcements",
         base: 0.08507647017248195d
       }],
       HurtTime: 0s
@@ -1059,5 +1059,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

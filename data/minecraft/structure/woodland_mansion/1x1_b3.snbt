@@ -1633,7 +1633,7 @@
     Properties: {
       waterlogged: "false",
       distance: "7",
-      persistent: "false"
+      persistent: "true"
     },
     Name: "minecraft:dark_oak_leaves"
   }, {
@@ -1684,5 +1684,5 @@
     },
     Name: "minecraft:cobblestone_stairs"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

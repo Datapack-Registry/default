@@ -8246,6 +8246,9 @@
     pos: [1, 3, 14],
     state: 4
   }, {
+    pos: [1, 3, 15],
+    state: 0
+  }, {
     pos: [1, 3, 16],
     state: 0
   }, {
@@ -8257,6 +8260,9 @@
   }, {
     pos: [1, 3, 19],
     state: 4
+  }, {
+    pos: [1, 3, 20],
+    state: 0
   }, {
     pos: [1, 3, 21],
     state: 0
@@ -8594,6 +8600,9 @@
     pos: [13, 3, 0],
     state: 0
   }, {
+    pos: [13, 3, 1],
+    state: 0
+  }, {
     pos: [13, 3, 32],
     state: 0
   }, {
@@ -8616,6 +8625,9 @@
     state: 0
   }, {
     pos: [15, 3, 1],
+    state: 0
+  }, {
+    pos: [15, 3, 32],
     state: 0
   }, {
     pos: [15, 3, 33],
@@ -8708,6 +8720,9 @@
     pos: [18, 3, 0],
     state: 0
   }, {
+    pos: [18, 3, 1],
+    state: 0
+  }, {
     pos: [18, 3, 32],
     state: 0
   }, {
@@ -8730,6 +8745,9 @@
     state: 0
   }, {
     pos: [20, 3, 1],
+    state: 0
+  }, {
+    pos: [20, 3, 32],
     state: 0
   }, {
     pos: [20, 3, 33],
@@ -9066,6 +9084,9 @@
     state: 0
   }, {
     pos: [32, 3, 12],
+    state: 0
+  }, {
+    pos: [32, 3, 13],
     state: 0
   }, {
     pos: [32, 3, 14],
@@ -16583,6 +16604,9 @@
     pos: [1, 8, 14],
     state: 4
   }, {
+    pos: [1, 8, 15],
+    state: 0
+  }, {
     pos: [1, 8, 16],
     state: 0
   }, {
@@ -16594,6 +16618,9 @@
   }, {
     pos: [1, 8, 19],
     state: 4
+  }, {
+    pos: [1, 8, 20],
+    state: 0
   }, {
     pos: [1, 8, 21],
     state: 0
@@ -16829,6 +16856,9 @@
     pos: [10, 8, 1],
     state: 0
   }, {
+    pos: [10, 8, 32],
+    state: 0
+  }, {
     pos: [10, 8, 33],
     state: 0
   }, {
@@ -16895,6 +16925,9 @@
     pos: [13, 8, 0],
     state: 0
   }, {
+    pos: [13, 8, 1],
+    state: 0
+  }, {
     pos: [13, 8, 32],
     state: 0
   }, {
@@ -16917,6 +16950,9 @@
     state: 0
   }, {
     pos: [15, 8, 1],
+    state: 0
+  }, {
+    pos: [15, 8, 32],
     state: 0
   }, {
     pos: [15, 8, 33],
@@ -16992,6 +17028,9 @@
     state: 4
   }, {
     pos: [19, 8, 33],
+    state: 0
+  }, {
+    pos: [20, 8, 32],
     state: 0
   }, {
     pos: [20, 8, 33],
@@ -17282,6 +17321,9 @@
     pos: [32, 8, 7],
     state: 0
   }, {
+    pos: [32, 8, 8],
+    state: 0
+  }, {
     pos: [32, 8, 9],
     state: 4
   }, {
@@ -17294,6 +17336,9 @@
     pos: [32, 8, 12],
     state: 0
   }, {
+    pos: [32, 8, 13],
+    state: 0
+  }, {
     pos: [32, 8, 14],
     state: 4
   }, {
@@ -17304,6 +17349,9 @@
     state: 0
   }, {
     pos: [32, 8, 17],
+    state: 0
+  }, {
+    pos: [32, 8, 18],
     state: 0
   }, {
     pos: [32, 8, 19],
@@ -18861,10 +18909,10 @@
     state: 0
   }, {
     pos: [7, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [7, 10, 2],
-    state: 0
+    state: 5
   }, {
     pos: [7, 10, 6],
     state: 5
@@ -18975,10 +19023,10 @@
     state: 0
   }, {
     pos: [12, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [12, 10, 2],
-    state: 0
+    state: 5
   }, {
     pos: [12, 10, 6],
     state: 5
@@ -19005,7 +19053,7 @@
     state: 0
   }, {
     pos: [13, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [13, 10, 32],
     state: 5
@@ -19017,7 +19065,7 @@
     state: 0
   }, {
     pos: [14, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [14, 10, 32],
     state: 5
@@ -19029,7 +19077,7 @@
     state: 0
   }, {
     pos: [15, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [15, 10, 32],
     state: 5
@@ -19041,10 +19089,10 @@
     state: 0
   }, {
     pos: [16, 10, 1],
-    state: 0
+    state: 5
   }, {
     pos: [16, 10, 2],
-    state: 0
+    state: 5
   }, {
     pos: [16, 10, 6],
     state: 5
@@ -19074,7 +19122,7 @@
     state: 0
   }, {
     pos: [17, 10, 2],
-    state: 0
+    state: 5
   }, {
     pos: [17, 10, 6],
     state: 5
@@ -19140,7 +19188,7 @@
     state: 0
   }, {
     pos: [21, 10, 2],
-    state: 0
+    state: 5
   }, {
     pos: [21, 10, 6],
     state: 5
@@ -29627,9 +29675,6 @@
     pos: [32, 2, 19],
     state: 7
   }, {
-    pos: [32, 2, 20],
-    state: 7
-  }, {
     pos: [33, 2, 18],
     state: 7
   }, {
@@ -37478,6 +37523,9 @@
     pos: [18, 7, 1],
     state: 7
   }, {
+    pos: [18, 7, 2],
+    state: 7
+  }, {
     pos: [18, 7, 3],
     state: 7
   }, {
@@ -37662,9 +37710,6 @@
     state: 7
   }, {
     pos: [20, 7, 0],
-    state: 7
-  }, {
-    pos: [20, 7, 1],
     state: 7
   }, {
     pos: [20, 7, 2],
@@ -48419,6 +48464,19 @@
   }, {
     nbt: {
       joint: "aligned",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/decor/disposal",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:disposal"
+    },
+    pos: [32, 2, 20],
+    state: 9
+  }, {
+    nbt: {
+      joint: "aligned",
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:empty",
       placement_priority: 0,
@@ -48428,7 +48486,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 3, 5],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48441,33 +48499,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 3, 10],
-    state: 9
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [1, 3, 15],
-    state: 9
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [1, 3, 20],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48480,7 +48512,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 3, 25],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48493,7 +48525,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 3, 30],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48506,7 +48538,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [3, 3, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48519,7 +48551,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [5, 3, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48532,7 +48564,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [8, 3, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48545,59 +48577,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [10, 3, 32],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [13, 3, 1],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [15, 3, 32],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [18, 3, 1],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [20, 3, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48610,7 +48590,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [23, 3, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48623,7 +48603,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [25, 3, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48636,7 +48616,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [28, 3, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48649,7 +48629,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [30, 3, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48662,7 +48642,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 3, 3],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -48675,20 +48655,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 3, 8],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [32, 3, 13],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -48701,7 +48668,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 3, 23],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -48714,7 +48681,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 3, 28],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "rollable",
@@ -48727,14 +48694,20 @@
       target: "minecraft:entrance_cap"
     },
     pos: [33, 3, 19],
-    state: 13
+    state: 14
   }, {
     nbt: {
-      Items: [],
-      id: "minecraft:chest"
+      joint: "aligned",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/decor/disposal",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:disposal"
     },
-    pos: [18, 7, 2],
-    state: 14
+    pos: [20, 7, 1],
+    state: 8
   }, {
     nbt: {
       joint: "aligned",
@@ -48747,7 +48720,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 8, 5],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48760,33 +48733,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 8, 10],
-    state: 9
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [1, 8, 15],
-    state: 9
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [1, 8, 20],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48799,7 +48746,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 8, 25],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48812,7 +48759,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [1, 8, 30],
-    state: 9
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -48825,7 +48772,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [3, 8, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48838,7 +48785,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [5, 8, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48851,45 +48798,6 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [8, 8, 1],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [10, 8, 32],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [13, 8, 1],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [15, 8, 32],
     state: 11
   }, {
     nbt: {
@@ -48915,21 +48823,8 @@
       id: "minecraft:jigsaw",
       target: "minecraft:copper_dispenser"
     },
-    pos: [20, 8, 32],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
     pos: [23, 8, 1],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -48942,7 +48837,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [25, 8, 32],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -48955,19 +48850,6 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [28, 8, 1],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [30, 8, 32],
     state: 11
   }, {
     nbt: {
@@ -48980,47 +48862,21 @@
       id: "minecraft:jigsaw",
       target: "minecraft:copper_dispenser"
     },
+    pos: [30, 8, 32],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
     pos: [32, 8, 3],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [32, 8, 8],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [32, 8, 13],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [32, 8, 18],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -49033,7 +48889,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 8, 23],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -49046,7 +48902,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [32, 8, 28],
-    state: 12
+    state: 13
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -49071,6 +48927,11 @@
   }, {
     Properties: {
       orientation: "up_north"
+    },
+    Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
+      orientation: "up_east"
     },
     Name: "minecraft:jigsaw"
   }, {
@@ -49100,16 +48961,9 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
-      waterlogged: "false",
-      facing: "east",
-      type: "single"
-    },
-    Name: "minecraft:chest"
-  }, {
-    Properties: {
       orientation: "north_up"
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

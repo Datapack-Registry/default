@@ -34,19 +34,19 @@
       Fire: -1s,
       NoBasePlate: 0b,
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 20d
       }, {
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.699999988079071d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 0d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }],
       HurtTime: 0s
@@ -87,19 +87,19 @@
       Fire: -1s,
       NoBasePlate: 0b,
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 20d
       }, {
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.699999988079071d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 0d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }],
       HurtTime: 0s
@@ -1431,5 +1431,5 @@
     },
     Name: "minecraft:blast_furnace"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

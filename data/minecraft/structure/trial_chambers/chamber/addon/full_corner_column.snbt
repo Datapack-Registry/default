@@ -524,9 +524,6 @@
     pos: [4, 2, 7],
     state: 3
   }, {
-    pos: [4, 2, 8],
-    state: 0
-  }, {
     pos: [4, 2, 9],
     state: 0
   }, {
@@ -2855,12 +2852,6 @@
     pos: [4, 16, 14],
     state: 0
   }, {
-    pos: [2, 1, 2],
-    state: 6
-  }, {
-    pos: [3, 1, 1],
-    state: 6
-  }, {
     pos: [0, 2, 1],
     state: 6
   }, {
@@ -3759,6 +3750,19 @@
     state: 6
   }, {
     nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [4, 2, 8],
+    state: 7
+  }, {
+    nbt: {
       joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:upper_start",
@@ -3769,19 +3773,6 @@
       target: "minecraft:empty"
     },
     pos: [0, 12, 2],
-    state: 7
-  }, {
-    nbt: {
-      joint: "rollable",
-      final_state: "minecraft:air",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/chamber/addon",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:upper_addon_extension"
-    },
-    pos: [2, 12, 0],
     state: 8
   }, {
     nbt: {
@@ -3794,8 +3785,21 @@
       id: "minecraft:jigsaw",
       target: "minecraft:upper_addon_extension"
     },
-    pos: [4, 12, 2],
+    pos: [2, 12, 0],
     state: 9
+  }, {
+    nbt: {
+      joint: "rollable",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/chamber/addon",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:upper_addon_extension"
+    },
+    pos: [4, 12, 2],
+    state: 10
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -3817,6 +3821,11 @@
     Name: "minecraft:air"
   }, {
     Properties: {
+      orientation: "down_east"
+    },
+    Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
       orientation: "west_up"
     },
     Name: "minecraft:jigsaw"
@@ -3831,5 +3840,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

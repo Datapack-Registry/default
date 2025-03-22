@@ -729,7 +729,7 @@
     state: 8
   }, {
     pos: [1, 11, 2],
-    state: 1
+    state: 8
   }, {
     pos: [1, 11, 3],
     state: 8
@@ -762,7 +762,7 @@
     state: 8
   }, {
     pos: [2, 11, 2],
-    state: 1
+    state: 8
   }, {
     pos: [2, 11, 3],
     state: 8
@@ -795,7 +795,7 @@
     state: 8
   }, {
     pos: [3, 11, 2],
-    state: 1
+    state: 8
   }, {
     pos: [3, 11, 3],
     state: 8
@@ -2048,5 +2048,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

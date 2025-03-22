@@ -29,7 +29,7 @@
       Fire: -1s,
       CanPickUpLoot: 0b,
       attributes: [{
-        id: "minecraft:generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.30000001192092896d
       }, {
         modifiers: [{
@@ -37,7 +37,7 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "minecraft:generic.follow_range",
+        id: "minecraft:follow_range",
         base: 48d
       }],
       HurtTime: 0s
@@ -73,7 +73,7 @@
       Fire: -1s,
       CanPickUpLoot: 0b,
       attributes: [{
-        id: "minecraft:generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.30000001192092896d
       }, {
         modifiers: [{
@@ -81,7 +81,7 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "minecraft:generic.follow_range",
+        id: "minecraft:follow_range",
         base: 48d
       }],
       HurtTime: 0s
@@ -814,5 +814,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

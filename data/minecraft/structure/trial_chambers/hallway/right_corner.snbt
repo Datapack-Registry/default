@@ -212,6 +212,9 @@
     pos: [4, 3, 4],
     state: 0
   }, {
+    pos: [0, 4, 0],
+    state: 4
+  }, {
     pos: [0, 4, 4],
     state: 4
   }, {
@@ -239,6 +242,12 @@
     pos: [4, 4, 4],
     state: 4
   }, {
+    pos: [0, 5, 0],
+    state: 0
+  }, {
+    pos: [0, 5, 1],
+    state: 5
+  }, {
     pos: [0, 5, 2],
     state: 5
   }, {
@@ -247,6 +256,12 @@
   }, {
     pos: [0, 5, 4],
     state: 0
+  }, {
+    pos: [1, 5, 0],
+    state: 5
+  }, {
+    pos: [1, 5, 1],
+    state: 5
   }, {
     pos: [1, 5, 2],
     state: 5
@@ -257,6 +272,12 @@
     pos: [1, 5, 4],
     state: 0
   }, {
+    pos: [2, 5, 0],
+    state: 5
+  }, {
+    pos: [2, 5, 1],
+    state: 5
+  }, {
     pos: [2, 5, 2],
     state: 5
   }, {
@@ -265,6 +286,12 @@
   }, {
     pos: [2, 5, 4],
     state: 0
+  }, {
+    pos: [3, 5, 0],
+    state: 5
+  }, {
+    pos: [3, 5, 1],
+    state: 5
   }, {
     pos: [3, 5, 2],
     state: 5
@@ -290,6 +317,12 @@
     pos: [4, 5, 4],
     state: 0
   }, {
+    pos: [0, 6, 0],
+    state: 0
+  }, {
+    pos: [0, 6, 1],
+    state: 0
+  }, {
     pos: [0, 6, 2],
     state: 0
   }, {
@@ -297,6 +330,12 @@
     state: 0
   }, {
     pos: [0, 6, 4],
+    state: 0
+  }, {
+    pos: [1, 6, 0],
+    state: 0
+  }, {
+    pos: [1, 6, 1],
     state: 0
   }, {
     pos: [1, 6, 2],
@@ -308,6 +347,12 @@
     pos: [1, 6, 4],
     state: 0
   }, {
+    pos: [2, 6, 0],
+    state: 0
+  }, {
+    pos: [2, 6, 1],
+    state: 0
+  }, {
     pos: [2, 6, 2],
     state: 0
   }, {
@@ -315,6 +360,12 @@
     state: 0
   }, {
     pos: [2, 6, 4],
+    state: 0
+  }, {
+    pos: [3, 6, 0],
+    state: 0
+  }, {
+    pos: [3, 6, 1],
     state: 0
   }, {
     pos: [3, 6, 2],
@@ -425,10 +476,19 @@
     pos: [3, 3, 3],
     state: 6
   }, {
+    pos: [0, 4, 1],
+    state: 6
+  }, {
     pos: [0, 4, 2],
     state: 6
   }, {
     pos: [0, 4, 3],
+    state: 6
+  }, {
+    pos: [1, 4, 0],
+    state: 6
+  }, {
+    pos: [1, 4, 1],
     state: 6
   }, {
     pos: [1, 4, 2],
@@ -437,10 +497,22 @@
     pos: [1, 4, 3],
     state: 6
   }, {
+    pos: [2, 4, 0],
+    state: 6
+  }, {
+    pos: [2, 4, 1],
+    state: 6
+  }, {
     pos: [2, 4, 2],
     state: 6
   }, {
     pos: [2, 4, 3],
+    state: 6
+  }, {
+    pos: [3, 4, 0],
+    state: 6
+  }, {
+    pos: [3, 4, 1],
     state: 6
   }, {
     pos: [3, 4, 2],
@@ -504,5 +576,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

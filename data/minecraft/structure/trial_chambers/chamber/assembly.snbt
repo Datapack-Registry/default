@@ -39005,7 +39005,7 @@
     pos: [32, 2, 14],
     state: 10
   }, {
-    pos: [32, 2, 15],
+    pos: [33, 2, 13],
     state: 10
   }, {
     pos: [33, 2, 14],
@@ -42437,6 +42437,9 @@
     pos: [2, 9, 25],
     state: 10
   }, {
+    pos: [3, 9, 0],
+    state: 10
+  }, {
     pos: [3, 9, 1],
     state: 10
   }, {
@@ -42597,9 +42600,6 @@
     state: 10
   }, {
     pos: [5, 9, 0],
-    state: 10
-  }, {
-    pos: [5, 9, 1],
     state: 10
   }, {
     pos: [5, 9, 2],
@@ -50372,9 +50372,6 @@
     pos: [32, 12, 14],
     state: 10
   }, {
-    pos: [32, 12, 15],
-    state: 10
-  }, {
     pos: [33, 12, 13],
     state: 10
   }, {
@@ -56064,10 +56061,16 @@
     state: 10
   }, {
     nbt: {
-      Items: [],
-      id: "minecraft:chest"
+      joint: "aligned",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/decor/disposal",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:disposal"
     },
-    pos: [33, 2, 13],
+    pos: [32, 2, 15],
     state: 14
   }, {
     nbt: {
@@ -56396,11 +56399,17 @@
     state: 18
   }, {
     nbt: {
-      Items: [],
-      id: "minecraft:chest"
+      joint: "aligned",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/decor/disposal",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:disposal"
     },
-    pos: [3, 9, 0],
-    state: 22
+    pos: [5, 9, 1],
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56460,6 +56469,19 @@
     },
     pos: [28, 12, 14],
     state: 22
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/decor/disposal",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:disposal"
+    },
+    pos: [32, 12, 15],
+    state: 14
   }, {
     nbt: {
       joint: "rollable",
@@ -56720,11 +56742,9 @@
     Name: "minecraft:waxed_oxidized_copper_trapdoor"
   }, {
     Properties: {
-      waterlogged: "false",
-      facing: "south",
-      type: "single"
+      orientation: "up_east"
     },
-    Name: "minecraft:chest"
+    Name: "minecraft:jigsaw"
   }, {
     Properties: {
       orientation: "north_up"
@@ -56773,5 +56793,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

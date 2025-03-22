@@ -12291,7 +12291,7 @@
     state: 9
   }, {
     pos: [21, 3, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 3, 2],
     state: 9
@@ -13872,7 +13872,7 @@
     state: 9
   }, {
     pos: [21, 5, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 5, 2],
     state: 9
@@ -13959,7 +13959,7 @@
     state: 9
   }, {
     pos: [7, 6, 1],
-    state: 12
+    state: 9
   }, {
     pos: [7, 6, 2],
     state: 9
@@ -14721,7 +14721,7 @@
     state: 9
   }, {
     pos: [21, 6, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 6, 2],
     state: 9
@@ -14862,7 +14862,7 @@
     state: 9
   }, {
     pos: [7, 7, 1],
-    state: 12
+    state: 9
   }, {
     pos: [7, 7, 2],
     state: 9
@@ -16476,7 +16476,7 @@
     state: 9
   }, {
     pos: [21, 8, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 8, 6],
     state: 9
@@ -16620,7 +16620,7 @@
     state: 9
   }, {
     pos: [7, 9, 1],
-    state: 12
+    state: 9
   }, {
     pos: [7, 9, 6],
     state: 9
@@ -18258,7 +18258,7 @@
     state: 9
   }, {
     pos: [21, 10, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 10, 2],
     state: 9
@@ -19134,7 +19134,7 @@
     state: 9
   }, {
     pos: [21, 11, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 11, 2],
     state: 9
@@ -19176,7 +19176,7 @@
     state: 9
   }, {
     pos: [7, 12, 1],
-    state: 12
+    state: 9
   }, {
     pos: [7, 12, 2],
     state: 9
@@ -21435,7 +21435,7 @@
     state: 9
   }, {
     pos: [7, 15, 1],
-    state: 12
+    state: 9
   }, {
     pos: [7, 15, 2],
     state: 9
@@ -22221,7 +22221,7 @@
     state: 9
   }, {
     pos: [21, 15, 1],
-    state: 12
+    state: 9
   }, {
     pos: [21, 15, 2],
     state: 9
@@ -24079,5 +24079,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

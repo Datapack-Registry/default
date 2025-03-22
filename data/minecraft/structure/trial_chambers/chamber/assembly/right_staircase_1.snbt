@@ -459,7 +459,7 @@
     state: 0
   }, {
     pos: [4, 3, 3],
-    state: 0
+    state: 4
   }, {
     pos: [4, 3, 6],
     state: 4
@@ -1993,5 +1993,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }

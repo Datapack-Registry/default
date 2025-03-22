@@ -32,19 +32,19 @@
       Fire: -1s,
       CanPickUpLoot: 0b,
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 10d
       }, {
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.25d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 0d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }, {
         modifiers: [{
@@ -52,10 +52,10 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "generic.follow_range",
+        id: "minecraft:follow_range",
         base: 16d
       }, {
-        id: "generic.attack_knockback",
+        id: "minecraft:attack_knockback",
         base: 0d
       }],
       HurtTime: 0s
@@ -94,19 +94,19 @@
       Fire: -1s,
       CanPickUpLoot: 0b,
       attributes: [{
-        id: "generic.max_health",
+        id: "minecraft:max_health",
         base: 10d
       }, {
-        id: "generic.knockback_resistance",
+        id: "minecraft:knockback_resistance",
         base: 0d
       }, {
-        id: "generic.movement_speed",
+        id: "minecraft:movement_speed",
         base: 0.25d
       }, {
-        id: "generic.armor",
+        id: "minecraft:armor",
         base: 0d
       }, {
-        id: "generic.armor_toughness",
+        id: "minecraft:armor_toughness",
         base: 0d
       }, {
         modifiers: [{
@@ -114,10 +114,10 @@
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "generic.follow_range",
+        id: "minecraft:follow_range",
         base: 16d
       }, {
-        id: "generic.attack_knockback",
+        id: "minecraft:attack_knockback",
         base: 0d
       }],
       HurtTime: 0s
@@ -151,5 +151,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3955
+  DataVersion: 4058
 }
