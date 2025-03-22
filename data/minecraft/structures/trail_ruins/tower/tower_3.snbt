@@ -1377,10 +1377,10 @@
     state: 20
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:road_anchor",
       pool: "minecraft:trail_ruins/tower/additions",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:road_hall_anchor"
     },
@@ -1388,10 +1388,10 @@
     state: 22
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:mud_bricks",
       name: "minecraft:road_connector",
       pool: "minecraft:trail_ruins/roads",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:long_road_end"
     },
@@ -1399,10 +1399,10 @@
     state: 23
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:hall_road",
       pool: "minecraft:trail_ruins/roads",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:road_spacer"
     },
@@ -1410,10 +1410,10 @@
     state: 24
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:road_anchor",
       pool: "minecraft:trail_ruins/tower/additions",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:large_hall_connector"
     },
@@ -1421,10 +1421,10 @@
     state: 25
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:dirt",
       name: "minecraft:tower_bottom_3",
       pool: "minecraft:trail_ruins/tower/tower_top",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:tower_top_3"
     },
@@ -1575,5 +1575,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

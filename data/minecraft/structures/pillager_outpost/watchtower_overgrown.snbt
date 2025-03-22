@@ -15498,10 +15498,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance"
     },
@@ -15509,7 +15509,10 @@
     state: 42
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15541,7 +15544,10 @@
     state: 43
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15573,7 +15579,10 @@
     state: 43
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15605,7 +15614,10 @@
     state: 44
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15637,7 +15649,10 @@
     state: 45
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15669,7 +15684,10 @@
     state: 44
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15701,7 +15719,10 @@
     state: 45
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -15733,7 +15754,10 @@
     state: 46
   }, {
     nbt: {
-      CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
+      components: {
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
+      },
       patterns: [{
         color: "cyan",
         pattern: "minecraft:rhombus"
@@ -16115,5 +16139,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

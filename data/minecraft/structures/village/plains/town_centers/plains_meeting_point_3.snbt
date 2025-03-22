@@ -75,7 +75,7 @@
     state: 0
   }, {
     pos: [3, 0, 5],
-    state: 2
+    state: 1
   }, {
     pos: [3, 0, 8],
     state: 1
@@ -545,20 +545,17 @@
     pos: [3, 1, 0],
     state: 8
   }, {
-    pos: [3, 1, 5],
+    pos: [4, 1, 1],
     state: 10
   }, {
-    pos: [4, 1, 1],
+    pos: [4, 1, 4],
     state: 11
   }, {
-    pos: [4, 1, 4],
+    pos: [4, 1, 5],
     state: 12
   }, {
-    pos: [4, 1, 5],
-    state: 13
-  }, {
     pos: [4, 1, 6],
-    state: 14
+    state: 13
   }, {
     pos: [4, 1, 7],
     state: 8
@@ -567,34 +564,34 @@
     state: 8
   }, {
     pos: [4, 1, 9],
-    state: 11
+    state: 10
   }, {
     pos: [5, 1, 4],
-    state: 15
+    state: 14
   }, {
     pos: [5, 1, 6],
-    state: 16
+    state: 15
   }, {
     pos: [6, 1, 1],
-    state: 11
+    state: 10
   }, {
     pos: [6, 1, 2],
     state: 8
   }, {
     pos: [6, 1, 4],
-    state: 17
+    state: 16
   }, {
     pos: [6, 1, 5],
-    state: 18
+    state: 17
   }, {
     pos: [6, 1, 6],
-    state: 19
+    state: 18
   }, {
     pos: [6, 1, 9],
-    state: 11
+    state: 10
   }, {
     pos: [7, 1, 1],
-    state: 20
+    state: 19
   }, {
     pos: [7, 1, 4],
     state: 8
@@ -615,152 +612,152 @@
     state: 9
   }, {
     pos: [4, 2, 1],
-    state: 11
+    state: 10
   }, {
     pos: [4, 2, 9],
-    state: 11
+    state: 10
   }, {
     pos: [6, 2, 1],
-    state: 11
+    state: 10
   }, {
     pos: [6, 2, 9],
-    state: 11
+    state: 10
   }, {
     pos: [4, 3, 1],
-    state: 11
+    state: 10
   }, {
     pos: [4, 3, 5],
-    state: 21
+    state: 20
   }, {
     pos: [4, 3, 9],
-    state: 11
+    state: 10
   }, {
     pos: [5, 3, 4],
-    state: 22
+    state: 21
   }, {
     pos: [5, 3, 6],
-    state: 23
+    state: 22
   }, {
     pos: [6, 3, 1],
-    state: 11
+    state: 10
   }, {
     pos: [6, 3, 5],
-    state: 24
+    state: 23
   }, {
     pos: [6, 3, 9],
-    state: 11
+    state: 10
   }, {
     pos: [4, 4, 1],
-    state: 25
+    state: 24
   }, {
     pos: [4, 4, 9],
-    state: 25
+    state: 24
   }, {
     pos: [6, 4, 1],
-    state: 26
+    state: 25
   }, {
     pos: [6, 4, 9],
-    state: 26
+    state: 25
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
     pos: [1, 0, 2],
-    state: 27
+    state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
     pos: [2, 0, 4],
-    state: 27
+    state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
     pos: [2, 0, 6],
-    state: 27
+    state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/iron_golem",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
     pos: [2, 0, 7],
-    state: 27
+    state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
     pos: [3, 0, 3],
-    state: 27
+    state: 26
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
     pos: [0, 1, 5],
-    state: 28
+    state: 27
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
     pos: [5, 1, 10],
-    state: 29
+    state: 28
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
     pos: [10, 1, 5],
-    state: 30
+    state: 29
   }, {
     nbt: {
       id: "minecraft:bell"
     },
     pos: [5, 3, 1],
-    state: 31
+    state: 30
   }, {
     nbt: {
       id: "minecraft:bell"
     },
     pos: [5, 3, 9],
-    state: 32
+    state: 31
   }],
   palette: [{
     Properties: {
@@ -803,8 +800,6 @@
     Name: "minecraft:short_grass"
   }, {
     Name: "minecraft:air"
-  }, {
-    Name: "minecraft:pedestal"
   }, {
     Properties: {
       east: "false",
@@ -953,5 +948,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

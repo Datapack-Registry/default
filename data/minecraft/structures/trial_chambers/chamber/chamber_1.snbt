@@ -6347,6 +6347,9 @@
     pos: [1, 5, 14],
     state: 0
   }, {
+    pos: [1, 5, 15],
+    state: 0
+  }, {
     pos: [1, 5, 16],
     state: 0
   }, {
@@ -21213,9 +21216,6 @@
     state: 8
   }, {
     pos: [3, 4, 13],
-    state: 8
-  }, {
-    pos: [3, 4, 14],
     state: 8
   }, {
     pos: [3, 4, 15],
@@ -39618,6 +39618,19 @@
     state: 9
   }, {
     nbt: {
+      joint: "rollable",
+      final_state: "minecraft:air",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/reward/ominous_vault",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:ominous_vault"
+    },
+    pos: [3, 4, 14],
+    state: 10
+  }, {
+    nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:empty",
@@ -39628,7 +39641,7 @@
       target: "minecraft:dispenser"
     },
     pos: [1, 5, 5],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -39641,20 +39654,7 @@
       target: "minecraft:dispenser"
     },
     pos: [1, 5, 10],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [1, 5, 15],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -39667,7 +39667,7 @@
       target: "minecraft:dispenser"
     },
     pos: [1, 5, 20],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -39680,7 +39680,7 @@
       target: "minecraft:dispenser"
     },
     pos: [1, 5, 25],
-    state: 10
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -39693,7 +39693,7 @@
       target: "minecraft:dispenser"
     },
     pos: [3, 5, 1],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -39706,7 +39706,7 @@
       target: "minecraft:dispenser"
     },
     pos: [5, 5, 27],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -39719,7 +39719,7 @@
       target: "minecraft:dispenser"
     },
     pos: [8, 5, 1],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -39732,7 +39732,7 @@
       target: "minecraft:dispenser"
     },
     pos: [10, 5, 27],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -39745,7 +39745,7 @@
       target: "minecraft:dispenser"
     },
     pos: [13, 5, 1],
-    state: 11
+    state: 12
   }, {
     nbt: {
       joint: "aligned",
@@ -39758,7 +39758,7 @@
       target: "minecraft:dispenser"
     },
     pos: [15, 5, 27],
-    state: 12
+    state: 13
   }, {
     nbt: {
       joint: "aligned",
@@ -39771,19 +39771,6 @@
       target: "minecraft:dispenser"
     },
     pos: [18, 5, 1],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [20, 5, 27],
     state: 12
   }, {
     nbt: {
@@ -39796,8 +39783,21 @@
       id: "minecraft:jigsaw",
       target: "minecraft:dispenser"
     },
-    pos: [22, 5, 3],
+    pos: [20, 5, 27],
     state: 13
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:dispenser"
+    },
+    pos: [22, 5, 3],
+    state: 14
   }, {
     nbt: {
       joint: "aligned",
@@ -39810,7 +39810,7 @@
       target: "minecraft:dispenser"
     },
     pos: [22, 5, 8],
-    state: 13
+    state: 14
   }, {
     nbt: {
       joint: "aligned",
@@ -39823,7 +39823,7 @@
       target: "minecraft:dispenser"
     },
     pos: [22, 5, 18],
-    state: 13
+    state: 14
   }, {
     nbt: {
       joint: "aligned",
@@ -39836,7 +39836,7 @@
       target: "minecraft:dispenser"
     },
     pos: [22, 5, 23],
-    state: 13
+    state: 14
   }, {
     nbt: {
       joint: "rollable",
@@ -39849,7 +39849,7 @@
       target: "minecraft:middle_start"
     },
     pos: [22, 8, 14],
-    state: 14
+    state: 10
   }, {
     nbt: {
       joint: "rollable",
@@ -39875,7 +39875,7 @@
       target: "minecraft:entrance_cap"
     },
     pos: [0, 13, 14],
-    state: 14
+    state: 10
   }, {
     nbt: {
       joint: "rollable",
@@ -39953,32 +39953,6 @@
       target: "minecraft:dispenser"
     },
     pos: [1, 15, 5],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [1, 15, 10],
-    state: 10
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [13, 15, 1],
     state: 11
   }, {
     nbt: {
@@ -39991,8 +39965,34 @@
       id: "minecraft:jigsaw",
       target: "minecraft:dispenser"
     },
+    pos: [1, 15, 10],
+    state: 11
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:dispenser"
+    },
+    pos: [13, 15, 1],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:dispenser"
+    },
     pos: [22, 15, 18],
-    state: 13
+    state: 14
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -40023,6 +40023,11 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
+      orientation: "west_up"
+    },
+    Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
       orientation: "down_east"
     },
     Name: "minecraft:jigsaw"
@@ -40043,11 +40048,6 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
-      orientation: "west_up"
-    },
-    Name: "minecraft:jigsaw"
-  }, {
-    Properties: {
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
@@ -40062,5 +40062,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

@@ -5361,10 +5361,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/walls/outer",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:outer_wall_connector"
     },
@@ -5372,10 +5372,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/corners/middle",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:corner_connector"
     },
@@ -5383,10 +5383,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/corners/middle",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:corner_connector"
     },
@@ -5394,10 +5394,10 @@
     state: 15
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_basalt",
       name: "minecraft:center_connector",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -5405,10 +5405,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:basalt",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -5416,10 +5416,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:basalt",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -5427,10 +5427,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/large_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5438,10 +5438,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:basalt",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:melee_connector"
     },
@@ -5449,10 +5449,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/small_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5460,10 +5460,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/small_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5471,10 +5471,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/small_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5489,10 +5489,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/large_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5500,10 +5500,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cracked_polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/extensions/large_pool",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:extension_connector"
     },
@@ -5606,5 +5606,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

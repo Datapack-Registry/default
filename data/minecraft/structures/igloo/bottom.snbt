@@ -924,24 +924,23 @@
     state: 22
   }, {
     nbt: {
-      back_text: {
-        has_glowing_text: 0b,
-        color: "black",
-        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
-      },
-      id: "minecraft:sign",
       front_text: {
         filtered_messages: ["{"text":""}", "{"text":"<----"}", "{"text":"---->"}", "{"text":""}"],
         has_glowing_text: 0b,
         color: "black",
         messages: ["{"text":""}", "{"text":"<----"}", "{"text":"---->"}", "{"text":""}"]
-      }
+      },
+      back_text: {
+        has_glowing_text: 0b,
+        color: "black",
+        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
+      },
+      id: "minecraft:sign"
     },
     pos: [3, 2, 3],
     state: 23
   }, {
     nbt: {
-      Fuel: 0b,
       Items: [{
         count: 1,
         Slot: 1b,
@@ -953,7 +952,8 @@
         id: "minecraft:splash_potion"
       }],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s
+      BrewTime: 0s,
+      Fuel: 0b
     },
     pos: [5, 2, 6],
     state: 24
@@ -1062,5 +1062,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

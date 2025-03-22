@@ -1677,10 +1677,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1688,10 +1688,10 @@
     state: 37
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1711,8 +1711,8 @@
     state: 39
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [],
       id: "minecraft:furnace",
       CookTimeTotal: 0s,
@@ -1728,10 +1728,10 @@
     state: 41
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1746,9 +1746,9 @@
   }, {
     nbt: {
       Items: [],
-      id: "minecraft:campfire",
       CookingTimes: [I; 0, 0, 0, 0],
-      CookingTotalTimes: [I; 0, 0, 0, 0]
+      CookingTotalTimes: [I; 0, 0, 0, 0],
+      id: "minecraft:campfire"
     },
     pos: [4, 4, 4],
     state: 44
@@ -2058,5 +2058,5 @@
     },
     Name: "minecraft:campfire"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

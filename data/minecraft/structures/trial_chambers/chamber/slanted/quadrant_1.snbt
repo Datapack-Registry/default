@@ -2057,7 +2057,7 @@
     pos: [2, 7, 0],
     state: 6
   }, {
-    pos: [2, 7, 1],
+    pos: [2, 7, 2],
     state: 6
   }, {
     pos: [2, 7, 3],
@@ -3070,8 +3070,8 @@
       id: "minecraft:jigsaw",
       target: "minecraft:reward_connector"
     },
-    pos: [2, 7, 2],
-    state: 9
+    pos: [2, 7, 1],
+    state: 10
   }, {
     nbt: {
       joint: "aligned",
@@ -3136,5 +3136,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

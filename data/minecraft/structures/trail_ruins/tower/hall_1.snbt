@@ -999,10 +999,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:mud_bricks",
       name: "minecraft:road_hall_anchor",
       pool: "minecraft:trail_ruins/tower",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:road_anchor"
     },
@@ -1010,10 +1010,10 @@
     state: 15
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:mud_bricks",
       name: "minecraft:hall_room_anchor",
       pool: "minecraft:trail_ruins/tower/additions",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room_anchor"
     },
@@ -1021,10 +1021,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:mud_bricks",
       name: "minecraft:hall_room_anchor",
       pool: "minecraft:trail_ruins/tower/additions",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room_anchor"
     },
@@ -1093,5 +1093,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

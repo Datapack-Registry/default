@@ -459,10 +459,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:melee_connector"
     },
@@ -470,10 +470,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:melee_connector"
     },
@@ -481,10 +481,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:treasure",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -538,5 +538,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

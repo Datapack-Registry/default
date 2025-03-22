@@ -138,10 +138,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:dirt",
       name: "minecraft:tower_top_3",
       pool: "minecraft:trail_ruins/tower",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:tower_bottom_3"
     },
@@ -166,5 +166,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

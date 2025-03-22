@@ -4074,10 +4074,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:stable_stairs",
       pool: "minecraft:bastion/hoglin_stable/small_stables/inner",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:inner_connector_right"
     },
@@ -4085,10 +4085,10 @@
     state: 11
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:stable_stairs",
       pool: "minecraft:bastion/hoglin_stable/large_stables/inner",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:inner_connector_left"
     },
@@ -4096,10 +4096,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:basalt",
       name: "minecraft:stairs_mirrored",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -4107,10 +4107,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:starting_stairs",
       pool: "minecraft:bastion/hoglin_stable/stairs",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:stair_1_bottom"
     },
@@ -4191,5 +4191,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

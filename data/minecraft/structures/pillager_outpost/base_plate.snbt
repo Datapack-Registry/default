@@ -23028,10 +23028,10 @@
     state: 0
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:plate_entry",
       pool: "minecraft:pillager_outpost/feature_plates",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:plate_entry"
     },
@@ -23039,10 +23039,10 @@
     state: 1
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:plate_entry",
       pool: "minecraft:pillager_outpost/feature_plates",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:plate_entry"
     },
@@ -23050,10 +23050,10 @@
     state: 2
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:plate_entry",
       pool: "minecraft:pillager_outpost/feature_plates",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:plate_entry"
     },
@@ -23061,10 +23061,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:entrance",
       pool: "minecraft:pillager_outpost/towers",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance"
     },
@@ -23072,10 +23072,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:entrance",
       pool: "minecraft:pillager_outpost/towers",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance"
     },
@@ -23105,5 +23105,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

@@ -3003,10 +3003,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3014,10 +3014,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3025,10 +3025,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/animals",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3036,10 +3036,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/animals",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3047,10 +3047,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3058,10 +3058,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3069,10 +3069,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3080,10 +3080,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:village/plains/zombie/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -3284,5 +3284,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

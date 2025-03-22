@@ -1094,7 +1094,7 @@
     pos: [2, 7, 6],
     state: 6
   }, {
-    pos: [2, 7, 8],
+    pos: [2, 7, 7],
     state: 6
   }, {
     pos: [2, 7, 9],
@@ -1499,12 +1499,12 @@
     nbt: {
       joint: "rollable",
       final_state: "minecraft:air",
-      name: "minecraft:quadrant",
+      name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:empty",
+      pool: "minecraft:trial_chambers/chamber/pedestal",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:empty"
+      target: "minecraft:quadrant"
     },
     pos: [0, 2, 2],
     state: 7
@@ -1538,12 +1538,12 @@
     nbt: {
       joint: "rollable",
       final_state: "minecraft:air",
-      name: "minecraft:quadrant",
+      name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:empty",
+      pool: "minecraft:trial_chambers/chamber/pedestal",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:empty"
+      target: "minecraft:quadrant"
     },
     pos: [4, 2, 2],
     state: 9
@@ -1571,8 +1571,8 @@
       id: "minecraft:jigsaw",
       target: "minecraft:reward_connector"
     },
-    pos: [2, 7, 7],
-    state: 10
+    pos: [2, 7, 8],
+    state: 8
   }],
   palette: [{
     Name: "minecraft:waxed_oxidized_copper"
@@ -1606,11 +1606,6 @@
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
-  }, {
-    Properties: {
-      orientation: "south_up"
-    },
-    Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

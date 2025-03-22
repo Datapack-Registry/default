@@ -627,10 +627,10 @@
     state: 8
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:room",
       pool: "minecraft:trail_ruins/buildings/grouped",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:hall"
     },
@@ -689,5 +689,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

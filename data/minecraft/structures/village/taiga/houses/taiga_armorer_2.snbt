@@ -31,8 +31,8 @@
         Head: [3.978817f, 1.5454245f, 0f],
         Body: [0f, 1.4669724f, 0f]
       },
-      id: "minecraft:armor_stand",
       Invisible: 0b,
+      id: "minecraft:armor_stand",
       UUID: [I; 1744164673, -892581116, -1275854238, 1984293558],
       Motion: [0d, -0.0784000015258789d, 0d],
       Small: 0b,
@@ -84,8 +84,8 @@
         Head: [2.951194f, -8.386092f, 0f],
         Body: [0f, 3.02534f, 0f]
       },
-      id: "minecraft:armor_stand",
       Invisible: 0b,
+      id: "minecraft:armor_stand",
       UUID: [I; 1243514763, -1783870732, -1260393629, 572257545],
       Motion: [0d, -0.0784000015258789d, 0d],
       Small: 0b,
@@ -1243,10 +1243,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1254,10 +1254,10 @@
     state: 19
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1265,10 +1265,10 @@
     state: 19
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1277,16 +1277,16 @@
   }, {
     nbt: {
       Items: [],
-      id: "minecraft:campfire",
       CookingTimes: [I; 0, 0, 0, 0],
-      CookingTotalTimes: [I; 0, 0, 0, 0]
+      CookingTotalTimes: [I; 0, 0, 0, 0],
+      id: "minecraft:campfire"
     },
     pos: [1, 1, 5],
     state: 21
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [],
       id: "minecraft:blast_furnace",
       CookTimeTotal: 0s,
@@ -1431,5 +1431,5 @@
     },
     Name: "minecraft:blast_furnace"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

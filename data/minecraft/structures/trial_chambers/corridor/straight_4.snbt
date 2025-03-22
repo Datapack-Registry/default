@@ -3557,6 +3557,9 @@
     pos: [14, 5, 1],
     state: 10
   }, {
+    pos: [14, 5, 2],
+    state: 10
+  }, {
     pos: [14, 5, 3],
     state: 10
   }, {
@@ -4086,6 +4089,9 @@
     state: 10
   }, {
     pos: [4, 10, 1],
+    state: 10
+  }, {
+    pos: [4, 10, 2],
     state: 10
   }, {
     pos: [4, 10, 3],
@@ -5540,19 +5546,6 @@
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:air",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/spawner/all",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:spawner_connector"
-    },
-    pos: [14, 5, 2],
-    state: 15
-  }, {
-    nbt: {
-      joint: "aligned",
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:addon_connector",
       placement_priority: 0,
@@ -5673,19 +5666,6 @@
       final_state: "minecraft:air",
       name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/spawner/all",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:spawner_connector"
-    },
-    pos: [4, 10, 2],
-    state: 16
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:air",
-      name: "minecraft:empty",
-      placement_priority: 0,
       pool: "minecraft:trial_chambers/chamber/addon",
       selection_priority: 0,
       id: "minecraft:jigsaw",
@@ -5790,5 +5770,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

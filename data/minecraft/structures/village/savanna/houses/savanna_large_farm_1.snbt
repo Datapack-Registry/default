@@ -729,10 +729,10 @@
     state: 11
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:acacia_log",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -815,5 +815,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

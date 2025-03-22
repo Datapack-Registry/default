@@ -1632,10 +1632,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:connect_structure",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1820,5 +1820,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

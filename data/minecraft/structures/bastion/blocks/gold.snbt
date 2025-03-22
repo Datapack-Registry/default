@@ -3,10 +3,10 @@
   entities: [],
   blocks: [{
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:gold_block",
       name: "minecraft:block_connector",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -19,5 +19,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

@@ -198,10 +198,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:red_terracotta",
       name: "minecraft:decor_anchor",
       pool: "minecraft:trail_ruins/roads",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:road_anchor"
     },
@@ -222,5 +222,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

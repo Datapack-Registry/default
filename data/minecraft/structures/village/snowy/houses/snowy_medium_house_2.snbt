@@ -2619,10 +2619,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/snowy/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2630,10 +2630,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:snow_block",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2641,10 +2641,10 @@
     state: 27
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/snowy/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2676,8 +2676,8 @@
     state: 31
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [],
       id: "minecraft:furnace",
       CookTimeTotal: 0s,
@@ -2883,5 +2883,5 @@
     },
     Name: "minecraft:furnace"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

@@ -1552,7 +1552,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [2, 7, 7],
-    state: 9
+    state: 10
   }],
   palette: [{
     Name: "minecraft:waxed_copper_block"
@@ -1586,6 +1586,11 @@
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
+      orientation: "south_up"
+    },
+    Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

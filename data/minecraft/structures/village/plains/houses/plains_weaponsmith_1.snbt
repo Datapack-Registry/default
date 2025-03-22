@@ -2367,10 +2367,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:cobblestone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
       name: "minecraft:building_entrance",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2385,8 +2385,8 @@
     state: 30
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [],
       id: "minecraft:furnace",
       CookTimeTotal: 0s,
@@ -2396,8 +2396,8 @@
     state: 31
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [],
       id: "minecraft:furnace",
       CookTimeTotal: 0s,
@@ -2611,5 +2611,5 @@
     },
     Name: "minecraft:furnace"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

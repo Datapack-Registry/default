@@ -12558,10 +12558,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:blackstone",
       name: "minecraft:ramparts_bottom_connector",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -12601,5 +12601,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

@@ -1311,10 +1311,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:cobblestone_stairs[facing=east]",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1322,10 +1322,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/zombie/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1490,5 +1490,5 @@
     },
     Name: "minecraft:purple_bed"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

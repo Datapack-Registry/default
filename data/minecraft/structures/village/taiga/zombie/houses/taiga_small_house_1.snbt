@@ -1404,10 +1404,10 @@
     state: 8
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:spruce_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/zombie/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1415,10 +1415,10 @@
     state: 22
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1438,33 +1438,33 @@
     state: 25
   }, {
     nbt: {
+      front_text: {
+        has_glowing_text: 0b,
+        color: "black",
+        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
+      },
       back_text: {
         has_glowing_text: 0b,
         color: "black",
         messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
       },
-      id: "minecraft:sign",
-      front_text: {
-        has_glowing_text: 0b,
-        color: "black",
-        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
-      }
+      id: "minecraft:sign"
     },
     pos: [4, 2, 3],
     state: 26
   }, {
     nbt: {
+      front_text: {
+        has_glowing_text: 0b,
+        color: "black",
+        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
+      },
       back_text: {
         has_glowing_text: 0b,
         color: "black",
         messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
       },
-      id: "minecraft:sign",
-      front_text: {
-        has_glowing_text: 0b,
-        color: "black",
-        messages: ["{"text":""}", "{"text":""}", "{"text":""}", "{"text":""}"]
-      }
+      id: "minecraft:sign"
     },
     pos: [4, 2, 5],
     state: 27
@@ -1642,5 +1642,5 @@
     },
     Name: "minecraft:spruce_wall_sign"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }

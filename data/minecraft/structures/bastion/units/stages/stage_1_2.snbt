@@ -1923,10 +1923,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:stage_1_bottom",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_0_top"
     },
@@ -1941,10 +1941,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -1952,10 +1952,10 @@
     state: 8
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:stage_1_top",
       pool: "minecraft:bastion/units/stages/stage_2",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_2_bottom"
     },
@@ -2010,5 +2010,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3827
 }
