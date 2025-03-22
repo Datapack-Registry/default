@@ -1140,7 +1140,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
-      name: "minecraft:plate",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/corridor/slices",
       selection_priority: 0,
@@ -1153,7 +1153,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
-      name: "minecraft:plate",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/corridor/slices",
       selection_priority: 0,
@@ -1166,7 +1166,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
-      name: "minecraft:plate",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/corridor/slices",
       selection_priority: 0,
@@ -1179,7 +1179,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
-      name: "minecraft:plate",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/corridor/slices",
       selection_priority: 0,
@@ -1220,5 +1220,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3827
+  DataVersion: 3829
 }

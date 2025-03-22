@@ -5344,7 +5344,7 @@
       pool: "minecraft:empty",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:plate"
+      target: "minecraft:empty"
     },
     pos: [9, 0, 2],
     state: 15
@@ -5352,7 +5352,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5365,7 +5365,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5378,7 +5378,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5391,7 +5391,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_cut_copper",
-      name: "minecraft:addon_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/corridors/addon/lower",
       selection_priority: 0,
@@ -5404,7 +5404,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5417,7 +5417,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5429,8 +5429,8 @@
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_cut_copper",
-      name: "minecraft:decor_connector",
+      final_state: "minecraft:waxed_oxidized_copper",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5442,8 +5442,8 @@
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_cut_copper",
-      name: "minecraft:decor_connector",
+      final_state: "minecraft:waxed_oxidized_copper",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5455,26 +5455,26 @@
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_cut_copper",
-      name: "minecraft:decor_connector",
+      final_state: "minecraft:waxed_oxidized_copper",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:addon"
+      target: "minecraft:decor"
     },
     pos: [13, 3, 1],
     state: 19
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_cut_copper",
-      name: "minecraft:decor_connector",
+      final_state: "minecraft:waxed_oxidized_copper",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:addon"
+      target: "minecraft:decor"
     },
     pos: [13, 3, 3],
     state: 20
@@ -5482,7 +5482,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5495,7 +5495,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5508,7 +5508,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5547,7 +5547,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5560,7 +5560,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5573,7 +5573,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5586,7 +5586,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5599,7 +5599,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5612,7 +5612,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5625,7 +5625,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5638,7 +5638,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5651,7 +5651,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5664,7 +5664,7 @@
     nbt: {
       joint: "aligned",
       final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
+      name: "minecraft:empty",
       placement_priority: 0,
       pool: "minecraft:trial_chambers/decor",
       selection_priority: 0,
@@ -5679,7 +5679,7 @@
       final_state: "minecraft:air",
       name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/chamber/addon",
+      pool: "minecraft:trial_chambers/corridors/addon/middle_upper",
       selection_priority: 0,
       id: "minecraft:jigsaw",
       target: "minecraft:addon_upper"
@@ -5786,5 +5786,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3827
+  DataVersion: 3829
 }

@@ -81,7 +81,10 @@
       ominous_config: {
         spawn_potentials: [{
           data: {
-            equipment_loot_table: "minecraft:equipment/trial_chamber",
+            equipment: {
+              slot_drop_chances: 0f,
+              loot_table: "minecraft:equipment/trial_chamber_melee"
+            },
             entity: {
               IsBaby: 1b,
               id: "minecraft:zombie"
@@ -123,5 +126,5 @@
     },
     Name: "minecraft:trial_spawner"
   }],
-  DataVersion: 3827
+  DataVersion: 3829
 }

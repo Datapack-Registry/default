@@ -4955,9 +4955,6 @@
     pos: [1, 3, 4],
     state: 4
   }, {
-    pos: [1, 3, 5],
-    state: 0
-  }, {
     pos: [1, 3, 6],
     state: 0
   }, {
@@ -4969,9 +4966,6 @@
   }, {
     pos: [1, 3, 9],
     state: 4
-  }, {
-    pos: [1, 3, 10],
-    state: 0
   }, {
     pos: [1, 3, 11],
     state: 0
@@ -5000,9 +4994,6 @@
     pos: [1, 3, 19],
     state: 4
   }, {
-    pos: [1, 3, 20],
-    state: 0
-  }, {
     pos: [1, 3, 21],
     state: 0
   }, {
@@ -5014,9 +5005,6 @@
   }, {
     pos: [1, 3, 24],
     state: 4
-  }, {
-    pos: [1, 3, 25],
-    state: 0
   }, {
     pos: [1, 3, 26],
     state: 0
@@ -5072,9 +5060,6 @@
     pos: [3, 3, 0],
     state: 0
   }, {
-    pos: [3, 3, 1],
-    state: 0
-  }, {
     pos: [3, 3, 27],
     state: 0
   }, {
@@ -5097,9 +5082,6 @@
     state: 0
   }, {
     pos: [5, 3, 1],
-    state: 0
-  }, {
-    pos: [5, 3, 27],
     state: 0
   }, {
     pos: [5, 3, 28],
@@ -5144,9 +5126,6 @@
     pos: [8, 3, 0],
     state: 0
   }, {
-    pos: [8, 3, 1],
-    state: 0
-  }, {
     pos: [8, 3, 27],
     state: 0
   }, {
@@ -5169,9 +5148,6 @@
     state: 0
   }, {
     pos: [10, 3, 1],
-    state: 0
-  }, {
-    pos: [10, 3, 27],
     state: 0
   }, {
     pos: [10, 3, 28],
@@ -5216,9 +5192,6 @@
     pos: [13, 3, 0],
     state: 0
   }, {
-    pos: [13, 3, 1],
-    state: 0
-  }, {
     pos: [13, 3, 27],
     state: 0
   }, {
@@ -5241,9 +5214,6 @@
     state: 0
   }, {
     pos: [15, 3, 1],
-    state: 0
-  }, {
-    pos: [15, 3, 27],
     state: 0
   }, {
     pos: [15, 3, 28],
@@ -5288,9 +5258,6 @@
     pos: [18, 3, 0],
     state: 0
   }, {
-    pos: [18, 3, 1],
-    state: 0
-  }, {
     pos: [18, 3, 27],
     state: 0
   }, {
@@ -5313,9 +5280,6 @@
     state: 0
   }, {
     pos: [20, 3, 1],
-    state: 0
-  }, {
-    pos: [20, 3, 27],
     state: 0
   }, {
     pos: [20, 3, 28],
@@ -5372,9 +5336,6 @@
     pos: [22, 3, 2],
     state: 0
   }, {
-    pos: [22, 3, 3],
-    state: 0
-  }, {
     pos: [22, 3, 4],
     state: 4
   }, {
@@ -5385,9 +5346,6 @@
     state: 0
   }, {
     pos: [22, 3, 7],
-    state: 0
-  }, {
-    pos: [22, 3, 8],
     state: 0
   }, {
     pos: [22, 3, 9],
@@ -5402,9 +5360,6 @@
     pos: [22, 3, 12],
     state: 0
   }, {
-    pos: [22, 3, 13],
-    state: 0
-  }, {
     pos: [22, 3, 14],
     state: 4
   }, {
@@ -5417,9 +5372,6 @@
     pos: [22, 3, 17],
     state: 0
   }, {
-    pos: [22, 3, 18],
-    state: 0
-  }, {
     pos: [22, 3, 19],
     state: 4
   }, {
@@ -5430,9 +5382,6 @@
     state: 0
   }, {
     pos: [22, 3, 22],
-    state: 0
-  }, {
-    pos: [22, 3, 23],
     state: 0
   }, {
     pos: [22, 3, 24],
@@ -6323,6 +6272,9 @@
     pos: [1, 5, 4],
     state: 0
   }, {
+    pos: [1, 5, 5],
+    state: 0
+  }, {
     pos: [1, 5, 6],
     state: 0
   }, {
@@ -6333,6 +6285,9 @@
     state: 0
   }, {
     pos: [1, 5, 9],
+    state: 0
+  }, {
+    pos: [1, 5, 10],
     state: 0
   }, {
     pos: [1, 5, 11],
@@ -6362,6 +6317,9 @@
     pos: [1, 5, 19],
     state: 0
   }, {
+    pos: [1, 5, 20],
+    state: 0
+  }, {
     pos: [1, 5, 21],
     state: 0
   }, {
@@ -6372,6 +6330,9 @@
     state: 0
   }, {
     pos: [1, 5, 24],
+    state: 0
+  }, {
+    pos: [1, 5, 25],
     state: 0
   }, {
     pos: [1, 5, 26],
@@ -6428,6 +6389,9 @@
     pos: [3, 5, 0],
     state: 0
   }, {
+    pos: [3, 5, 1],
+    state: 0
+  }, {
     pos: [3, 5, 27],
     state: 0
   }, {
@@ -6450,6 +6414,9 @@
     state: 0
   }, {
     pos: [5, 5, 1],
+    state: 0
+  }, {
+    pos: [5, 5, 27],
     state: 0
   }, {
     pos: [5, 5, 28],
@@ -6494,6 +6461,9 @@
     pos: [8, 5, 0],
     state: 0
   }, {
+    pos: [8, 5, 1],
+    state: 0
+  }, {
     pos: [8, 5, 27],
     state: 0
   }, {
@@ -6516,6 +6486,9 @@
     state: 0
   }, {
     pos: [10, 5, 1],
+    state: 0
+  }, {
+    pos: [10, 5, 27],
     state: 0
   }, {
     pos: [10, 5, 28],
@@ -6560,6 +6533,9 @@
     pos: [13, 5, 0],
     state: 0
   }, {
+    pos: [13, 5, 1],
+    state: 0
+  }, {
     pos: [13, 5, 27],
     state: 0
   }, {
@@ -6582,6 +6558,9 @@
     state: 0
   }, {
     pos: [15, 5, 1],
+    state: 0
+  }, {
+    pos: [15, 5, 27],
     state: 0
   }, {
     pos: [15, 5, 28],
@@ -6626,6 +6605,9 @@
     pos: [18, 5, 0],
     state: 0
   }, {
+    pos: [18, 5, 1],
+    state: 0
+  }, {
     pos: [18, 5, 27],
     state: 0
   }, {
@@ -6648,6 +6630,9 @@
     state: 0
   }, {
     pos: [20, 5, 1],
+    state: 0
+  }, {
+    pos: [20, 5, 27],
     state: 0
   }, {
     pos: [20, 5, 28],
@@ -6704,6 +6689,9 @@
     pos: [22, 5, 2],
     state: 0
   }, {
+    pos: [22, 5, 3],
+    state: 0
+  }, {
     pos: [22, 5, 4],
     state: 0
   }, {
@@ -6714,6 +6702,9 @@
     state: 0
   }, {
     pos: [22, 5, 7],
+    state: 0
+  }, {
+    pos: [22, 5, 8],
     state: 0
   }, {
     pos: [22, 5, 9],
@@ -6743,6 +6734,9 @@
     pos: [22, 5, 17],
     state: 0
   }, {
+    pos: [22, 5, 18],
+    state: 0
+  }, {
     pos: [22, 5, 19],
     state: 0
   }, {
@@ -6753,6 +6747,9 @@
     state: 0
   }, {
     pos: [22, 5, 22],
+    state: 0
+  }, {
+    pos: [22, 5, 23],
     state: 0
   }, {
     pos: [22, 5, 24],
@@ -11630,9 +11627,6 @@
     pos: [1, 13, 4],
     state: 4
   }, {
-    pos: [1, 13, 5],
-    state: 0
-  }, {
     pos: [1, 13, 6],
     state: 0
   }, {
@@ -11644,9 +11638,6 @@
   }, {
     pos: [1, 13, 9],
     state: 4
-  }, {
-    pos: [1, 13, 10],
-    state: 0
   }, {
     pos: [1, 13, 11],
     state: 0
@@ -11666,9 +11657,6 @@
     pos: [1, 13, 19],
     state: 4
   }, {
-    pos: [1, 13, 20],
-    state: 0
-  }, {
     pos: [1, 13, 21],
     state: 0
   }, {
@@ -11680,9 +11668,6 @@
   }, {
     pos: [1, 13, 24],
     state: 4
-  }, {
-    pos: [1, 13, 25],
-    state: 0
   }, {
     pos: [1, 13, 26],
     state: 0
@@ -11738,9 +11723,6 @@
     pos: [3, 13, 0],
     state: 0
   }, {
-    pos: [3, 13, 1],
-    state: 0
-  }, {
     pos: [3, 13, 27],
     state: 0
   }, {
@@ -11763,9 +11745,6 @@
     state: 0
   }, {
     pos: [5, 13, 1],
-    state: 0
-  }, {
-    pos: [5, 13, 27],
     state: 0
   }, {
     pos: [5, 13, 28],
@@ -11846,9 +11825,6 @@
     pos: [13, 13, 0],
     state: 0
   }, {
-    pos: [13, 13, 1],
-    state: 0
-  }, {
     pos: [13, 13, 27],
     state: 0
   }, {
@@ -11871,9 +11847,6 @@
     state: 0
   }, {
     pos: [15, 13, 1],
-    state: 0
-  }, {
-    pos: [15, 13, 27],
     state: 0
   }, {
     pos: [15, 13, 28],
@@ -11918,9 +11891,6 @@
     pos: [18, 13, 0],
     state: 0
   }, {
-    pos: [18, 13, 1],
-    state: 0
-  }, {
     pos: [18, 13, 27],
     state: 0
   }, {
@@ -11943,9 +11913,6 @@
     state: 0
   }, {
     pos: [20, 13, 1],
-    state: 0
-  }, {
-    pos: [20, 13, 27],
     state: 0
   }, {
     pos: [20, 13, 28],
@@ -12002,9 +11969,6 @@
     pos: [22, 13, 2],
     state: 0
   }, {
-    pos: [22, 13, 3],
-    state: 0
-  }, {
     pos: [22, 13, 4],
     state: 4
   }, {
@@ -12017,9 +11981,6 @@
     pos: [22, 13, 7],
     state: 4
   }, {
-    pos: [22, 13, 8],
-    state: 0
-  }, {
     pos: [22, 13, 9],
     state: 4
   }, {
@@ -12030,9 +11991,6 @@
     state: 0
   }, {
     pos: [22, 13, 12],
-    state: 0
-  }, {
-    pos: [22, 13, 13],
     state: 0
   }, {
     pos: [22, 13, 14],
@@ -12047,9 +12005,6 @@
     pos: [22, 13, 17],
     state: 0
   }, {
-    pos: [22, 13, 18],
-    state: 0
-  }, {
     pos: [22, 13, 19],
     state: 4
   }, {
@@ -12060,9 +12015,6 @@
     state: 4
   }, {
     pos: [22, 13, 22],
-    state: 0
-  }, {
-    pos: [22, 13, 23],
     state: 0
   }, {
     pos: [22, 13, 24],
@@ -12899,6 +12851,9 @@
     pos: [1, 15, 4],
     state: 0
   }, {
+    pos: [1, 15, 5],
+    state: 0
+  }, {
     pos: [1, 15, 6],
     state: 0
   }, {
@@ -12909,6 +12864,9 @@
     state: 0
   }, {
     pos: [1, 15, 9],
+    state: 0
+  }, {
+    pos: [1, 15, 10],
     state: 0
   }, {
     pos: [1, 15, 11],
@@ -13154,6 +13112,9 @@
     pos: [13, 15, 0],
     state: 0
   }, {
+    pos: [13, 15, 1],
+    state: 0
+  }, {
     pos: [13, 15, 27],
     state: 0
   }, {
@@ -13350,6 +13311,9 @@
     state: 0
   }, {
     pos: [22, 15, 17],
+    state: 0
+  }, {
+    pos: [22, 15, 18],
     state: 0
   }, {
     pos: [22, 15, 19],
@@ -39618,16 +39582,16 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
-      final_state: "minecraft:air",
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
       name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/reward/ominous_vault",
+      pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:ominous_vault"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [3, 4, 14],
+    pos: [1, 3, 5],
     state: 10
   }, {
     nbt: {
@@ -39638,9 +39602,48 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 5, 5],
+    pos: [1, 3, 10],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 3, 20],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 3, 25],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [3, 3, 1],
     state: 11
   }, {
     nbt: {
@@ -39651,9 +39654,22 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 5, 10],
+    pos: [5, 3, 27],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [8, 3, 1],
     state: 11
   }, {
     nbt: {
@@ -39664,9 +39680,22 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 5, 20],
+    pos: [10, 3, 27],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [13, 3, 1],
     state: 11
   }, {
     nbt: {
@@ -39677,9 +39706,22 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 5, 25],
+    pos: [15, 3, 27],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [18, 3, 1],
     state: 11
   }, {
     nbt: {
@@ -39690,9 +39732,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [3, 5, 1],
+    pos: [20, 3, 27],
     state: 12
   }, {
     nbt: {
@@ -39703,9 +39745,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [5, 5, 27],
+    pos: [22, 3, 3],
     state: 13
   }, {
     nbt: {
@@ -39716,22 +39758,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [8, 5, 1],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [10, 5, 27],
+    pos: [22, 3, 8],
     state: 13
   }, {
     nbt: {
@@ -39742,22 +39771,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [13, 5, 1],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [15, 5, 27],
+    pos: [22, 3, 13],
     state: 13
   }, {
     nbt: {
@@ -39768,22 +39784,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [18, 5, 1],
-    state: 12
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [20, 5, 27],
+    pos: [22, 3, 18],
     state: 13
   }, {
     nbt: {
@@ -39794,48 +39797,22 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [22, 5, 3],
-    state: 14
+    pos: [22, 3, 23],
+    state: 13
   }, {
     nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
+      joint: "rollable",
+      final_state: "minecraft:air",
       name: "minecraft:empty",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
+      pool: "minecraft:trial_chambers/reward/ominous_vault",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:ominous_vault"
     },
-    pos: [22, 5, 8],
-    state: 14
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [22, 5, 18],
-    state: 14
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [22, 5, 23],
+    pos: [3, 4, 14],
     state: 14
   }, {
     nbt: {
@@ -39849,7 +39826,7 @@
       target: "minecraft:middle_start"
     },
     pos: [22, 8, 14],
-    state: 10
+    state: 14
   }, {
     nbt: {
       joint: "rollable",
@@ -39875,6 +39852,32 @@
       target: "minecraft:entrance_cap"
     },
     pos: [0, 13, 14],
+    state: 14
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 13, 5],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 13, 10],
     state: 10
   }, {
     nbt: {
@@ -39889,6 +39892,58 @@
     },
     pos: [1, 13, 14],
     state: 15
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 13, 20],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [1, 13, 25],
+    state: 10
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [3, 13, 1],
+    state: 11
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [5, 13, 27],
+    state: 12
   }, {
     nbt: {
       joint: "rollable",
@@ -39950,9 +40005,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 15, 5],
+    pos: [13, 13, 1],
     state: 11
   }, {
     nbt: {
@@ -39963,22 +40018,9 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [1, 15, 10],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
-    },
-    pos: [13, 15, 1],
+    pos: [15, 13, 27],
     state: 12
   }, {
     nbt: {
@@ -39989,10 +40031,88 @@
       pool: "minecraft:trial_chambers/dispensers/chamber",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:dispenser"
+      target: "minecraft:copper_dispenser"
     },
-    pos: [22, 15, 18],
-    state: 14
+    pos: [18, 13, 1],
+    state: 11
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [20, 13, 27],
+    state: 12
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [22, 13, 3],
+    state: 13
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [22, 13, 8],
+    state: 13
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [22, 13, 13],
+    state: 13
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [22, 13, 18],
+    state: 13
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:tuff_bricks",
+      name: "minecraft:empty",
+      placement_priority: 0,
+      pool: "minecraft:trial_chambers/dispensers/chamber",
+      selection_priority: 0,
+      id: "minecraft:jigsaw",
+      target: "minecraft:copper_dispenser"
+    },
+    pos: [22, 13, 23],
+    state: 13
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -40023,11 +40143,6 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
-      orientation: "west_up"
-    },
-    Name: "minecraft:jigsaw"
-  }, {
-    Properties: {
       orientation: "down_east"
     },
     Name: "minecraft:jigsaw"
@@ -40048,6 +40163,11 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
+      orientation: "west_up"
+    },
+    Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
@@ -40062,5 +40182,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3827
+  DataVersion: 3829
 }
