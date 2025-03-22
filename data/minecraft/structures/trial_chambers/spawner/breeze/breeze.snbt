@@ -86,7 +86,9 @@
         }, {
           data: "minecraft:spawners/ominous/trial_chamber/consumables",
           weight: 7
-        }]
+        }],
+        simultaneous_mobs: 2f,
+        total_mobs: 4f
       }
     },
     pos: [1, 1, 1],
@@ -112,5 +114,5 @@
     },
     Name: "minecraft:trial_spawner"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

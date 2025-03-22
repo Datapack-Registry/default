@@ -13,7 +13,7 @@
     state: 1
   }, {
     nbt: {
-      joint: "aligned",
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:floor_dispenser",
       placement_priority: 0,
@@ -42,5 +42,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

@@ -7869,13 +7869,13 @@
     state: 0
   }, {
     pos: [11, 6, 13],
-    state: 0
+    state: 7
   }, {
     pos: [11, 6, 14],
-    state: 0
+    state: 7
   }, {
     pos: [11, 6, 15],
-    state: 0
+    state: 7
   }, {
     pos: [11, 6, 16],
     state: 0
@@ -7902,22 +7902,22 @@
     state: 7
   }, {
     pos: [12, 6, 13],
-    state: 0
+    state: 7
   }, {
     pos: [12, 6, 14],
-    state: 0
+    state: 7
   }, {
     pos: [12, 6, 15],
-    state: 0
+    state: 7
   }, {
     pos: [12, 6, 16],
-    state: 0
+    state: 7
   }, {
     pos: [12, 6, 17],
-    state: 0
+    state: 7
   }, {
     pos: [12, 6, 18],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 0],
     state: 0
@@ -7935,22 +7935,22 @@
     state: 7
   }, {
     pos: [13, 6, 13],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 14],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 15],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 16],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 17],
-    state: 0
+    state: 7
   }, {
     pos: [13, 6, 18],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 0],
     state: 0
@@ -7968,22 +7968,22 @@
     state: 7
   }, {
     pos: [14, 6, 13],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 14],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 15],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 16],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 17],
-    state: 0
+    state: 7
   }, {
     pos: [14, 6, 18],
-    state: 0
+    state: 7
   }, {
     pos: [15, 6, 0],
     state: 0
@@ -8004,13 +8004,13 @@
     state: 0
   }, {
     pos: [15, 6, 13],
-    state: 0
+    state: 7
   }, {
     pos: [15, 6, 14],
-    state: 0
+    state: 7
   }, {
     pos: [15, 6, 15],
-    state: 0
+    state: 7
   }, {
     pos: [15, 6, 16],
     state: 0
@@ -30673,5 +30673,5 @@
     },
     Name: "minecraft:barrel"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

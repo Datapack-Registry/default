@@ -3583,7 +3583,7 @@
       pool: "minecraft:empty",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:"
+      target: "minecraft:empty"
     },
     pos: [4, 7, 3],
     state: 12
@@ -3609,7 +3609,7 @@
       pool: "minecraft:empty",
       selection_priority: 0,
       id: "minecraft:jigsaw",
-      target: "minecraft:"
+      target: "minecraft:empty"
     },
     pos: [4, 12, 3],
     state: 12
@@ -3668,5 +3668,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

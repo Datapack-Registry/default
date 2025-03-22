@@ -426,7 +426,7 @@
     nbt: {
       joint: "rollable",
       final_state: "minecraft:air",
-      name: "minecraft:chamber",
+      name: "minecraft:in_connector",
       placement_priority: 0,
       pool: "minecraft:empty",
       selection_priority: 0,
@@ -474,5 +474,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

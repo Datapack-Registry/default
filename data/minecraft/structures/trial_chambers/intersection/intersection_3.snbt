@@ -10815,10 +10815,10 @@
     state: 0
   }, {
     pos: [0, 12, 3],
-    state: 0
+    state: 8
   }, {
     pos: [0, 12, 17],
-    state: 0
+    state: 8
   }, {
     pos: [0, 12, 18],
     state: 0
@@ -10842,10 +10842,10 @@
     state: 0
   }, {
     pos: [1, 12, 3],
-    state: 0
+    state: 8
   }, {
     pos: [1, 12, 17],
-    state: 0
+    state: 8
   }, {
     pos: [1, 12, 18],
     state: 0
@@ -10869,10 +10869,10 @@
     state: 0
   }, {
     pos: [2, 12, 3],
-    state: 0
+    state: 8
   }, {
     pos: [2, 12, 17],
-    state: 0
+    state: 8
   }, {
     pos: [2, 12, 18],
     state: 0
@@ -51483,5 +51483,5 @@
     },
     Name: "minecraft:barrel"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

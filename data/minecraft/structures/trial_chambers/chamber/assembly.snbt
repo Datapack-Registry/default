@@ -18344,6 +18344,9 @@
     pos: [14, 6, 3],
     state: 1
   }, {
+    pos: [14, 6, 4],
+    state: 1
+  }, {
     pos: [14, 6, 5],
     state: 1
   }, {
@@ -18354,6 +18357,9 @@
     state: 1
   }, {
     pos: [14, 6, 8],
+    state: 1
+  }, {
+    pos: [14, 6, 9],
     state: 1
   }, {
     pos: [14, 6, 10],
@@ -18374,6 +18380,9 @@
     pos: [14, 6, 18],
     state: 1
   }, {
+    pos: [14, 6, 19],
+    state: 1
+  }, {
     pos: [14, 6, 20],
     state: 1
   }, {
@@ -18384,6 +18393,9 @@
     state: 1
   }, {
     pos: [14, 6, 23],
+    state: 1
+  }, {
+    pos: [14, 6, 24],
     state: 1
   }, {
     pos: [14, 6, 25],
@@ -18737,6 +18749,9 @@
     pos: [19, 6, 8],
     state: 1
   }, {
+    pos: [19, 6, 9],
+    state: 1
+  }, {
     pos: [19, 6, 10],
     state: 1
   }, {
@@ -18755,6 +18770,9 @@
     pos: [19, 6, 18],
     state: 1
   }, {
+    pos: [19, 6, 19],
+    state: 1
+  }, {
     pos: [19, 6, 20],
     state: 1
   }, {
@@ -18765,6 +18783,9 @@
     state: 1
   }, {
     pos: [19, 6, 23],
+    state: 1
+  }, {
+    pos: [19, 6, 24],
     state: 1
   }, {
     pos: [19, 6, 25],
@@ -19130,6 +19151,9 @@
     pos: [24, 6, 3],
     state: 1
   }, {
+    pos: [24, 6, 4],
+    state: 1
+  }, {
     pos: [24, 6, 5],
     state: 1
   }, {
@@ -19140,6 +19164,9 @@
     state: 1
   }, {
     pos: [24, 6, 8],
+    state: 1
+  }, {
+    pos: [24, 6, 9],
     state: 1
   }, {
     pos: [24, 6, 10],
@@ -19169,6 +19196,9 @@
     pos: [24, 6, 18],
     state: 1
   }, {
+    pos: [24, 6, 19],
+    state: 1
+  }, {
     pos: [24, 6, 20],
     state: 1
   }, {
@@ -19179,6 +19209,9 @@
     state: 1
   }, {
     pos: [24, 6, 23],
+    state: 1
+  }, {
+    pos: [24, 6, 24],
     state: 1
   }, {
     pos: [24, 6, 25],
@@ -22736,6 +22769,9 @@
     pos: [30, 8, 16],
     state: 0
   }, {
+    pos: [30, 8, 27],
+    state: 0
+  }, {
     pos: [30, 8, 28],
     state: 0
   }, {
@@ -22799,6 +22835,9 @@
     pos: [32, 8, 2],
     state: 0
   }, {
+    pos: [32, 8, 3],
+    state: 0
+  }, {
     pos: [32, 8, 4],
     state: 3
   }, {
@@ -22854,6 +22893,9 @@
     state: 0
   }, {
     pos: [32, 8, 22],
+    state: 0
+  }, {
+    pos: [32, 8, 23],
     state: 0
   }, {
     pos: [32, 8, 24],
@@ -38966,9 +39008,6 @@
     pos: [32, 2, 15],
     state: 10
   }, {
-    pos: [33, 2, 13],
-    state: 10
-  }, {
     pos: [33, 2, 14],
     state: 10
   }, {
@@ -39401,12 +39440,6 @@
     pos: [26, 5, 15],
     state: 10
   }, {
-    pos: [14, 6, 4],
-    state: 10
-  }, {
-    pos: [14, 6, 9],
-    state: 10
-  }, {
     pos: [14, 6, 13],
     state: 9
   }, {
@@ -39415,12 +39448,6 @@
   }, {
     pos: [14, 6, 15],
     state: 9
-  }, {
-    pos: [14, 6, 19],
-    state: 10
-  }, {
-    pos: [14, 6, 24],
-    state: 10
   }, {
     pos: [15, 6, 13],
     state: 11
@@ -39458,9 +39485,6 @@
     pos: [18, 6, 15],
     state: 12
   }, {
-    pos: [19, 6, 9],
-    state: 10
-  }, {
     pos: [19, 6, 13],
     state: 11
   }, {
@@ -39470,12 +39494,6 @@
     pos: [19, 6, 15],
     state: 12
   }, {
-    pos: [19, 6, 19],
-    state: 10
-  }, {
-    pos: [19, 6, 24],
-    state: 10
-  }, {
     pos: [20, 6, 13],
     state: 11
   }, {
@@ -39484,18 +39502,6 @@
   }, {
     pos: [20, 6, 15],
     state: 12
-  }, {
-    pos: [24, 6, 4],
-    state: 10
-  }, {
-    pos: [24, 6, 9],
-    state: 10
-  }, {
-    pos: [24, 6, 19],
-    state: 10
-  }, {
-    pos: [24, 6, 24],
-    state: 10
   }, {
     pos: [26, 6, 13],
     state: 10
@@ -42429,9 +42435,6 @@
     state: 10
   }, {
     pos: [2, 9, 25],
-    state: 10
-  }, {
-    pos: [3, 9, 0],
     state: 10
   }, {
     pos: [3, 9, 1],
@@ -50132,9 +50135,6 @@
     pos: [28, 12, 13],
     state: 10
   }, {
-    pos: [28, 12, 14],
-    state: 10
-  }, {
     pos: [28, 12, 15],
     state: 10
   }, {
@@ -56064,6 +56064,13 @@
     state: 10
   }, {
     nbt: {
+      Items: [],
+      id: "minecraft:chest"
+    },
+    pos: [33, 2, 13],
+    state: 14
+  }, {
+    nbt: {
       joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:empty",
@@ -56074,7 +56081,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [29, 3, 12],
-    state: 14
+    state: 15
   }, {
     nbt: {
       joint: "rollable",
@@ -56087,7 +56094,7 @@
       target: "minecraft:entrance_cap"
     },
     pos: [33, 3, 14],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -56100,7 +56107,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [14, 5, 4],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56113,7 +56120,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [14, 5, 9],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56126,7 +56133,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [14, 5, 19],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56139,7 +56146,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [14, 5, 24],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56152,7 +56159,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [19, 5, 9],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56165,7 +56172,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [19, 5, 19],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56178,7 +56185,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [19, 5, 24],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56191,7 +56198,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [24, 5, 4],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56204,7 +56211,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [24, 5, 9],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56217,7 +56224,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [24, 5, 19],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "rollable",
@@ -56230,7 +56237,7 @@
       target: "minecraft:lower_addon"
     },
     pos: [24, 5, 24],
-    state: 16
+    state: 17
   }, {
     nbt: {
       joint: "aligned",
@@ -56243,7 +56250,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [8, 8, 1],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "aligned",
@@ -56256,7 +56263,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [10, 8, 27],
-    state: 18
+    state: 19
   }, {
     nbt: {
       joint: "aligned",
@@ -56269,7 +56276,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [13, 8, 1],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "aligned",
@@ -56282,7 +56289,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [13, 8, 14],
-    state: 19
+    state: 20
   }, {
     nbt: {
       joint: "aligned",
@@ -56295,7 +56302,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [15, 8, 27],
-    state: 18
+    state: 19
   }, {
     nbt: {
       joint: "aligned",
@@ -56308,7 +56315,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [18, 8, 1],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "aligned",
@@ -56321,7 +56328,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [20, 8, 27],
-    state: 18
+    state: 19
   }, {
     nbt: {
       joint: "aligned",
@@ -56334,7 +56341,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [23, 8, 1],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "aligned",
@@ -56347,7 +56354,7 @@
       target: "minecraft:spawner_connector"
     },
     pos: [23, 8, 14],
-    state: 19
+    state: 20
   }, {
     nbt: {
       joint: "aligned",
@@ -56360,7 +56367,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [25, 8, 27],
-    state: 18
+    state: 19
   }, {
     nbt: {
       joint: "aligned",
@@ -56373,7 +56380,7 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [27, 8, 13],
-    state: 20
+    state: 21
   }, {
     nbt: {
       joint: "aligned",
@@ -56386,46 +56393,14 @@
       target: "minecraft:copper_dispenser"
     },
     pos: [28, 8, 1],
-    state: 17
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [30, 8, 27],
     state: 18
   }, {
     nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
+      Items: [],
+      id: "minecraft:chest"
     },
-    pos: [32, 8, 3],
-    state: 20
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:tuff_bricks",
-      name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/dispensers/chamber",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:copper_dispenser"
-    },
-    pos: [32, 8, 23],
-    state: 20
+    pos: [3, 9, 0],
+    state: 22
   }, {
     nbt: {
       joint: "rollable",
@@ -56438,7 +56413,7 @@
       target: "minecraft:entrance_cap"
     },
     pos: [4, 10, 0],
-    state: 14
+    state: 15
   }, {
     nbt: {
       joint: "aligned",
@@ -56451,7 +56426,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [4, 10, 9],
-    state: 19
+    state: 20
   }, {
     nbt: {
       joint: "aligned",
@@ -56464,7 +56439,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [4, 10, 19],
-    state: 19
+    state: 20
   }, {
     nbt: {
       joint: "aligned",
@@ -56477,7 +56452,14 @@
       target: "minecraft:spawner_connector"
     },
     pos: [7, 10, 14],
-    state: 15
+    state: 16
+  }, {
+    nbt: {
+      Items: [],
+      id: "minecraft:chest"
+    },
+    pos: [28, 12, 14],
+    state: 22
   }, {
     nbt: {
       joint: "rollable",
@@ -56490,7 +56472,7 @@
       target: "minecraft:right_staircase"
     },
     pos: [29, 13, 12],
-    state: 14
+    state: 15
   }, {
     nbt: {
       joint: "rollable",
@@ -56503,7 +56485,7 @@
       target: "minecraft:left_staircase"
     },
     pos: [29, 13, 16],
-    state: 21
+    state: 23
   }, {
     nbt: {
       joint: "rollable",
@@ -56516,7 +56498,7 @@
       target: "minecraft:entrance_cap"
     },
     pos: [33, 13, 14],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -56529,7 +56511,7 @@
       target: "minecraft:ominous_vault"
     },
     pos: [19, 14, 4],
-    state: 14
+    state: 15
   }, {
     nbt: {
       joint: "rollable",
@@ -56542,7 +56524,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [14, 17, 4],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56555,7 +56537,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [14, 17, 9],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56568,7 +56550,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [14, 17, 19],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56581,7 +56563,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [14, 17, 24],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56594,7 +56576,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [19, 17, 9],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56607,7 +56589,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [19, 17, 19],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56620,7 +56602,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [19, 17, 24],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56633,7 +56615,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [24, 17, 4],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56646,7 +56628,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [24, 17, 9],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56659,7 +56641,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [24, 17, 19],
-    state: 17
+    state: 18
   }, {
     nbt: {
       joint: "rollable",
@@ -56672,7 +56654,7 @@
       target: "minecraft:upper_addon"
     },
     pos: [24, 17, 24],
-    state: 17
+    state: 18
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -56738,6 +56720,13 @@
     Name: "minecraft:waxed_oxidized_copper_trapdoor"
   }, {
     Properties: {
+      waterlogged: "false",
+      facing: "south",
+      type: "single"
+    },
+    Name: "minecraft:chest"
+  }, {
+    Properties: {
       orientation: "north_up"
     },
     Name: "minecraft:jigsaw"
@@ -56773,9 +56762,16 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
+      waterlogged: "false",
+      facing: "east",
+      type: "single"
+    },
+    Name: "minecraft:chest"
+  }, {
+    Properties: {
       orientation: "south_up"
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }

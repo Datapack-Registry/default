@@ -9077,15 +9077,6 @@
     pos: [7, 9, 7],
     state: 0
   }, {
-    pos: [7, 9, 8],
-    state: 10
-  }, {
-    pos: [7, 9, 9],
-    state: 10
-  }, {
-    pos: [7, 9, 10],
-    state: 10
-  }, {
     pos: [7, 9, 11],
     state: 0
   }, {
@@ -9118,18 +9109,6 @@
   }, {
     pos: [8, 9, 6],
     state: 0
-  }, {
-    pos: [8, 9, 7],
-    state: 10
-  }, {
-    pos: [8, 9, 8],
-    state: 10
-  }, {
-    pos: [8, 9, 9],
-    state: 10
-  }, {
-    pos: [8, 9, 10],
-    state: 10
   }, {
     pos: [8, 9, 11],
     state: 10
@@ -9164,15 +9143,6 @@
     pos: [9, 9, 6],
     state: 0
   }, {
-    pos: [9, 9, 8],
-    state: 10
-  }, {
-    pos: [9, 9, 9],
-    state: 10
-  }, {
-    pos: [9, 9, 10],
-    state: 10
-  }, {
     pos: [9, 9, 11],
     state: 10
   }, {
@@ -9205,18 +9175,6 @@
   }, {
     pos: [10, 9, 6],
     state: 0
-  }, {
-    pos: [10, 9, 7],
-    state: 10
-  }, {
-    pos: [10, 9, 8],
-    state: 10
-  }, {
-    pos: [10, 9, 9],
-    state: 10
-  }, {
-    pos: [10, 9, 10],
-    state: 10
   }, {
     pos: [10, 9, 11],
     state: 10
@@ -9256,15 +9214,6 @@
   }, {
     pos: [11, 9, 7],
     state: 0
-  }, {
-    pos: [11, 9, 8],
-    state: 10
-  }, {
-    pos: [11, 9, 9],
-    state: 10
-  }, {
-    pos: [11, 9, 10],
-    state: 10
   }, {
     pos: [11, 9, 11],
     state: 0
@@ -9882,13 +9831,13 @@
     state: 0
   }, {
     pos: [7, 10, 8],
-    state: 1
+    state: 11
   }, {
     pos: [7, 10, 9],
-    state: 1
+    state: 11
   }, {
     pos: [7, 10, 10],
-    state: 1
+    state: 11
   }, {
     pos: [7, 10, 11],
     state: 0
@@ -9921,16 +9870,16 @@
     state: 0
   }, {
     pos: [8, 10, 7],
-    state: 2
+    state: 11
   }, {
     pos: [8, 10, 8],
-    state: 1
+    state: 11
   }, {
     pos: [8, 10, 9],
-    state: 1
+    state: 11
   }, {
     pos: [8, 10, 10],
-    state: 1
+    state: 11
   }, {
     pos: [8, 10, 11],
     state: 1
@@ -9960,13 +9909,13 @@
     state: 0
   }, {
     pos: [9, 10, 8],
-    state: 1
+    state: 11
   }, {
     pos: [9, 10, 9],
-    state: 1
+    state: 11
   }, {
     pos: [9, 10, 10],
-    state: 1
+    state: 11
   }, {
     pos: [9, 10, 11],
     state: 1
@@ -9996,16 +9945,16 @@
     state: 0
   }, {
     pos: [10, 10, 7],
-    state: 2
+    state: 11
   }, {
     pos: [10, 10, 8],
-    state: 1
+    state: 11
   }, {
     pos: [10, 10, 9],
-    state: 1
+    state: 11
   }, {
     pos: [10, 10, 10],
-    state: 1
+    state: 11
   }, {
     pos: [10, 10, 11],
     state: 1
@@ -10041,13 +9990,13 @@
     state: 0
   }, {
     pos: [11, 10, 8],
-    state: 1
+    state: 11
   }, {
     pos: [11, 10, 9],
-    state: 1
+    state: 11
   }, {
     pos: [11, 10, 10],
-    state: 1
+    state: 11
   }, {
     pos: [11, 10, 11],
     state: 0
@@ -21926,6 +21875,15 @@
     pos: [7, 9, 5],
     state: 12
   }, {
+    pos: [7, 9, 8],
+    state: 13
+  }, {
+    pos: [7, 9, 9],
+    state: 13
+  }, {
+    pos: [7, 9, 10],
+    state: 13
+  }, {
     pos: [7, 9, 19],
     state: 13
   }, {
@@ -21946,6 +21904,18 @@
   }, {
     pos: [8, 9, 5],
     state: 12
+  }, {
+    pos: [8, 9, 7],
+    state: 13
+  }, {
+    pos: [8, 9, 8],
+    state: 13
+  }, {
+    pos: [8, 9, 9],
+    state: 13
+  }, {
+    pos: [8, 9, 10],
+    state: 13
   }, {
     pos: [8, 9, 19],
     state: 13
@@ -21971,6 +21941,15 @@
     pos: [9, 9, 7],
     state: 15
   }, {
+    pos: [9, 9, 8],
+    state: 13
+  }, {
+    pos: [9, 9, 9],
+    state: 13
+  }, {
+    pos: [9, 9, 10],
+    state: 13
+  }, {
     pos: [9, 9, 19],
     state: 13
   }, {
@@ -21992,6 +21971,18 @@
     pos: [10, 9, 5],
     state: 12
   }, {
+    pos: [10, 9, 7],
+    state: 13
+  }, {
+    pos: [10, 9, 8],
+    state: 13
+  }, {
+    pos: [10, 9, 9],
+    state: 13
+  }, {
+    pos: [10, 9, 10],
+    state: 13
+  }, {
     pos: [10, 9, 19],
     state: 13
   }, {
@@ -22009,6 +22000,15 @@
   }, {
     pos: [11, 9, 5],
     state: 12
+  }, {
+    pos: [11, 9, 8],
+    state: 13
+  }, {
+    pos: [11, 9, 9],
+    state: 13
+  }, {
+    pos: [11, 9, 10],
+    state: 13
   }, {
     pos: [11, 9, 19],
     state: 13
@@ -29253,5 +29253,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3839
+  DataVersion: 3940
 }
