@@ -197,5 +197,5 @@
   palette: [{
     Name: "minecraft:dark_oak_planks"
   }],
-  DataVersion: 4076
+  DataVersion: 4077
 }
