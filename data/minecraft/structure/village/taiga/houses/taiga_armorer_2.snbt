@@ -8,7 +8,6 @@
       ShowArms: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DisabledSlots: 0,
       DeathTime: 0s,
       Pose: {
@@ -21,9 +20,16 @@
       Motion: [0d, -0.0784000015258789d, 0d],
       Small: 0b,
       Health: 20f,
+      equipment: {
+        head: {
+          count: 1,
+          id: "minecraft:iron_helmet"
+        }
+      },
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [45f, 0f],
       HandItems: [{}, {}],
       Pos: [-28.5d, 65d, 30.5d],
@@ -61,7 +67,6 @@
       ShowArms: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DisabledSlots: 0,
       DeathTime: 0s,
       Pose: {
@@ -74,9 +79,16 @@
       Motion: [0d, -0.0784000015258789d, 0d],
       Small: 0b,
       Health: 20f,
+      equipment: {
+        chest: {
+          count: 1,
+          id: "minecraft:iron_chestplate"
+        }
+      },
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [90f, 0f],
       HandItems: [{}, {}],
       Pos: [-26.5d, 65d, 34.5d],
@@ -1432,5 +1444,5 @@
     },
     Name: "minecraft:blast_furnace"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }

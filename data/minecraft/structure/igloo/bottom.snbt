@@ -9,7 +9,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
       PersistenceRequired: 1b,
@@ -50,6 +49,7 @@
         }]
       },
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [-4.3276978f, -3.41655f],
       HandItems: [{}, {}],
       Pos: [-986.5d, 8d, -1060.5d],
@@ -98,7 +98,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
       PersistenceRequired: 1b,
@@ -112,6 +111,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [-95.78888f, 0f],
       HandItems: [{}, {}],
       CanBreakDoors: 0b,
@@ -1079,5 +1079,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }

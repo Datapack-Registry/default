@@ -7,7 +7,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DeathTime: 0s,
       PersistenceRequired: 0b,
       id: "minecraft:iron_golem",
@@ -20,6 +19,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [0f, 17.929129f],
       HandItems: [{}, {}],
       Pos: [-845.3000000119209d, 57d, 1600.699999988079d],
@@ -756,5 +756,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }

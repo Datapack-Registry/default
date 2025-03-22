@@ -10,7 +10,6 @@
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
       Bred: 0b,
-      FallDistance: 0f,
       InLove: 0,
       EatingHaystack: 0b,
       DeathTime: 0s,
@@ -25,6 +24,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [-139.90747f, -35.437256f],
       HandItems: [{}, {}],
       Variant: 6,
@@ -94,5 +94,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }

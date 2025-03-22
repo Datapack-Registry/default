@@ -9,7 +9,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       DeathTime: 0s,
       Xp: 0,
       PersistenceRequired: 0b,
@@ -24,6 +23,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [48.821632f, 0f],
       HandItems: [{}, {}],
       Pos: [-178.2795013809144d, 5d, 184.63145528989816d],
@@ -69,5 +69,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }

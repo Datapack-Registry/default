@@ -8,7 +8,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       InLove: 0,
       DeathTime: 0s,
       PersistenceRequired: 1b,
@@ -22,6 +21,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [153.60942f, 0f],
       HandItems: [{}, {}],
       Pos: [-1725.925000011921d, 4d, 483.07499998807907d],
@@ -67,7 +67,6 @@
       Invulnerable: 0b,
       AbsorptionAmount: 0f,
       PortalCooldown: 0,
-      FallDistance: 0f,
       InLove: 0,
       DeathTime: 0s,
       PersistenceRequired: 1b,
@@ -81,6 +80,7 @@
       Air: 300s,
       Dimension: 0,
       OnGround: 1b,
+      fall_distance: 0d,
       Rotation: [-88.56763f, 0f],
       HandItems: [{}, {}],
       Pos: [-1725.074999988079d, 4d, 483.92500001192093d],
@@ -145,5 +145,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4298
+  DataVersion: 4304
 }
