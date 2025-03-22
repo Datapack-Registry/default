@@ -30441,6 +30441,9 @@
   }, {
     Name: "minecraft:polished_tuff"
   }, {
+    Properties: {
+      waterlogged: "false"
+    },
     Name: "minecraft:waxed_copper_grate"
   }, {
     Name: "minecraft:chiseled_tuff"
@@ -30598,5 +30601,5 @@
     },
     Name: "minecraft:barrel"
   }],
-  DataVersion: 3690
+  DataVersion: 3691
 }

@@ -289,6 +289,9 @@
     state: 3
   }],
   palette: [{
+    Properties: {
+      waterlogged: "false"
+    },
     Name: "minecraft:waxed_copper_grate"
   }, {
     Name: "minecraft:waxed_copper_block"
@@ -300,5 +303,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3690
+  DataVersion: 3691
 }

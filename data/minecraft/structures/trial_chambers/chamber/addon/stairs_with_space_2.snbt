@@ -3621,6 +3621,9 @@
   }, {
     Name: "minecraft:waxed_copper_block"
   }, {
+    Properties: {
+      waterlogged: "false"
+    },
     Name: "minecraft:waxed_copper_grate"
   }, {
     Name: "minecraft:chiseled_tuff_bricks"
@@ -3634,5 +3637,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3690
+  DataVersion: 3691
 }

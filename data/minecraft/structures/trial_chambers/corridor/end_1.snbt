@@ -21705,6 +21705,9 @@
   }, {
     Name: "minecraft:polished_tuff"
   }, {
+    Properties: {
+      waterlogged: "false"
+    },
     Name: "minecraft:waxed_copper_grate"
   }, {
     Name: "minecraft:waxed_cut_copper"
@@ -21753,5 +21756,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3690
+  DataVersion: 3691
 }

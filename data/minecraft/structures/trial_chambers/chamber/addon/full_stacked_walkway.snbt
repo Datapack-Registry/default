@@ -3635,6 +3635,9 @@
   }, {
     Name: "minecraft:oxidized_cut_copper"
   }, {
+    Properties: {
+      waterlogged: "false"
+    },
     Name: "minecraft:waxed_oxidized_copper_grate"
   }, {
     Name: "minecraft:air"
@@ -3665,5 +3668,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3690
+  DataVersion: 3691
 }
