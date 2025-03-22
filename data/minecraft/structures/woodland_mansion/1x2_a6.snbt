@@ -2525,11 +2525,11 @@
         Count: 1b,
         id: "minecraft:iron_axe",
         tag: {
-          Damage: 0,
           Enchantments: [{
             lvl: 1s,
             id: "minecraft:efficiency"
-          }]
+          }],
+          Damage: 0
         }
       }],
       id: "minecraft:chest"
@@ -2565,5 +2565,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3578
+  DataVersion: 3679
 }
