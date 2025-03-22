@@ -2678,6 +2678,9 @@
     pos: [7, 7, 6],
     state: 6
   }, {
+    pos: [7, 7, 7],
+    state: 6
+  }, {
     pos: [7, 7, 8],
     state: 6
   }, {
@@ -2703,9 +2706,6 @@
     state: 6
   }, {
     pos: [8, 7, 6],
-    state: 6
-  }, {
-    pos: [8, 7, 7],
     state: 6
   }, {
     pos: [8, 7, 8],
@@ -3619,7 +3619,7 @@
       id: "minecraft:jigsaw",
       target: "minecraft:reward_connector"
     },
-    pos: [7, 7, 7],
+    pos: [8, 7, 7],
     state: 9
   }],
   palette: [{
@@ -3651,9 +3651,9 @@
     Name: "minecraft:jigsaw"
   }, {
     Properties: {
-      orientation: "east_up"
+      orientation: "west_up"
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

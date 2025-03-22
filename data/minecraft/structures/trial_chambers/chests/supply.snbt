@@ -65,7 +65,8 @@
   }, {
     nbt: {
       LootTable: "minecraft:chests/trial_chambers/supply",
-      id: "minecraft:chest"
+      id: "minecraft:chest",
+      LootTableSeed: 1171449378498722333l
     },
     pos: [1, 1, 1],
     state: 4
@@ -89,5 +90,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

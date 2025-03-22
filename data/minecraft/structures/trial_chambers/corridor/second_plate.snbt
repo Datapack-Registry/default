@@ -1129,10 +1129,10 @@
       final_state: "minecraft:tuff_bricks",
       name: "minecarft:empty",
       placement_priority: 1,
-      pool: "minecraft:trial_chambers/corridor",
+      pool: "minecraft:trial_chambers/corridor/second",
       selection_priority: 1,
       id: "minecraft:jigsaw",
-      target: "minecraft:intersection"
+      target: "minecraft:in_connector"
     },
     pos: [9, 0, 0],
     state: 1
@@ -1142,7 +1142,7 @@
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:plate",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/corridor/slices",
+      pool: "minecraft:trial_chambers/corridor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
       target: "minecraft:slice"
@@ -1155,7 +1155,7 @@
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:plate",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/corridor/slices",
+      pool: "minecraft:trial_chambers/corridor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
       target: "minecraft:slice"
@@ -1168,7 +1168,7 @@
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:plate",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/corridor/slices",
+      pool: "minecraft:trial_chambers/corridor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
       target: "minecraft:slice"
@@ -1181,7 +1181,7 @@
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:plate",
       placement_priority: 0,
-      pool: "minecraft:trial_chambers/corridor/slices",
+      pool: "minecraft:trial_chambers/corridor",
       selection_priority: 0,
       id: "minecraft:jigsaw",
       target: "minecraft:slice"
@@ -1192,7 +1192,7 @@
     nbt: {
       joint: "rollable",
       final_state: "minecraft:tuff_bricks",
-      name: "minecraft:second_corridor",
+      name: "minecraft:in_connector",
       placement_priority: 1,
       pool: "minecraft:empty",
       selection_priority: 1,
@@ -1220,5 +1220,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

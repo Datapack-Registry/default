@@ -720,27 +720,27 @@
   }, {
     nbt: {
       Items: [],
+      id: "minecraft:campfire",
       CookingTimes: [I; 0, 0, 0, 0],
-      CookingTotalTimes: [I; 0, 0, 0, 0],
-      id: "minecraft:campfire"
+      CookingTotalTimes: [I; 0, 0, 0, 0]
     },
     pos: [2, 3, 2],
     state: 6
   }, {
     nbt: {
       Items: [],
+      id: "minecraft:campfire",
       CookingTimes: [I; 0, 0, 0, 0],
-      CookingTotalTimes: [I; 0, 0, 0, 0],
-      id: "minecraft:campfire"
+      CookingTotalTimes: [I; 0, 0, 0, 0]
     },
     pos: [3, 3, 2],
     state: 6
   }, {
     nbt: {
       Items: [],
+      id: "minecraft:campfire",
       CookingTimes: [I; 0, 0, 0, 0],
-      CookingTotalTimes: [I; 0, 0, 0, 0],
-      id: "minecraft:campfire"
+      CookingTotalTimes: [I; 0, 0, 0, 0]
     },
     pos: [3, 3, 3],
     state: 6
@@ -769,5 +769,5 @@
     },
     Name: "minecraft:campfire"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

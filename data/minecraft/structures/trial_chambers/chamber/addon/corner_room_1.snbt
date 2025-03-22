@@ -4386,7 +4386,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [8, 7, 3],
-    state: 14
+    state: 12
   }],
   palette: [{
     Name: "minecraft:tuff_bricks"
@@ -4447,11 +4447,6 @@
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
-  }, {
-    Properties: {
-      orientation: "north_up"
-    },
-    Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

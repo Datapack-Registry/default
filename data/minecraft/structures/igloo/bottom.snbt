@@ -941,6 +941,7 @@
     state: 23
   }, {
     nbt: {
+      Fuel: 0b,
       Items: [{
         count: 1,
         Slot: 1b,
@@ -952,8 +953,7 @@
         id: "minecraft:splash_potion"
       }],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s,
-      Fuel: 0b
+      BrewTime: 0s
     },
     pos: [5, 2, 6],
     state: 24
@@ -1062,5 +1062,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

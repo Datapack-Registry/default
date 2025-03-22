@@ -2315,10 +2315,10 @@
     state: 17
   }, {
     nbt: {
+      Fuel: 0b,
       Items: [],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s,
-      Fuel: 0b
+      BrewTime: 0s
     },
     pos: [1, 1, 1],
     state: 18
@@ -2435,5 +2435,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

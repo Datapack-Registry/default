@@ -43010,6 +43010,9 @@
     pos: [19, 9, 3],
     state: 7
   }, {
+    pos: [19, 9, 4],
+    state: 7
+  }, {
     pos: [19, 9, 5],
     state: 7
   }, {
@@ -48889,19 +48892,6 @@
       joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/reward/ominous_vault",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:ominous_vault"
-    },
-    pos: [19, 9, 4],
-    state: 14
-  }, {
-    nbt: {
-      joint: "rollable",
-      final_state: "minecraft:air",
-      name: "minecraft:empty",
       placement_priority: 1,
       pool: "minecraft:trial_chambers/chamber/addon",
       selection_priority: 1,
@@ -48990,5 +48980,5 @@
     },
     Name: "minecraft:dispenser"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

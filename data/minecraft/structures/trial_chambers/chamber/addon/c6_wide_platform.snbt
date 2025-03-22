@@ -1118,12 +1118,6 @@
     pos: [4, 2, 24],
     state: 3
   }, {
-    pos: [3, 3, 2],
-    state: 4
-  }, {
-    pos: [3, 4, 2],
-    state: 4
-  }, {
     nbt: {
       joint: "aligned",
       final_state: "minecraft:tuff_bricks",
@@ -1135,7 +1129,7 @@
       target: "minecraft:empty"
     },
     pos: [2, 0, 22],
-    state: 5
+    state: 4
   }, {
     nbt: {
       joint: "aligned",
@@ -1148,7 +1142,7 @@
       target: "minecraft:reward_connector"
     },
     pos: [2, 4, 2],
-    state: 6
+    state: 5
   }, {
     nbt: {
       joint: "aligned",
@@ -1161,7 +1155,7 @@
       target: "minecraft:spawner_connector"
     },
     pos: [2, 4, 7],
-    state: 7
+    state: 5
   }, {
     nbt: {
       joint: "aligned",
@@ -1185,15 +1179,8 @@
   }, {
     Name: "minecraft:waxed_copper_block"
   }, {
-    Name: "minecraft:air"
-  }, {
     Properties: {
       orientation: "down_east"
-    },
-    Name: "minecraft:jigsaw"
-  }, {
-    Properties: {
-      orientation: "west_up"
     },
     Name: "minecraft:jigsaw"
   }, {
@@ -1201,6 +1188,11 @@
       orientation: "east_up"
     },
     Name: "minecraft:jigsaw"
+  }, {
+    Properties: {
+      orientation: "west_up"
+    },
+    Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }

@@ -42,7 +42,7 @@
     state: 0
   }, {
     pos: [2, 0, 6],
-    state: 0
+    state: 1
   }, {
     pos: [2, 0, 9],
     state: 0
@@ -525,7 +525,7 @@
     state: 8
   }, {
     pos: [2, 1, 6],
-    state: 8
+    state: 9
   }, {
     pos: [2, 1, 7],
     state: 8
@@ -576,10 +576,10 @@
     state: 8
   }, {
     pos: [3, 1, 10],
-    state: 9
+    state: 10
   }, {
     pos: [3, 1, 11],
-    state: 9
+    state: 10
   }, {
     pos: [3, 1, 12],
     state: 6
@@ -603,7 +603,7 @@
     state: 8
   }, {
     pos: [4, 1, 5],
-    state: 10
+    state: 11
   }, {
     pos: [4, 1, 6],
     state: 8
@@ -612,7 +612,7 @@
     state: 8
   }, {
     pos: [4, 1, 8],
-    state: 10
+    state: 11
   }, {
     pos: [4, 1, 9],
     state: 8
@@ -672,16 +672,16 @@
     state: 8
   }, {
     pos: [6, 1, 5],
-    state: 11
+    state: 12
   }, {
     pos: [6, 1, 6],
     state: 8
   }, {
     pos: [6, 1, 7],
-    state: 9
+    state: 10
   }, {
     pos: [6, 1, 8],
-    state: 11
+    state: 12
   }, {
     pos: [6, 1, 9],
     state: 8
@@ -693,7 +693,7 @@
     state: 8
   }, {
     pos: [6, 1, 12],
-    state: 9
+    state: 10
   }, {
     pos: [6, 1, 13],
     state: 8
@@ -723,7 +723,7 @@
     state: 8
   }, {
     pos: [7, 1, 8],
-    state: 9
+    state: 10
   }, {
     pos: [7, 1, 9],
     state: 8
@@ -744,13 +744,13 @@
     state: 8
   }, {
     pos: [0, 2, 0],
-    state: 12
-  }, {
-    pos: [0, 2, 1],
     state: 13
   }, {
+    pos: [0, 2, 1],
+    state: 14
+  }, {
     pos: [0, 2, 2],
-    state: 12
+    state: 13
   }, {
     pos: [0, 2, 3],
     state: 8
@@ -780,13 +780,13 @@
     state: 8
   }, {
     pos: [0, 2, 12],
-    state: 12
-  }, {
-    pos: [0, 2, 13],
     state: 13
   }, {
+    pos: [0, 2, 13],
+    state: 14
+  }, {
     pos: [0, 2, 14],
-    state: 12
+    state: 13
   }, {
     pos: [1, 2, 0],
     state: 8
@@ -879,13 +879,13 @@
     state: 8
   }, {
     pos: [3, 2, 0],
-    state: 12
-  }, {
-    pos: [3, 2, 1],
     state: 13
   }, {
+    pos: [3, 2, 1],
+    state: 14
+  }, {
     pos: [3, 2, 2],
-    state: 12
+    state: 13
   }, {
     pos: [3, 2, 3],
     state: 8
@@ -915,13 +915,13 @@
     state: 8
   }, {
     pos: [3, 2, 12],
-    state: 12
-  }, {
-    pos: [3, 2, 13],
     state: 13
   }, {
+    pos: [3, 2, 13],
+    state: 14
+  }, {
     pos: [3, 2, 14],
-    state: 12
+    state: 13
   }, {
     pos: [4, 2, 0],
     state: 8
@@ -939,7 +939,7 @@
     state: 8
   }, {
     pos: [4, 2, 5],
-    state: 12
+    state: 13
   }, {
     pos: [4, 2, 6],
     state: 8
@@ -948,7 +948,7 @@
     state: 8
   }, {
     pos: [4, 2, 8],
-    state: 12
+    state: 13
   }, {
     pos: [4, 2, 9],
     state: 8
@@ -984,7 +984,7 @@
     state: 8
   }, {
     pos: [5, 2, 5],
-    state: 13
+    state: 14
   }, {
     pos: [5, 2, 6],
     state: 8
@@ -993,7 +993,7 @@
     state: 8
   }, {
     pos: [5, 2, 8],
-    state: 13
+    state: 14
   }, {
     pos: [5, 2, 9],
     state: 8
@@ -1026,7 +1026,7 @@
     state: 8
   }, {
     pos: [6, 2, 5],
-    state: 12
+    state: 13
   }, {
     pos: [6, 2, 6],
     state: 8
@@ -1035,7 +1035,7 @@
     state: 8
   }, {
     pos: [6, 2, 8],
-    state: 12
+    state: 13
   }, {
     pos: [6, 2, 9],
     state: 8
@@ -1101,13 +1101,13 @@
     state: 8
   }, {
     pos: [0, 3, 0],
-    state: 12
+    state: 13
   }, {
     pos: [0, 3, 1],
     state: 8
   }, {
     pos: [0, 3, 2],
-    state: 12
+    state: 13
   }, {
     pos: [0, 3, 3],
     state: 8
@@ -1137,13 +1137,13 @@
     state: 8
   }, {
     pos: [0, 3, 12],
-    state: 12
+    state: 13
   }, {
     pos: [0, 3, 13],
     state: 8
   }, {
     pos: [0, 3, 14],
-    state: 12
+    state: 13
   }, {
     pos: [1, 3, 0],
     state: 8
@@ -1236,13 +1236,13 @@
     state: 8
   }, {
     pos: [3, 3, 0],
-    state: 12
+    state: 13
   }, {
     pos: [3, 3, 1],
     state: 8
   }, {
     pos: [3, 3, 2],
-    state: 12
+    state: 13
   }, {
     pos: [3, 3, 3],
     state: 8
@@ -1272,13 +1272,13 @@
     state: 8
   }, {
     pos: [3, 3, 12],
-    state: 12
+    state: 13
   }, {
     pos: [3, 3, 13],
     state: 8
   }, {
     pos: [3, 3, 14],
-    state: 12
+    state: 13
   }, {
     pos: [4, 3, 0],
     state: 8
@@ -1296,7 +1296,7 @@
     state: 8
   }, {
     pos: [4, 3, 5],
-    state: 12
+    state: 13
   }, {
     pos: [4, 3, 6],
     state: 8
@@ -1305,7 +1305,7 @@
     state: 8
   }, {
     pos: [4, 3, 8],
-    state: 12
+    state: 13
   }, {
     pos: [4, 3, 9],
     state: 8
@@ -1386,7 +1386,7 @@
     state: 8
   }, {
     pos: [6, 3, 5],
-    state: 12
+    state: 13
   }, {
     pos: [6, 3, 6],
     state: 8
@@ -1395,7 +1395,7 @@
     state: 8
   }, {
     pos: [6, 3, 8],
-    state: 12
+    state: 13
   }, {
     pos: [6, 3, 9],
     state: 8
@@ -1461,13 +1461,13 @@
     state: 8
   }, {
     pos: [0, 4, 0],
-    state: 14
+    state: 15
   }, {
     pos: [0, 4, 1],
-    state: 14
+    state: 15
   }, {
     pos: [0, 4, 2],
-    state: 14
+    state: 15
   }, {
     pos: [0, 4, 3],
     state: 8
@@ -1497,13 +1497,13 @@
     state: 8
   }, {
     pos: [0, 4, 12],
-    state: 14
+    state: 15
   }, {
     pos: [0, 4, 13],
-    state: 14
+    state: 15
   }, {
     pos: [0, 4, 14],
-    state: 14
+    state: 15
   }, {
     pos: [1, 4, 3],
     state: 8
@@ -1560,13 +1560,13 @@
     state: 8
   }, {
     pos: [3, 4, 0],
-    state: 14
+    state: 15
   }, {
     pos: [3, 4, 1],
-    state: 14
+    state: 15
   }, {
     pos: [3, 4, 2],
-    state: 14
+    state: 15
   }, {
     pos: [3, 4, 3],
     state: 8
@@ -1596,13 +1596,13 @@
     state: 8
   }, {
     pos: [3, 4, 12],
-    state: 14
+    state: 15
   }, {
     pos: [3, 4, 13],
-    state: 14
+    state: 15
   }, {
     pos: [3, 4, 14],
-    state: 14
+    state: 15
   }, {
     pos: [4, 4, 0],
     state: 8
@@ -1620,10 +1620,10 @@
     state: 8
   }, {
     pos: [4, 4, 5],
-    state: 14
+    state: 15
   }, {
     pos: [4, 4, 8],
-    state: 14
+    state: 15
   }, {
     pos: [4, 4, 9],
     state: 8
@@ -1659,10 +1659,10 @@
     state: 8
   }, {
     pos: [5, 4, 5],
-    state: 14
+    state: 15
   }, {
     pos: [5, 4, 8],
-    state: 14
+    state: 15
   }, {
     pos: [5, 4, 9],
     state: 8
@@ -1698,10 +1698,10 @@
     state: 8
   }, {
     pos: [6, 4, 5],
-    state: 14
+    state: 15
   }, {
     pos: [6, 4, 8],
-    state: 14
+    state: 15
   }, {
     pos: [6, 4, 9],
     state: 8
@@ -1775,7 +1775,7 @@
       target: "minecraft:bottom"
     },
     pos: [1, 0, 4],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1786,7 +1786,7 @@
       target: "minecraft:bottom"
     },
     pos: [1, 0, 6],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1797,7 +1797,7 @@
       target: "minecraft:bottom"
     },
     pos: [1, 0, 11],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1808,7 +1808,7 @@
       target: "minecraft:bottom"
     },
     pos: [2, 0, 8],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1819,7 +1819,7 @@
       target: "minecraft:bottom"
     },
     pos: [2, 0, 10],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1830,7 +1830,7 @@
       target: "minecraft:bottom"
     },
     pos: [3, 0, 4],
-    state: 15
+    state: 16
   }, {
     nbt: {
       joint: "rollable",
@@ -1841,17 +1841,6 @@
       target: "minecraft:bottom"
     },
     pos: [4, 0, 11],
-    state: 15
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:structure_void",
-      name: "minecraft:street",
-      pool: "minecraft:village/plains/streets",
-      id: "minecraft:jigsaw",
-      target: "minecraft:street"
-    },
-    pos: [0, 1, 7],
     state: 16
   }, {
     nbt: {
@@ -1862,7 +1851,7 @@
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
-    pos: [5, 1, 0],
+    pos: [0, 1, 7],
     state: 17
   }, {
     nbt: {
@@ -1873,7 +1862,7 @@
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
-    pos: [5, 1, 14],
+    pos: [5, 1, 0],
     state: 18
   }, {
     nbt: {
@@ -1884,14 +1873,25 @@
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
-    pos: [7, 1, 3],
+    pos: [5, 1, 14],
     state: 19
+  }, {
+    nbt: {
+      joint: "aligned",
+      final_state: "minecraft:structure_void",
+      name: "minecraft:street",
+      pool: "minecraft:village/plains/streets",
+      id: "minecraft:jigsaw",
+      target: "minecraft:street"
+    },
+    pos: [7, 1, 3],
+    state: 20
   }, {
     nbt: {
       id: "minecraft:bell"
     },
     pos: [5, 2, 10],
-    state: 20
+    state: 21
   }],
   palette: [{
     Properties: {
@@ -1928,6 +1928,8 @@
     Name: "minecraft:oak_fence"
   }, {
     Name: "minecraft:air"
+  }, {
+    Name: "minecraft:pedestal"
   }, {
     Name: "minecraft:short_grass"
   }, {
@@ -1998,5 +2000,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 3826
+  DataVersion: 3824
 }
