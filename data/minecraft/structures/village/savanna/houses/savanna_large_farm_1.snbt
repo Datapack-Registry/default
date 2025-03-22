@@ -767,7 +767,7 @@
     },
     Name: "minecraft:acacia_stairs"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Properties: {
       moisture: "7"
@@ -815,5 +815,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }

@@ -2590,7 +2590,7 @@
   }, {
     Name: "minecraft:air"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Properties: {
       east: "false",
@@ -2690,5 +2690,5 @@
     },
     Name: "minecraft:brown_wall_banner"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }

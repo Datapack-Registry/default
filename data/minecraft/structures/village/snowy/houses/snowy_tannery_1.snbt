@@ -2009,7 +2009,7 @@
     },
     Name: "minecraft:snow"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Properties: {
       waterlogged: "false",
@@ -2178,5 +2178,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }

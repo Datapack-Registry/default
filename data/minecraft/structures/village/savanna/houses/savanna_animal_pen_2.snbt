@@ -3122,7 +3122,7 @@
     },
     Name: "minecraft:acacia_fence"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Properties: {
       east: "true",
@@ -3191,5 +3191,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }

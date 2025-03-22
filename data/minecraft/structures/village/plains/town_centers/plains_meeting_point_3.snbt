@@ -797,7 +797,7 @@
   }, {
     Name: "minecraft:dirt_path"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Name: "minecraft:air"
   }, {
@@ -948,5 +948,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }

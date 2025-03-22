@@ -972,7 +972,7 @@
     },
     Name: "minecraft:snow"
   }, {
-    Name: "minecraft:grass"
+    Name: "minecraft:short_grass"
   }, {
     Properties: {
       hinge: "left",
@@ -1103,5 +1103,5 @@
     },
     Name: "minecraft:furnace"
   }],
-  DataVersion: 3691
+  DataVersion: 3693
 }
