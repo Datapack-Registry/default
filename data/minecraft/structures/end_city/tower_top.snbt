@@ -1192,11 +1192,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1205,11 +1205,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1218,11 +1218,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1231,11 +1231,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1244,11 +1244,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1257,11 +1257,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1270,11 +1270,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1283,11 +1283,11 @@
   }, {
     nbt: {
       patterns: [{
-        color: "black",
-        pattern: "minecraft:triangle_top"
+        pattern: "minecraft:triangle_top",
+        color: "black"
       }, {
-        color: "black",
-        pattern: "minecraft:triangle_bottom"
+        pattern: "minecraft:triangle_bottom",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -1488,5 +1488,5 @@
     },
     Name: "minecraft:structure_block"
   }],
-  DataVersion: 3830
+  DataVersion: 3831
 }

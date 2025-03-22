@@ -3460,8 +3460,8 @@
   }, {
     nbt: {
       patterns: [{
-        color: "white",
-        pattern: "minecraft:flower"
+        pattern: "minecraft:flower",
+        color: "white"
       }],
       id: "minecraft:banner"
     },
@@ -3470,8 +3470,8 @@
   }, {
     nbt: {
       patterns: [{
-        color: "white",
-        pattern: "minecraft:flower"
+        pattern: "minecraft:flower",
+        color: "white"
       }],
       id: "minecraft:banner"
     },
@@ -3480,8 +3480,8 @@
   }, {
     nbt: {
       patterns: [{
-        color: "white",
-        pattern: "minecraft:flower"
+        pattern: "minecraft:flower",
+        color: "white"
       }],
       id: "minecraft:banner"
     },
@@ -3616,5 +3616,5 @@
     },
     Name: "minecraft:light_gray_wall_banner"
   }],
-  DataVersion: 3830
+  DataVersion: 3831
 }

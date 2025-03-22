@@ -15514,29 +15514,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15549,29 +15549,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15584,29 +15584,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15619,29 +15619,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15654,29 +15654,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15689,29 +15689,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15724,29 +15724,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -15759,29 +15759,29 @@
         minecraft:item_name: "{"color":"gold","translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
-        color: "cyan",
-        pattern: "minecraft:rhombus"
+        pattern: "minecraft:rhombus",
+        color: "cyan"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:stripe_bottom"
+        pattern: "minecraft:stripe_bottom",
+        color: "light_gray"
       }, {
-        color: "gray",
-        pattern: "minecraft:stripe_center"
+        pattern: "minecraft:stripe_center",
+        color: "gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:stripe_middle"
+        pattern: "minecraft:stripe_middle",
+        color: "black"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:half_horizontal"
+        pattern: "minecraft:half_horizontal",
+        color: "light_gray"
       }, {
-        color: "light_gray",
-        pattern: "minecraft:circle"
+        pattern: "minecraft:circle",
+        color: "light_gray"
       }, {
-        color: "black",
-        pattern: "minecraft:border"
+        pattern: "minecraft:border",
+        color: "black"
       }],
       id: "minecraft:banner"
     },
@@ -16139,5 +16139,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3830
+  DataVersion: 3831
 }
