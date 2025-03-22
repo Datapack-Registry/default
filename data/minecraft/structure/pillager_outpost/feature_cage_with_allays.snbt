@@ -32,13 +32,13 @@
         id: "minecraft:movement_speed",
         base: 0.30000001192092896d
       }, {
-        id: "minecraft:follow_range",
         modifiers: [{
           amount: -0.032921064749670284d,
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        base: 48d
+        id: "minecraft:follow_range",
+        base: 16d
       }],
       HurtTime: 0s
     },
@@ -76,13 +76,13 @@
         id: "minecraft:movement_speed",
         base: 0.30000001192092896d
       }, {
-        id: "minecraft:follow_range",
         modifiers: [{
           amount: 0.00745067659310455d,
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        base: 48d
+        id: "minecraft:follow_range",
+        base: 16d
       }],
       HurtTime: 0s
     },
@@ -814,5 +814,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4186
+  DataVersion: 4188
 }

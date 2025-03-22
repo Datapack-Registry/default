@@ -79,13 +79,13 @@
         id: "minecraft:armor_toughness",
         base: 0d
       }, {
-        id: "minecraft:follow_range",
         modifiers: [{
           amount: -0.07807250298271795d,
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        base: 48d
+        id: "minecraft:follow_range",
+        base: 16d
       }],
       HurtTime: 0s,
       Inventory: [],
@@ -1059,5 +1059,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 4186
+  DataVersion: 4188
 }
