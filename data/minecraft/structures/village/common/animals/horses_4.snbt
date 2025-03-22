@@ -33,7 +33,7 @@
         Name: "generic.attack_knockback"
       }, {
         Base: 0.6683554450629531d,
-        Name: "horse.jump_strength"
+        Name: "minecraft:generic.jump_strength"
       }],
       FallFlying: 0b,
       ForcedAge: 0,
@@ -97,5 +97,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3815
+  DataVersion: 3817
 }
