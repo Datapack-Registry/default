@@ -987,13 +987,13 @@
     state: 0
   }, {
     pos: [3, 7, 1],
-    state: 0
+    state: 2
   }, {
     pos: [3, 7, 2],
-    state: 0
+    state: 2
   }, {
     pos: [3, 7, 3],
-    state: 0
+    state: 2
   }, {
     pos: [0, 11, 1],
     state: 4
@@ -1475,7 +1475,7 @@
     pos: [2, 2, 5],
     state: 5
   }, {
-    pos: [2, 2, 6],
+    pos: [2, 2, 7],
     state: 5
   }, {
     pos: [2, 2, 8],
@@ -2564,7 +2564,7 @@
     pos: [2, 9, 0],
     state: 5
   }, {
-    pos: [2, 9, 1],
+    pos: [2, 9, 2],
     state: 5
   }, {
     pos: [2, 9, 3],
@@ -3050,8 +3050,8 @@
       id: "minecraft:jigsaw",
       target: "minecraft:reward_connector"
     },
-    pos: [2, 2, 7],
-    state: 10
+    pos: [2, 2, 6],
+    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -3063,8 +3063,8 @@
       id: "minecraft:jigsaw",
       target: "minecraft:reward_connector"
     },
-    pos: [2, 9, 2],
-    state: 11
+    pos: [2, 9, 1],
+    state: 10
   }],
   palette: [{
     Name: "minecraft:waxed_oxidized_copper"
@@ -3120,5 +3120,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3826
 }

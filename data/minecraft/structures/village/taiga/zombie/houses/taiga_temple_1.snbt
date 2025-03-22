@@ -5859,10 +5859,10 @@
     state: 10
   }, {
     nbt: {
-      Fuel: 0b,
       Items: [],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s
+      BrewTime: 0s,
+      Fuel: 0b
     },
     pos: [2, 1, 6],
     state: 37
@@ -6129,5 +6129,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3826
 }

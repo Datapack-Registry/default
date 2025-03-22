@@ -1733,6 +1733,15 @@
     pos: [3, 8, 0],
     state: 1
   }, {
+    pos: [3, 8, 1],
+    state: 1
+  }, {
+    pos: [3, 8, 2],
+    state: 1
+  }, {
+    pos: [3, 8, 3],
+    state: 1
+  }, {
     pos: [3, 8, 4],
     state: 1
   }, {
@@ -2369,43 +2378,16 @@
     pos: [2, 13, 0],
     state: 0
   }, {
-    pos: [2, 13, 1],
-    state: 8
-  }, {
-    pos: [2, 13, 2],
-    state: 8
-  }, {
-    pos: [2, 13, 3],
-    state: 8
-  }, {
     pos: [2, 13, 4],
     state: 0
   }, {
     pos: [3, 13, 0],
     state: 8
   }, {
-    pos: [3, 13, 1],
-    state: 8
-  }, {
-    pos: [3, 13, 2],
-    state: 8
-  }, {
-    pos: [3, 13, 3],
-    state: 8
-  }, {
     pos: [3, 13, 4],
     state: 8
   }, {
     pos: [4, 13, 0],
-    state: 8
-  }, {
-    pos: [4, 13, 1],
-    state: 8
-  }, {
-    pos: [4, 13, 2],
-    state: 8
-  }, {
-    pos: [4, 13, 3],
     state: 8
   }, {
     pos: [4, 13, 4],
@@ -3659,6 +3641,9 @@
     pos: [4, 5, 1],
     state: 9
   }, {
+    pos: [4, 5, 2],
+    state: 9
+  }, {
     pos: [4, 5, 3],
     state: 9
   }, {
@@ -4685,6 +4670,33 @@
     pos: [16, 12, 3],
     state: 9
   }, {
+    pos: [2, 13, 1],
+    state: 9
+  }, {
+    pos: [2, 13, 2],
+    state: 9
+  }, {
+    pos: [2, 13, 3],
+    state: 9
+  }, {
+    pos: [3, 13, 1],
+    state: 9
+  }, {
+    pos: [3, 13, 2],
+    state: 9
+  }, {
+    pos: [3, 13, 3],
+    state: 9
+  }, {
+    pos: [4, 13, 1],
+    state: 9
+  }, {
+    pos: [4, 13, 2],
+    state: 9
+  }, {
+    pos: [4, 13, 3],
+    state: 9
+  }, {
     pos: [5, 13, 0],
     state: 9
   }, {
@@ -5482,19 +5494,6 @@
   }, {
     nbt: {
       joint: "aligned",
-      final_state: "minecraft:air",
-      name: "minecraft:empty",
-      placement_priority: 1,
-      pool: "minecraft:trial_chambers/spawner/melee",
-      selection_priority: 1,
-      id: "minecraft:jigsaw",
-      target: "minecraft:spawner_connector"
-    },
-    pos: [4, 5, 2],
-    state: 14
-  }, {
-    nbt: {
-      joint: "aligned",
       final_state: "minecraft:tuff_bricks",
       name: "minecraft:addon_connector",
       placement_priority: 0,
@@ -5505,45 +5504,6 @@
     },
     pos: [7, 7, 0],
     state: 15
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/decor",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:decor"
-    },
-    pos: [3, 8, 1],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/decor",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:decor"
-    },
-    pos: [3, 8, 2],
-    state: 11
-  }, {
-    nbt: {
-      joint: "aligned",
-      final_state: "minecraft:waxed_oxidized_copper",
-      name: "minecraft:decor_connector",
-      placement_priority: 0,
-      pool: "minecraft:trial_chambers/decor",
-      selection_priority: 0,
-      id: "minecraft:jigsaw",
-      target: "minecraft:decor"
-    },
-    pos: [3, 8, 3],
-    state: 11
   }, {
     nbt: {
       joint: "aligned",
@@ -5655,5 +5615,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3826
 }

@@ -155,6 +155,12 @@
     pos: [5, 0, 8],
     state: 2
   }, {
+    pos: [5, 0, 9],
+    state: 2
+  }, {
+    pos: [5, 0, 10],
+    state: 2
+  }, {
     pos: [6, 0, 0],
     state: 2
   }, {
@@ -3648,5 +3654,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3824
+  DataVersion: 3826
 }
