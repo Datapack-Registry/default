@@ -2256,10 +2256,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:edge_wall_unit_connector",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2267,10 +2267,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/fillers/stage_0",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:filler_0_entry"
     },
@@ -2278,10 +2278,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/wall_units",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:edge_wall_entry"
     },
@@ -2289,10 +2289,10 @@
     state: 8
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/fillers/stage_0",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:filler_0_entry"
     },
@@ -2300,10 +2300,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:stage_0_top",
       pool: "minecraft:bastion/units/stages/rot/stage_1",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_1_bottom"
     },
@@ -2357,5 +2357,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

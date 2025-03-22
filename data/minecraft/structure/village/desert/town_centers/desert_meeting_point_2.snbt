@@ -1176,10 +1176,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1187,10 +1187,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/desert/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1198,10 +1198,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/iron_golem",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1209,10 +1209,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/desert/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1220,10 +1220,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:empty",
       pool: "minecraft:village/desert/camel",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1231,10 +1231,10 @@
     state: 10
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1242,10 +1242,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/desert/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1253,10 +1253,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/desert/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1270,10 +1270,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/desert/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1281,10 +1281,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/desert/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1292,10 +1292,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/desert/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1372,5 +1372,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

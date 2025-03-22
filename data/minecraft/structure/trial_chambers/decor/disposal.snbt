@@ -37,8 +37,8 @@
     state: 5
   }, {
     nbt: {
-      TransferCooldown: 0,
       Items: [],
+      TransferCooldown: 0,
       id: "minecraft:hopper"
     },
     pos: [0, 1, 1],
@@ -95,5 +95,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

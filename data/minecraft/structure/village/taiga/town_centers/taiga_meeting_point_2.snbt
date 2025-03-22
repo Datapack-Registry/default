@@ -1572,10 +1572,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1583,10 +1583,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1594,10 +1594,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1605,10 +1605,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1616,10 +1616,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/iron_golem",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1627,10 +1627,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1638,10 +1638,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1649,10 +1649,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1660,10 +1660,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1671,10 +1671,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1682,10 +1682,10 @@
     state: 15
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1693,10 +1693,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1800,5 +1800,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

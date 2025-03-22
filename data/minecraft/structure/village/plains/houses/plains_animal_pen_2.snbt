@@ -384,10 +384,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/animals",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -395,10 +395,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/trees",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -406,10 +406,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/animals",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -417,10 +417,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:oak_fence_gate[facing=east,in_wall=false,open=false,powered=false]",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -520,5 +520,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

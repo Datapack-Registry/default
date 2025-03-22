@@ -10593,10 +10593,10 @@
     state: 55
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -10604,10 +10604,10 @@
     state: 57
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -10615,10 +10615,10 @@
     state: 58
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_deepslate",
       name: "minecraft:entrance_middle",
       pool: "minecraft:ancient_city/city/entrance",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -11026,5 +11026,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

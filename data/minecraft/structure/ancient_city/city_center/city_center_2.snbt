@@ -23652,10 +23652,10 @@
     state: 109
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_bottom"
     },
@@ -23663,10 +23663,10 @@
     state: 110
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_right"
     },
@@ -23674,10 +23674,10 @@
     state: 111
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_left"
     },
@@ -23685,10 +23685,10 @@
     state: 112
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_top"
     },
@@ -23758,8 +23758,8 @@
     state: 118
   }, {
     nbt: {
-      CookTime: 0s,
       BurnTime: 0s,
+      CookTime: 0s,
       Items: [{
         count: 1,
         Slot: 1b,
@@ -23803,10 +23803,10 @@
     state: 122
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:reinforced_deepslate",
       name: "minecraft:city_anchor",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -24695,5 +24695,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

@@ -660,10 +660,10 @@
     state: 25
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -671,10 +671,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -682,10 +682,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -693,10 +693,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/iron_golem",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -704,10 +704,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -715,10 +715,10 @@
     state: 26
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -726,10 +726,10 @@
     state: 27
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -737,10 +737,10 @@
     state: 28
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/plains/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -948,5 +948,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

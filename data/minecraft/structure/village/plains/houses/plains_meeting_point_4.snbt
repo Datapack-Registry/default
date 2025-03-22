@@ -3345,10 +3345,10 @@
     state: 9
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3356,10 +3356,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/trees",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3367,10 +3367,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3378,10 +3378,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -3389,10 +3389,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -3493,5 +3493,5 @@
     },
     Name: "minecraft:bell"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

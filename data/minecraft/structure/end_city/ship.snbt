@@ -27251,28 +27251,28 @@
     state: 34
   }, {
     nbt: {
-      Fuel: 0b,
       Items: [{
-        components: {
-          minecraft:potion_contents: {
-            potion: "minecraft:strong_healing"
-          }
-        },
         count: 1,
         Slot: 0b,
-        id: "minecraft:potion"
-      }, {
         components: {
           minecraft:potion_contents: {
             potion: "minecraft:strong_healing"
           }
         },
+        id: "minecraft:potion"
+      }, {
         count: 1,
         Slot: 2b,
+        components: {
+          minecraft:potion_contents: {
+            potion: "minecraft:strong_healing"
+          }
+        },
         id: "minecraft:potion"
       }],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s
+      BrewTime: 0s,
+      Fuel: 0b
     },
     pos: [6, 7, 25],
     state: 35
@@ -27551,5 +27551,5 @@
     },
     Name: "minecraft:dragon_wall_head"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

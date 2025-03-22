@@ -3,10 +3,10 @@
   entities: [],
   blocks: [{
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:campfire[lit=true,signal_fire=false]",
       name: "minecraft:bottom",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -19,5 +19,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

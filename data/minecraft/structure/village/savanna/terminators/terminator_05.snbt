@@ -804,10 +804,10 @@
     state: 1
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -815,10 +815,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -826,10 +826,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -837,10 +837,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -848,10 +848,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:village/savanna/houses",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -880,5 +880,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

@@ -47478,10 +47478,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/bridge/walls",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:wall_base_connector_right"
     },
@@ -47489,10 +47489,10 @@
     state: 15
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/bridge/walls",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:wall_base_connector_left"
     },
@@ -47500,10 +47500,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47511,10 +47511,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47522,10 +47522,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47533,10 +47533,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47544,10 +47544,10 @@
     state: 19
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47555,10 +47555,10 @@
     state: 20
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47566,10 +47566,10 @@
     state: 17
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -47577,10 +47577,10 @@
     state: 20
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/bridge/connectors",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:back_bridge_connector_bottom"
     },
@@ -47588,10 +47588,10 @@
     state: 21
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/bridge/starting_pieces",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance_base_connector"
     },
@@ -47696,5 +47696,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

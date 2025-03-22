@@ -303,10 +303,10 @@
     state: 1
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -314,10 +314,10 @@
     state: 2
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -325,10 +325,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:village/savanna/houses",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -355,5 +355,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

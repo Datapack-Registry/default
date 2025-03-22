@@ -1320,10 +1320,10 @@
     state: 8
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1331,10 +1331,10 @@
     state: 19
   }, {
     nbt: {
-      Fuel: 0b,
       Items: [],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s
+      BrewTime: 0s,
+      Fuel: 0b
     },
     pos: [3, 1, 2],
     state: 20
@@ -1460,5 +1460,5 @@
     },
     Name: "minecraft:brewing_stand"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

@@ -1986,10 +1986,10 @@
     state: 2
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:bottom",
       pool: "minecraft:ancient_city/sculk",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1997,10 +1997,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:connect_structure",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2008,10 +2008,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:bottom",
       pool: "minecraft:ancient_city/sculk",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2051,5 +2051,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

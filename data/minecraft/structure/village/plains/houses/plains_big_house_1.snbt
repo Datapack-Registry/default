@@ -2409,10 +2409,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2420,10 +2420,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobblestone",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2431,10 +2431,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2466,10 +2466,10 @@
     state: 21
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:oak_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2477,10 +2477,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:oak_planks",
       name: "minecraft:bottom",
       pool: "minecraft:village/plains/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2662,5 +2662,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

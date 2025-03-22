@@ -2472,10 +2472,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2483,10 +2483,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/iron_golem",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2494,10 +2494,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2505,10 +2505,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2516,10 +2516,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2527,10 +2527,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2538,10 +2538,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/villagers",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2549,10 +2549,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2566,10 +2566,10 @@
     state: 18
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2577,10 +2577,10 @@
     state: 19
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2751,5 +2751,5 @@
     },
     Name: "minecraft:brown_wall_banner"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

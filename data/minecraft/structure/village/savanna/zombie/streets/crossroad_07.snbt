@@ -807,10 +807,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:dirt_path",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -818,10 +818,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -829,10 +829,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:village/savanna/zombie/decor",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -840,10 +840,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -851,10 +851,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -862,10 +862,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:village/savanna/zombie/houses",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -873,10 +873,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -884,10 +884,10 @@
     state: 15
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -971,5 +971,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

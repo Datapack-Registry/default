@@ -2655,10 +2655,10 @@
     state: 10
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:connect_wall",
       pool: "minecraft:ancient_city/walls/no_corners",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -2666,10 +2666,10 @@
     state: 11
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:connect_wall",
       pool: "minecraft:ancient_city/walls/no_corners",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -2677,10 +2677,10 @@
     state: 12
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:connect_wall",
       pool: "minecraft:ancient_city/walls/no_corners",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -2688,10 +2688,10 @@
     state: 13
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_tiles",
       name: "minecraft:connect_wall",
       pool: "minecraft:ancient_city/walls/no_corners",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -2748,5 +2748,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

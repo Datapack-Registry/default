@@ -1875,10 +1875,10 @@
     state: 4
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:outer_connector_left",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1886,10 +1886,10 @@
     state: 14
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:outer_connector_right",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1981,5 +1981,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

@@ -1998,10 +1998,10 @@
     state: 3
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2009,10 +2009,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2020,10 +2020,10 @@
     state: 5
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2031,10 +2031,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2042,10 +2042,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2053,10 +2053,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:filler_0_entry",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2064,10 +2064,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:stage_0_top",
       pool: "minecraft:bastion/units/stages/stage_1",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_1_bottom"
     },
@@ -2114,5 +2114,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

@@ -2271,10 +2271,10 @@
     state: 7
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2282,10 +2282,10 @@
     state: 34
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2293,10 +2293,10 @@
     state: 34
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2311,10 +2311,10 @@
     state: 35
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:acacia_stairs[facing=south]",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2596,5 +2596,5 @@
     },
     Name: "minecraft:barrel"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

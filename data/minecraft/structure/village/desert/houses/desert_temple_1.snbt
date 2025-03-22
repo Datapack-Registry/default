@@ -2304,10 +2304,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2315,10 +2315,10 @@
     state: 17
   }, {
     nbt: {
-      Fuel: 0b,
       Items: [],
       id: "minecraft:brewing_stand",
-      BrewTime: 0s
+      BrewTime: 0s,
+      Fuel: 0b
     },
     pos: [1, 1, 1],
     state: 18
@@ -2435,5 +2435,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

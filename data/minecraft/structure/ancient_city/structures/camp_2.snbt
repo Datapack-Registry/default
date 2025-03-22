@@ -657,10 +657,10 @@
     state: 16
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:cobbled_deepslate",
       name: "minecraft:connect_structure",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -790,5 +790,5 @@
     },
     Name: "minecraft:campfire"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

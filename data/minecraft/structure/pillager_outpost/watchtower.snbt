@@ -14148,10 +14148,10 @@
     state: 6
   }, {
     nbt: {
-      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:entrance",
       pool: "minecraft:empty",
+      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance"
     },
@@ -14160,9 +14160,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14196,9 +14196,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14232,9 +14232,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14268,9 +14268,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14304,9 +14304,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14340,9 +14340,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14376,9 +14376,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14412,9 +14412,9 @@
   }, {
     nbt: {
       components: {
-        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}",
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {}
+        minecraft:hide_additional_tooltip: {},
+        minecraft:item_name: "{"translate":"block.minecraft.ominous_banner"}"
       },
       patterns: [{
         color: "cyan",
@@ -14725,5 +14725,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

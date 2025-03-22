@@ -2511,10 +2511,10 @@
     state: 19
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/walls",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_wall"
     },
@@ -2522,10 +2522,10 @@
     state: 24
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:connect_left",
       pool: "minecraft:empty",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2708,5 +2708,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

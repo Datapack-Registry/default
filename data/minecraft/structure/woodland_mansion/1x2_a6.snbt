@@ -2521,6 +2521,8 @@
   }, {
     nbt: {
       Items: [{
+        count: 1,
+        Slot: 10b,
         components: {
           minecraft:enchantments: {
             levels: {
@@ -2528,8 +2530,6 @@
             }
           }
         },
-        count: 1,
-        Slot: 10b,
         id: "minecraft:iron_axe"
       }],
       id: "minecraft:chest"
@@ -2565,5 +2565,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

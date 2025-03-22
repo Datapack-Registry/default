@@ -64,14 +64,14 @@
     state: 4
   }, {
     nbt: {
-      id: "minecraft:vault",
       config: {
         key_item: {
           count: 1,
           id: "minecraft:trial_key"
         },
         loot_table: "minecraft:chests/trial_chambers/reward"
-      }
+      },
+      id: "minecraft:vault"
     },
     pos: [1, 2, 1],
     state: 5
@@ -101,5 +101,5 @@
     },
     Name: "minecraft:vault"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }

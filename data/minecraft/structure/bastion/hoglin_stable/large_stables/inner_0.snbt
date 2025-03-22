@@ -1266,10 +1266,10 @@
     state: 2
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:inner_connector_left",
       pool: "minecraft:bastion/hoglin_stable/small_stables/outer",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:outer_connector_right"
     },
@@ -1277,10 +1277,10 @@
     state: 11
   }, {
     nbt: {
-      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:inner_connector_right",
       pool: "minecraft:bastion/hoglin_stable/small_stables/outer",
+      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:outer_connector_left"
     },
@@ -1375,5 +1375,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4174
+  DataVersion: 4177
 }
