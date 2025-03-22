@@ -2092,11 +2092,12 @@
     state: 47
   }, {
     nbt: {
-      BurnTime: 0s,
-      CookTime: 0s,
+      lit_total_time: 0s,
+      cooking_time_spent: 0s,
       Items: [],
+      cooking_total_time: 0s,
       id: "minecraft:smoker",
-      CookTimeTotal: 0s,
+      lit_time_remaining: 0s,
       RecipesUsed: {}
     },
     pos: [5, 1, 2],
@@ -2465,5 +2466,5 @@
     },
     Name: "minecraft:campfire"
   }],
-  DataVersion: 4179
+  DataVersion: 4182
 }

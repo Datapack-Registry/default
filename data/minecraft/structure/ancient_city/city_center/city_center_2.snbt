@@ -23758,8 +23758,8 @@
     state: 118
   }, {
     nbt: {
-      BurnTime: 0s,
-      CookTime: 0s,
+      lit_total_time: 0s,
+      cooking_time_spent: 0s,
       Items: [{
         count: 1,
         Slot: 1b,
@@ -23769,8 +23769,9 @@
         Slot: 2b,
         id: "minecraft:deepslate"
       }],
+      cooking_total_time: 200s,
       id: "minecraft:furnace",
-      CookTimeTotal: 200s,
+      lit_time_remaining: 0s,
       RecipesUsed: {
         minecraft:deepslate: 24
       }
@@ -24695,5 +24696,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4179
+  DataVersion: 4182
 }
