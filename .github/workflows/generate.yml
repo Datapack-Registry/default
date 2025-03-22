@@ -73,6 +73,11 @@ jobs:
         with:
           repository: "MinecraftPlayground/go-manifest"
           path: "go-manifest"
+      - name: Clone Go-Manifest
+        uses: actions/checkout@v4
+        with:
+          repository: "Kesuaheli/nbtreader"
+          path: "nbtreader-source"
 
       - name: Setup Go
         uses: actions/setup-go@v4
@@ -83,6 +88,7 @@ jobs:
         run: |
           sudo apt install rename
           go build -C go-manifest -o ../getclient examples/get_client/main.go
+          go build -C nbtreader-source -o ../nbtreader cli/main.go
 
       - name: "Download client.jar"
         run: |
@@ -98,11 +104,26 @@ jobs:
           unzip client.jar "pack.png" -d "./default"
           unzip client.jar "data/*" -d "./default"
 
+      - name: "Process extracted data"
+        run: |
+          echo "converting NBT files to SNBT"
+          for file in $(find default/ -name '*.nbt' -or -name '*.dat'); do
+            file=${file#default/}
+            echo NBT file \'$file\'
+            mkdir -p ./default_processed/$(dirname $file)
+            ./nbtreader -out ./default_processed/${file%.*}.snbt default/$file
+          done
+
       - name: "Upload data"
         uses: actions/upload-artifact@v4
         with:
           name: "default_${{ env.VERSION }}"
           path: "./default"
+      - name: "Upload processed data"
+        uses: actions/upload-artifact@v4
+        with:
+          name: "default_processed_${{ env.VERSION }}"
+          path: "./default_processed"
 
     outputs:
       VERSION: ${{ needs.check-version.outputs.VERSION }}
@@ -142,3 +163,39 @@ jobs:
           git commit -a -m "New data for version $VERSION" || exit 0
           git tag -a "$VERSION" -m "Version $VERSION"
           git push origin generated --tags
+
+  commit-and-tag-processed-data:
+    name: "Commit and tag processed data"
+    runs-on: ubuntu-latest
+    needs: [generate-new-data]
+    env:
+      VERSION: ${{ needs.generate-new-data.outputs.VERSION }}
+
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          ref: "processed"
+
+      - name: "Remove old data"
+        run: |
+          git rm -rf --ignore-unmatch "./"
+
+      - name: "Add new data"
+        uses: actions/download-artifact@v4
+        with:
+          name: "default_processed_${{ env.VERSION }}"
+          path: "./"
+
+      - name: "Commit and push data"
+        run: |
+          echo "Commit Message: \"Processed data for version $VERSION\""
+          echo "Tag: \"$VERSION-PROCESSED\""
+          echo "Tag Message: \"Version $VERSION\""
+
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -a -m "Processed data for version $VERSION" || exit 0
+          git tag -a "$VERSION-PROCESSED" -m "Version $VERSION (processed)"
+          git push origin processed --tags
