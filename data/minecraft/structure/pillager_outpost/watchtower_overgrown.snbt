@@ -15511,7 +15511,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15549,7 +15548,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15587,7 +15585,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15625,7 +15622,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15663,7 +15659,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15701,7 +15696,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15739,7 +15733,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -15777,7 +15770,6 @@
     nbt: {
       components: {
         minecraft:rarity: "uncommon",
-        minecraft:hide_additional_tooltip: {},
         minecraft:item_name: {
           translate: "block.minecraft.ominous_banner"
         }
@@ -16163,5 +16155,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4304
+  DataVersion: 4308
 }
