@@ -3525,15 +3525,15 @@
     state: 13
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [2, 8, 1],
     state: 14
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [4, 8, 1],
     state: 14
@@ -3621,5 +3621,5 @@
     },
     Name: "minecraft:black_wall_banner"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }

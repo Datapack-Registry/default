@@ -2521,12 +2521,12 @@
   }, {
     nbt: {
       Items: [{
+        count: 1,
         Slot: 11b,
-        Count: 1b,
         id: "minecraft:ender_pearl"
       }, {
+        count: 1,
         Slot: 15b,
-        Count: 1b,
         id: "minecraft:ender_pearl"
       }],
       id: "minecraft:trapped_chest"
@@ -2565,5 +2565,5 @@
     },
     Name: "minecraft:trapped_chest"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }

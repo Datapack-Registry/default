@@ -27,11 +27,8 @@
       OnGround: 1b,
       Rotation: [0f, 0f],
       HandItems: [{
-        Count: 1b,
-        id: "minecraft:golden_sword",
-        tag: {
-          Damage: 0
-        }
+        count: 1,
+        id: "minecraft:golden_sword"
       }, {}],
       ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f],
       Pos: [-8.573428015303032d, 82d, 79.34353135322355d],
@@ -70,5 +67,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }

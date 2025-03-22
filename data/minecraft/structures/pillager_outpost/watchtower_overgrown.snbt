@@ -15510,256 +15510,256 @@
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [0, 13, 4],
     state: 43
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [0, 13, 10],
     state: 43
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [4, 13, 0],
     state: 44
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [4, 13, 14],
     state: 45
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [10, 13, 0],
     state: 44
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [10, 13, 14],
     state: 45
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [14, 13, 4],
     state: 46
   }, {
     nbt: {
       CustomName: "{"color":"gold","translate":"block.minecraft.ominous_banner"}",
-      id: "minecraft:banner",
-      Patterns: [{
-        Pattern: "mr",
-        Color: 9
+      patterns: [{
+        color: "cyan",
+        pattern: "minecraft:rhombus"
       }, {
-        Pattern: "bs",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:stripe_bottom"
       }, {
-        Pattern: "cs",
-        Color: 7
+        color: "gray",
+        pattern: "minecraft:stripe_center"
       }, {
-        Pattern: "bo",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:border"
       }, {
-        Pattern: "ms",
-        Color: 15
+        color: "black",
+        pattern: "minecraft:stripe_middle"
       }, {
-        Pattern: "hh",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:half_horizontal"
       }, {
-        Pattern: "mc",
-        Color: 8
+        color: "light_gray",
+        pattern: "minecraft:circle"
       }, {
-        Pattern: "bo",
-        Color: 15
-      }]
+        color: "black",
+        pattern: "minecraft:border"
+      }],
+      id: "minecraft:banner"
     },
     pos: [14, 13, 10],
     state: 46
@@ -16115,5 +16115,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }

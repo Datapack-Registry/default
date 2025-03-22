@@ -2588,43 +2588,43 @@
     state: 20
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [2, 4, 0],
     state: 21
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [2, 4, 11],
     state: 22
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [3, 4, 0],
     state: 21
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [3, 4, 11],
     state: 22
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [13, 4, 5],
     state: 23
   }, {
     nbt: {
-      id: "minecraft:banner",
-      Patterns: []
+      patterns: [],
+      id: "minecraft:banner"
     },
     pos: [13, 4, 6],
     state: 23
@@ -2751,5 +2751,5 @@
     },
     Name: "minecraft:brown_wall_banner"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }

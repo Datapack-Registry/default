@@ -44,11 +44,8 @@
       HandItems: [{}, {}],
       Pos: [-28.5d, 65d, 30.5d],
       ArmorItems: [{}, {}, {}, {
-        Count: 1b,
-        id: "minecraft:iron_helmet",
-        tag: {
-          Damage: 0
-        }
+        count: 1,
+        id: "minecraft:iron_helmet"
       }],
       Fire: -1s,
       NoBasePlate: 0b,
@@ -100,11 +97,8 @@
       HandItems: [{}, {}],
       Pos: [-26.5d, 65d, 34.5d],
       ArmorItems: [{}, {}, {
-        Count: 1b,
-        id: "minecraft:iron_chestplate",
-        tag: {
-          Damage: 0
-        }
+        count: 1,
+        id: "minecraft:iron_chestplate"
       }, {}],
       Fire: -1s,
       NoBasePlate: 0b,
@@ -1437,5 +1431,5 @@
     },
     Name: "minecraft:blast_furnace"
   }],
-  DataVersion: 3817
+  DataVersion: 3819
 }
