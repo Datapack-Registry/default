@@ -2511,10 +2511,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:center_piece_connector",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -2522,10 +2522,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece_wall",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance_wall"
     },
@@ -2533,10 +2533,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece_wall",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance_wall"
     },
@@ -2544,10 +2544,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2555,10 +2555,10 @@
     state: 13
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2566,10 +2566,10 @@
     state: 14
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2577,10 +2577,10 @@
     state: 13
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2595,10 +2595,10 @@
     state: 15
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2606,10 +2606,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2617,10 +2617,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:center_piece",
       pool: "minecraft:bastion/units/pathways",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:ground_pathway_entrance"
     },
@@ -2700,5 +2700,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

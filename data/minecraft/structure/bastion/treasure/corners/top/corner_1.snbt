@@ -1113,10 +1113,10 @@
     state: 4
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/walls/outer",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:top_corner_wall_connector"
     },
@@ -1124,10 +1124,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/walls/outer",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:top_corner_wall_connector"
     },
@@ -1135,10 +1135,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:corner_connector",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1146,10 +1146,10 @@
     state: 8
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:corner_connector",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1157,10 +1157,10 @@
     state: 9
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/treasure/roofs",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:corner_roof_connector"
     },
@@ -1214,5 +1214,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

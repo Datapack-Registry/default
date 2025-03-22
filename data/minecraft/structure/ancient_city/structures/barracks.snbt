@@ -4722,10 +4722,10 @@
     state: 26
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:connect_structure",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -4733,10 +4733,10 @@
     state: 27
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:bottom",
       pool: "minecraft:ancient_city/sculk",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -4744,10 +4744,10 @@
     state: 28
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate",
       name: "minecraft:bottom",
       pool: "minecraft:ancient_city/sculk",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -4969,5 +4969,5 @@
     },
     Name: "minecraft:skeleton_skull"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

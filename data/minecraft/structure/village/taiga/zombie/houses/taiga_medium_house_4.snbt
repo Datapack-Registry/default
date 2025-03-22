@@ -1695,8 +1695,8 @@
     state: 37
   }, {
     nbt: {
-      BurnTime: 0s,
       CookTime: 0s,
+      BurnTime: 0s,
       Items: [],
       id: "minecraft:furnace",
       CookTimeTotal: 0s,
@@ -1712,10 +1712,10 @@
     state: 39
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2032,5 +2032,5 @@
     },
     Name: "minecraft:campfire"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

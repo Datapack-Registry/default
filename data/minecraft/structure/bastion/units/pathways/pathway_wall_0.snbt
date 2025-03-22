@@ -33,10 +33,10 @@
     state: 1
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:ground_pathway_entrance_wall",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -44,10 +44,10 @@
     state: 2
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:ground_pathway_exit",
       pool: "minecraft:bastion/units/wall_units",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:wall_entry"
     },
@@ -69,5 +69,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

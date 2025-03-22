@@ -51,10 +51,10 @@
     state: 0
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -71,5 +71,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

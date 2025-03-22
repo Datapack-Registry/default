@@ -1680,10 +1680,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/zombie/decor",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1691,10 +1691,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1702,10 +1702,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1713,10 +1713,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/taiga/zombie/decor",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1724,10 +1724,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1735,10 +1735,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1746,10 +1746,10 @@
     state: 13
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1757,10 +1757,10 @@
     state: 14
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/taiga/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -1841,5 +1841,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

@@ -51,12 +51,12 @@
         id: "minecraft:armor_toughness",
         base: 0d
       }, {
+        id: "minecraft:follow_range",
         modifiers: [{
           amount: 0.04026913607345884d,
           id: "minecraft:random_spawn_bonus",
           operation: "add_multiplied_base"
         }],
-        id: "minecraft:follow_range",
         base: 16d
       }, {
         id: "minecraft:attack_knockback",
@@ -75,10 +75,10 @@
     state: 0
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:structure_void",
       name: "minecraft:bottom",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -93,5 +93,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

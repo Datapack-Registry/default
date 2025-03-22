@@ -240,10 +240,10 @@
     state: 3
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/blocks/gold",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:block_connector"
     },
@@ -251,10 +251,10 @@
     state: 4
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:stage_3_bottom",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_2_top"
     },
@@ -286,5 +286,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

@@ -171,10 +171,10 @@
     state: 0
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:basalt",
       name: "minecraft:extension_connector",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -194,5 +194,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

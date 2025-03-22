@@ -16869,10 +16869,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:wall_connected_wall",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -16880,10 +16880,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -16891,10 +16891,10 @@
     state: 8
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -16902,10 +16902,10 @@
     state: 9
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:blackstone",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -16913,10 +16913,10 @@
     state: 8
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:blackstone",
       name: "minecraft:wall",
       pool: "minecraft:bastion/units/ramparts",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:rampart"
     },
@@ -16964,5 +16964,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

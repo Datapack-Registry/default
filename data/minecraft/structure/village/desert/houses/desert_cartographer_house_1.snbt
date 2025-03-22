@@ -1026,10 +1026,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1037,10 +1037,10 @@
     state: 15
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/cats",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1144,5 +1144,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

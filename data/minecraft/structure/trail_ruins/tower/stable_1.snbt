@@ -879,10 +879,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:room_anchor",
       pool: "minecraft:trail_ruins/tower/additions",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:hall_room_anchor"
     },
@@ -915,5 +915,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

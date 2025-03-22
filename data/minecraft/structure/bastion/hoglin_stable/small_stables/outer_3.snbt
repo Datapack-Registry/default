@@ -1245,10 +1245,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:outer_connector_left",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1256,10 +1256,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:cracked_polished_blackstone_bricks",
       name: "minecraft:outer_connector_right",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1267,10 +1267,10 @@
     state: 13
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:basalt",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/hoglin",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -1366,5 +1366,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

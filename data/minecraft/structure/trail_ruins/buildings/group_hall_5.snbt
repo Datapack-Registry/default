@@ -1164,10 +1164,10 @@
     state: 2
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:hall",
       pool: "minecraft:trail_ruins/buildings/grouped",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room"
     },
@@ -1175,10 +1175,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:hall",
       pool: "minecraft:trail_ruins/buildings/grouped",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room"
     },
@@ -1186,10 +1186,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:building_anchor",
       pool: "minecraft:trail_ruins/roads",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:road_anchor"
     },
@@ -1197,10 +1197,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:hall",
       pool: "minecraft:trail_ruins/buildings/grouped",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room"
     },
@@ -1208,10 +1208,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:dirt",
       name: "minecraft:hall",
       pool: "minecraft:trail_ruins/buildings/grouped",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:room"
     },
@@ -1253,5 +1253,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

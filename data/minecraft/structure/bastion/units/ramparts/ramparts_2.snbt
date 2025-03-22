@@ -6915,10 +6915,10 @@
     state: 4
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:blackstone",
       name: "minecraft:rampart",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -6944,5 +6944,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

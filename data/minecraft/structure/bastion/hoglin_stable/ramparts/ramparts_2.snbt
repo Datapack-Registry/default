@@ -12114,10 +12114,10 @@
     state: 10
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:blackstone",
       name: "minecraft:rampart",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -12125,10 +12125,10 @@
     state: 11
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -12136,10 +12136,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin_melee",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -12147,10 +12147,10 @@
     state: 12
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -12247,5 +12247,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

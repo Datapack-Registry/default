@@ -2058,10 +2058,10 @@
     state: 3
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/desert/villagers",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2081,10 +2081,10 @@
     state: 21
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -2092,10 +2092,10 @@
     state: 22
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:smooth_sandstone",
       name: "minecraft:bottom",
       pool: "minecraft:village/desert/villagers",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -2276,5 +2276,5 @@
     },
     Name: "minecraft:chest"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

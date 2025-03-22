@@ -2493,10 +2493,10 @@
     state: 4
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2510,10 +2510,10 @@
     state: 17
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2521,10 +2521,10 @@
     state: 18
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:street",
       pool: "minecraft:village/savanna/zombie/streets",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:street"
     },
@@ -2690,5 +2690,5 @@
     },
     Name: "minecraft:brown_wall_banner"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

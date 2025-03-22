@@ -1935,10 +1935,10 @@
     state: 3
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/blocks/gold",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:block_connector"
     },
@@ -1946,10 +1946,10 @@
     state: 5
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/fillers/stage_0",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:filler_0_entry"
     },
@@ -1957,10 +1957,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:stage_0_entry",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1968,10 +1968,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:stage_0_entry",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1979,10 +1979,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:stage_0_entry",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -1990,10 +1990,10 @@
     state: 7
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/mobs/piglin",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:mob_connector"
     },
@@ -2001,10 +2001,10 @@
     state: 8
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:polished_blackstone_bricks",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/edges",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:edge_entry"
     },
@@ -2012,10 +2012,10 @@
     state: 9
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:air",
       name: "minecraft:empty",
       pool: "minecraft:bastion/units/fillers/stage_0",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:filler_0_entry"
     },
@@ -2023,10 +2023,10 @@
     state: 10
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:basalt",
       name: "minecraft:stage_0_top",
       pool: "minecraft:bastion/units/stages/stage_1",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:stage_1_bottom"
     },
@@ -2083,5 +2083,5 @@
     },
     Name: "minecraft:jigsaw"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

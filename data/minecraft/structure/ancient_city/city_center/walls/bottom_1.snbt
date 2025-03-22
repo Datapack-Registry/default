@@ -5958,10 +5958,10 @@
     state: 31
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city/entrance",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:entrance_start"
     },
@@ -5969,10 +5969,10 @@
     state: 32
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_bottom_left_corner"
     },
@@ -5980,10 +5980,10 @@
     state: 33
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:empty",
       pool: "minecraft:ancient_city/city_center/walls",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:connect_bottom_right_corner"
     },
@@ -5991,10 +5991,10 @@
     state: 34
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:deepslate_bricks",
       name: "minecraft:connect_bottom",
       pool: "minecraft:empty",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:empty"
     },
@@ -6260,5 +6260,5 @@
     },
     Name: "minecraft:sculk_sensor"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

@@ -1383,10 +1383,10 @@
     state: 6
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:structure_void",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1394,8 +1394,8 @@
     state: 18
   }, {
     nbt: {
-      BurnTime: 0s,
       CookTime: 0s,
+      BurnTime: 0s,
       Items: [],
       id: "minecraft:blast_furnace",
       CookTimeTotal: 0s,
@@ -1405,8 +1405,8 @@
     state: 19
   }, {
     nbt: {
-      BurnTime: 0s,
       CookTime: 0s,
+      BurnTime: 0s,
       Items: [],
       id: "minecraft:blast_furnace",
       CookTimeTotal: 0s,
@@ -1531,5 +1531,5 @@
     },
     Name: "minecraft:blast_furnace"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }

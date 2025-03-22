@@ -1035,10 +1035,10 @@
     state: 31
   }, {
     nbt: {
+      joint: "rollable",
       final_state: "minecraft:grass_block",
       name: "minecraft:bottom",
       pool: "minecraft:village/common/butcher_animals",
-      joint: "rollable",
       id: "minecraft:jigsaw",
       target: "minecraft:bottom"
     },
@@ -1046,10 +1046,10 @@
     state: 32
   }, {
     nbt: {
+      joint: "aligned",
       final_state: "minecraft:acacia_stairs[facing=east]",
       name: "minecraft:building_entrance",
       pool: "minecraft:empty",
-      joint: "aligned",
       id: "minecraft:jigsaw",
       target: "minecraft:building_entrance"
     },
@@ -1064,8 +1064,8 @@
     state: 34
   }, {
     nbt: {
-      BurnTime: 0s,
       CookTime: 0s,
+      BurnTime: 0s,
       Items: [],
       id: "minecraft:smoker",
       CookTimeTotal: 0s,
@@ -1316,5 +1316,5 @@
     },
     Name: "minecraft:smoker"
   }],
-  DataVersion: 4082
+  DataVersion: 4174
 }
