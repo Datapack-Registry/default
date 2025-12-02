@@ -100,7 +100,7 @@ jobs:
     name: "Generate new data"
     runs-on: ubuntu-24.04
     needs: [version]
-    if: needs.check-version.outputs.TAG_EXISTS == 'FALSE'
+    if: needs.version.outputs.TAG_EXISTS == 'FALSE'
     env:
       SELECTED_VERSION: ${{ needs.version.outputs.SELECTED_VERSION }}
       LATEST_SNAPSHOT: ${{ needs.version.outputs.LATEST_SNAPSHOT }}
