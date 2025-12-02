@@ -216,8 +216,8 @@ jobs:
     needs: ['commit-and-tag-new-data']
     runs-on: ubuntu-24.04
     env:
-      LATEST_RELEASE: ${{ needs.commit-and-tag-new-assets.outputs.LATEST_RELEASE }}
-      LATEST_SNAPSHOT: ${{ needs.commit-and-tag-new-assets.outputs.LATEST_SNAPSHOT }}
+      LATEST_RELEASE: ${{ needs.commit-and-tag-new-data.outputs.LATEST_RELEASE }}
+      LATEST_SNAPSHOT: ${{ needs.commit-and-tag-new-data.outputs.LATEST_SNAPSHOT }}
 
     steps:
       - name: 'Generate GitHub App token'
