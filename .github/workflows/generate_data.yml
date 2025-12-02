@@ -1,4 +1,4 @@
-name: "Generate Data"
+name: "Generate data"
 env:
   GENERATED_BRANCH: 'generated'
   PROCESSED_BRANCH: 'processed'
