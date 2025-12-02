@@ -1,7 +1,15 @@
 name: "Generate Data"
+env:
+  GENERATED_BRANCH: 'generated'
+  PROCESSED_BRANCH: 'processed'
+  BADGE_BRANCH: 'badge'
+  DATA_PATH: './downloaded_data'
+  DATA_NAME: 'data'
+  MANIFEST_URL: 'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
+
 on:
   schedule:
-    - cron: "30 0,12 * * *" # Runs at 00:30 and 12:30, every day
+    - cron: '30 * * * *' # Runs at 30 minutes past the hour, every day
 
   workflow_call:
     inputs:
@@ -21,181 +29,184 @@ permissions:
   contents: write
   actions: read
 
-env:
-  MANIFEST_URL: "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json"
-
 jobs:
-  check-version:
-    name: "Check version"
+  version:
+    name: "Version (\"${{ inputs.version || github.event.client_payload.version || 'fetch latest' }}\")"
     runs-on: ubuntu-24.04
+    env:
+      INPUT_VERSION: ${{ inputs.version || github.event.client_payload.version }}
     steps:
-      - name: "Fetch latest Minecraft version"
-        id: "fetch-latest-version"
-        if: inputs.VERSION == ''
-        run: |
-          LATEST_VERSION=$(curl -L $MANIFEST_URL | jq -r '.latest.snapshot')
-          echo "Found latest snapshot: \"$LATEST_VERSION\""
-          echo "LATEST_VERSION=$LATEST_VERSION" >> "$GITHUB_OUTPUT"
-
-      - name: "Checkout repository"
+      - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: "Check for existing version tag"
-        id: "check-for-existing-tag"
-        env:
-          VERSION: ${{ steps.fetch-latest-version.outputs.LATEST_VERSION || inputs.VERSION }}
+      - name: 'Check if input version is valid'
+        if: env.INPUT_VERSION != ''
+        run: |          
+          if curl -sL "$MANIFEST_URL" \
+              | jq -e --arg v "$INPUT_VERSION" '.versions[].id | select(. == $v)' > /dev/null; then
+            echo "Version \"$INPUT_VERSION\" is valid."
+          else
+            echo "Version \"$INPUT_VERSION\" is not valid."
+            exit 1
+          fi
+
+      - name: 'Fetch latest Minecraft version'
+        id: 'fetch-latest-version'
         run: |
-          if git show-ref --tags --verify --quiet "refs/tags/$VERSION"; then
-            echo "Tag \"$VERSION\" already exists. Skipping next jobs."
+          read LATEST_RELEASE LATEST_SNAPSHOT < <(
+            curl -sL "$MANIFEST_URL" | jq -r '[.latest.release, .latest.snapshot] | @tsv'
+          )
+
+          if [ -z "$LATEST_RELEASE" ]; then
+            echo "::error:: Could not fetch latest release from manifest."
+            exit 1
+          fi
+          
+          if [ -z "$LATEST_SNAPSHOT" ]; then
+            echo "::error:: Could not fetch latest snapshot from manifest."
+            exit 1
+          fi
+          
+          echo "Latest release version: \"$LATEST_RELEASE\""
+          echo "Latest snapshot version: \"$LATEST_SNAPSHOT\""
+          
+          echo "LATEST_RELEASE=$LATEST_RELEASE" >> "$GITHUB_OUTPUT"
+          echo "LATEST_SNAPSHOT=$LATEST_SNAPSHOT" >> "$GITHUB_OUTPUT"
+
+      - name: 'Check for existing version tag'
+        id: 'check-for-existing-tag'
+        run: |
+          version="${{ env.INPUT_VERSION || steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}"
+          tag="${version// /_}"
+          
+          if git show-ref --tags --verify --quiet "refs/tags/$tag"; then
+            echo "Tag \"$tag\" already exists. Skipping next jobs."
             echo "TAG_EXISTS=TRUE" >> "$GITHUB_OUTPUT"
           else
-            echo "Tag \"$VERSION\" does not exist. Running next jobs."
+            echo "Tag \"$tag\" does not exist. Running next jobs."
             echo "TAG_EXISTS=FALSE" >> "$GITHUB_OUTPUT"
           fi
 
     outputs:
       TAG_EXISTS: ${{ steps.check-for-existing-tag.outputs.TAG_EXISTS }}
-      VERSION: ${{ steps.fetch-latest-version.outputs.LATEST_VERSION || inputs.VERSION }}
+      INPUT_VERSION: ${{ inputs.version || github.event.client_payload.version }}
+      SELECTED_VERSION: ${{ inputs.version || github.event.client_payload.version || steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}
+      LATEST_RELEASE: ${{ steps.fetch-latest-version.outputs.LATEST_RELEASE }}
+      LATEST_SNAPSHOT: ${{ steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}
 
   generate-new-data:
     name: "Generate new data"
     runs-on: ubuntu-24.04
-    needs: [check-version]
+    needs: [version]
     if: needs.check-version.outputs.TAG_EXISTS == 'FALSE'
     env:
-      VERSION: ${{ needs.check-version.outputs.VERSION }}
+      SELECTED_VERSION: ${{ needs.version.outputs.SELECTED_VERSION }}
+      LATEST_SNAPSHOT: ${{ needs.version.outputs.LATEST_SNAPSHOT }}
 
     steps:
-      - name: Clone Go-Manifest
-        uses: actions/checkout@v4
+      - name: 'Generate data for version "${{ env.SELECTED_VERSION }}" to "${{ env.DATA_PATH }}"'
+        id: 'download_data'
+        uses: MinecraftPlayground/generate-data@latest
         with:
-          repository: "MinecraftPlayground/go-manifest"
-          path: "go-manifest"
-      - name: Clone Go-Manifest
-        uses: actions/checkout@v4
-        with:
-          repository: "Kesuaheli/nbtreader"
-          path: "nbtreader-source"
+          version: ${{ env.SELECTED_VERSION }}
+          path: ${{ env.DATA_PATH }}
 
-      - name: Setup Go
-        uses: actions/setup-go@v4
-        with:
-          go-version-file: "go-manifest/go.mod"
-
-      - name: "Setup Dependencies"
-        run: |
-          sudo apt install rename
-          go build -C go-manifest -o ../getclient examples/get_client/main.go
-          go build -C nbtreader-source -o ../nbtreader cli/main.go
-
-      - name: "Download client.jar"
-        run: |
-          echo "Downloading client.jar for version \"$VERSION\""
-          ./getclient $VERSION
-          rename 's/.*/client.jar/s' client_*.jar
-
-          echo "Saved client.jar"
-
-      - name: "Extract data from client.jar"
-        run: |
-          mkdir -p ./default
-          unzip client.jar "pack.png" -d "./default"
-          unzip client.jar "data/*" -d "./default"
-
-      - name: "Process extracted data"
-        run: |
-          echo "converting NBT files to SNBT"
-          for file in $(find default/ -name '*.nbt' -or -name '*.dat'); do
-            file=${file#default/}
-            echo NBT file \'$file\'
-            mkdir -p ./default_processed/$(dirname $file)
-            ./nbtreader -out ./default_processed/${file%.*}.snbt default/$file
-          done
-
-      - name: "Upload data"
+      - name: 'Upload generated data'
         uses: actions/upload-artifact@v4
         with:
-          name: "default_${{ env.VERSION }}"
-          path: "./default"
-      - name: "Upload processed data"
-        uses: actions/upload-artifact@v4
-        with:
-          name: "default_processed_${{ env.VERSION }}"
-          path: "./default_processed"
+          name: ${{ env.DATA_NAME }}
+          path: ${{ env.DATA_PATH }}
 
     outputs:
-      VERSION: ${{ needs.check-version.outputs.VERSION }}
+      INPUT_VERSION: ${{ needs.version.outputs.INPUT_VERSION }}
+      SELECTED_VERSION: ${{ needs.version.outputs.SELECTED_VERSION }}
+      LATEST_RELEASE: ${{ needs.version.outputs.LATEST_RELEASE }}
+      LATEST_SNAPSHOT: ${{ needs.version.outputs.LATEST_SNAPSHOT }}
 
-  commit-and-tag-new-data:
-    name: "Commit and tag new data"
-    runs-on: ubuntu-latest
-    needs: [generate-new-data]
+  commit-and-tag-new-assets:
+    name: 'Commit and tag new data'
+    runs-on: ubuntu-24.04
+    needs: ['generate-new-data']
     env:
-      VERSION: ${{ needs.generate-new-data.outputs.VERSION }}
+      SELECTED_VERSION: ${{ needs.generate-new-data.outputs.SELECTED_VERSION }}
+      LATEST_RELEASE: ${{ needs.generate-new-data.outputs.LATEST_RELEASE }}
+      LATEST_SNAPSHOT: ${{ needs.generate-new-data.outputs.LATEST_SNAPSHOT }}
 
     steps:
-      - name: "Checkout repository"
+      - name: 'Generate GitHub App token'
+        id: 'app-token'
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: 'Configure GIT'
+        run: |
+          git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ secrets.APP_USER_ID }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+
+      - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
-          ref: "generated"
+          token: ${{ steps.app-token.outputs.token }}
+          ref: ${{ env.GENERATED_BRANCH }}
 
-      - name: "Remove old data"
+      - name: 'Remove old assets'
         run: |
           git rm -rf --ignore-unmatch "./"
 
-      - name: "Add new data"
+      - name: 'Download generated assets'
         uses: actions/download-artifact@v4
         with:
-          name: "default_${{ env.VERSION }}"
-          path: "./"
+          name: ${{ env.DATA_NAME }}
+          path: './'
 
-      - name: "Commit and push data"
+      - name: 'Commit and push assets'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+
         run: |
-          echo "Commit Message: \"New data for version $VERSION\""
-          echo "Tag: \"$VERSION\""
-          echo "Tag Message: \"Version $VERSION\""
+          COMMIT_MESSAGE="New data for version $SELECTED_VERSION"
+          TAG="${SELECTED_VERSION// /_}"
+          TAG_MESSAGE="Version $SELECTED_VERSION"
+          
+          echo "Commit Message: \"$COMMIT_MESSAGE\""
+          echo "Tag: \"$TAG\""
+          echo "Tag Message: \"$TAG_MESSAGE\""
 
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -a -m "New data for version $VERSION" || exit 0
-          git tag -a "$VERSION" -m "Version $VERSION"
-          git push origin generated --tags
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "$COMMIT_MESSAGE"
+          fi
 
-  commit-and-tag-processed-data:
-    name: "Commit and tag processed data"
-    runs-on: ubuntu-latest
-    needs: [generate-new-data]
-    env:
-      VERSION: ${{ needs.generate-new-data.outputs.VERSION }}
+          git tag -fa "$TAG" -m "$TAG_MESSAGE"
+          git push origin $GENERATED_BRANCH --tags
 
-    steps:
-      - name: "Checkout repository"
-        uses: actions/checkout@v4
-        with:
-          ref: "processed"
+      - name: 'Update latest tags'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
-      - name: "Remove old data"
         run: |
-          git rm -rf --ignore-unmatch "./"
+          echo "Checking if $SELECTED_VERSION is latest release or snapshot..."
 
-      - name: "Add new data"
-        uses: actions/download-artifact@v4
-        with:
-          name: "default_processed_${{ env.VERSION }}"
-          path: "./"
+          # Latest release
+          if [ "$SELECTED_VERSION" = "$LATEST_RELEASE" ]; then
+            echo "Updating \"latest-release\" tag to point to \"$SELECTED_VERSION\""
+            git tag -f latest-release
+            git push origin refs/tags/latest-release --force
+          fi
 
-      - name: "Commit and push data"
-        run: |
-          echo "Commit Message: \"Processed data for version $VERSION\""
-          echo "Tag: \"$VERSION-PROCESSED\""
-          echo "Tag Message: \"Version $VERSION\""
+          # Latest snapshot
+          if [ "$SELECTED_VERSION" = "$LATEST_SNAPSHOT" ]; then
+            echo "Updating \"latest-snapshot\" tag to point to \"$SELECTED_VERSION\""
+            git tag -f latest-snapshot
+            git push origin refs/tags/latest-snapshot --force
+          fi
 
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -a -m "Processed data for version $VERSION" || exit 0
-          git tag -a "$VERSION-PROCESSED" -m "Version $VERSION (processed)"
-          git push origin processed --tags
+    outputs:
+      LATEST_RELEASE: ${{ needs.generate-new-data.outputs.LATEST_RELEASE }}
+      LATEST_SNAPSHOT: ${{ needs.generate-new-data.outputs.LATEST_SNAPSHOT }}
