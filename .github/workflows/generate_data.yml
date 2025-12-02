@@ -13,14 +13,14 @@ on:
 
   workflow_call:
     inputs:
-      VERSION:
+      version:
         description: "Generate data for a specific version. Leave blank for latest version."
         type: string
         required: false
 
   workflow_dispatch:
     inputs:
-      VERSION:
+      version:
         description: "Generate data for a specific version. Leave blank for latest version."
         type: string
         required: false
