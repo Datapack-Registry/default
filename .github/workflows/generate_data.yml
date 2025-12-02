@@ -108,7 +108,7 @@ jobs:
     steps:
       - name: 'Generate data for version "${{ env.SELECTED_VERSION }}" to "${{ env.DATA_PATH }}"'
         id: 'download_data'
-        uses: MinecraftPlayground/generate-data@latest
+        uses: MinecraftPlayground/generate-data@main
         with:
           version: ${{ env.SELECTED_VERSION }}
           path: ${{ env.DATA_PATH }}
