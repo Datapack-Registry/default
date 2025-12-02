@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:wooden_button"
+      "minecraft:spruce_button"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "wooden_button"
+        "recipe": "spruce_button"
       }
     },
     "has_planks": {
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:planks"
+            "item": "minecraft:spruce_planks"
           }
         ]
       }
