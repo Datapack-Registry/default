@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:gold_ingot_from_gold_block"
+      "minecraft:gray_stained_terracotta"
     ]
   },
   "criteria": {
-    "has_gold_block": {
+    "has_terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:terracotta"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "gold_ingot_from_gold_block"
+        "recipe": "gray_stained_terracotta"
       }
     }
   },
   "requirements": [
     [
-      "has_gold_block",
+      "has_terracotta",
       "has_the_recipe"
     ]
   ]

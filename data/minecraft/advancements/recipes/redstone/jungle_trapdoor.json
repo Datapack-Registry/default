@@ -2,26 +2,22 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:bone_meal_from_bone_block",
-      "minecraft:bone_block"
+      "minecraft:jungle_trapdoor"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bone_block"
+        "recipe": "jungle_trapdoor"
       }
     },
-    "has_at_least_9_bonemeal": {
+    "has_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone_meal",
-            "count": {
-              "min": 9
-            }
+            "item": "minecraft:jungle_planks"
           }
         ]
       }
@@ -30,7 +26,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_at_least_9_bonemeal"
+      "has_planks"
     ]
   ]
 }

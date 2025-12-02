@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:gold_ingot_from_gold_block"
+      "minecraft:dark_oak_bark"
     ]
   },
   "criteria": {
-    "has_gold_block": {
+    "has_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gold_block"
+            "item": "minecraft:dark_oak_log"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "gold_ingot_from_gold_block"
+        "recipe": "dark_oak_bark"
       }
     }
   },
   "requirements": [
     [
-      "has_gold_block",
+      "has_log",
       "has_the_recipe"
     ]
   ]
