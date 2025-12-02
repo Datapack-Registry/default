@@ -16,7 +16,7 @@ Individual files can be viewed by the corresponding version tag:
 https://github.com/Datapack-Registry/default/blob/<version>/<path to file>?raw=true
 ```
 
-Or to view the latest assets, there is a [`latest-release`](https://github.com/Datapack-Registry/default/tree/latest-release) and [`latest-snapshot`](https://github.com/Datapack-Registry/default/tree/latest-snapshot) tag:
+Or to view the latest data, there is a [`latest-release`](https://github.com/Datapack-Registry/default/tree/latest-release) and [`latest-snapshot`](https://github.com/Datapack-Registry/default/tree/latest-snapshot) tag:
 ```url
 https://github.com/Datapack-Registry/default/blob/latest-release/<path to file>?raw=true
 
