@@ -32,7 +32,7 @@ flowchart TD
     -->
     TAG_EXISTS{Tag exists}
     -->
-    |No| TAG_EXISTS_NO-A[Download new<br>**Snapshot** Assets]
+    |No| TAG_EXISTS_NO-A[Download new<br>**Snapshot** Data]
     -->
     TAG_EXISTS_NO-B[**Add** corresponding<br>version tag]
     -->
