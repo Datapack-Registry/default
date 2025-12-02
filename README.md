@@ -1,20 +1,75 @@
 # Minecraft Default Data
-[![Generate Data](https://github.com/Datapack-Registry/default/actions/workflows/generate.yml/badge.svg?branch=main)](https://github.com/Datapack-Registry/default/actions/workflows/generate.yml)
-[![Latest Version](https://img.shields.io/github/v/tag/Datapack-Registry/default?style=flat&label=Latest%20Version&labelColor=%23353c43&color=%237e8790)](https://github.com/Datapack-Registry/default/tags)
+[![Generate Data](https://github.com/Datapack-Registry/default/actions/workflows/generate_data.yml/badge.svg)](https://github.com/Datapack-Registry/default/actions/workflows/generate_data.yml)
+[![Latest Release](https://github.com/Datapack-Registry/default/blob/badge/latest_release.svg?raw=true)](https://github.com/Datapack-Registry/default/tree/latest-release)
+[![Latest Snapshot](https://github.com/Datapack-Registry/default/blob/badge/latest_snapshot.svg?raw=true)](https://github.com/Datapack-Registry/default/tree/latest-snapshot)
+[![Compare](https://github.com/Datapack-Registry/default/blob/badge/compare.svg?raw=true)](https://github.com/Datapack-Registry/default/compare/latest-release...latest-snapshot)
 
-This repository keeps track of Minecrafts generated default data for a datapack vor every version. Every 12 hours a check is made to see if there is a new Minecraft version. If a new version is available, it will be published on the `generated` branch with the respective tag of the version.
+<img align="right" width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/d7ee4e7b-4199-414d-abba-6c66e44fb6b5" />
 
-Individual files can be accessed by the respective version tag:
+This repository keeps track of Minecrafts generated default data for a datapack for every version since version [`17w43a`](https://minecraft.wiki/w/Java_Edition_17w43a). Every hour a check is made to see if there is a new Minecraft version. If a new version is available, it will be published on the [`generated`](https://github.com/Datapack-Registry/default/tree/generated) branch with the corresponding tag of the version.
+
+## Structure
+Individual files can be viewed by the corresponding version tag:
 ```url
 https://github.com/Datapack-Registry/default/blob/<version>/<path to file>?raw=true
 ```
 
-### See also
+Or to view the latest assets, there is a [`latest-release`](https://github.com/Datapack-Registry/default/tree/latest-release) and [`latest-snapshot`](https://github.com/Datapack-Registry/default/tree/latest-snapshot) tag:
+```url
+https://github.com/Datapack-Registry/default/blob/latest-release/<path to file>?raw=true
 
-[Minecraft Default Assets](https://github.com/Resourcepack-Registry/default) for the generated default assets.
+https://github.com/Datapack-Registry/default/blob/latest-snapshot/<path to file>?raw=true
+```
 
 ## How it works
-[Flowchart](./flowchart.md)
+```mermaid
+flowchart TD
+    START((Start))
+    --> 
+    A[Get latest **Version**<br>from Manifest]
+    --> 
+    B[Check for existing<br>**Snapshot** tag]
+    -->
+    TAG_EXISTS{Tag exists}
+    -->
+    |No| TAG_EXISTS_NO-A[Download new<br>**Snapshot** Assets]
+    -->
+    TAG_EXISTS_NO-B[**Add** corresponding<br>version tag]
+    -->
+    TAG_EXISTS_NO-C[Check if<br>**Snapshot == Release**]
+    -->
+    TAG_EXISTS_NO-EQUAL{Equal}
+    -->
+    |Yes| TAG_EXISTS_NO-EQUAL_YES-A[**Remove** old<br>'latest-release' tag]
+    -->
+    TAG_EXISTS_NO-EQUAL_YES-B[**Add** new<br>'latest-release' tag]
+    
+    TAG_EXISTS_NO-EQUAL
+    -->
+    |No| TAG_EXISTS_NO-D[**Remove** old<br>'latest-release' tag]
+    
+    TAG_EXISTS_NO-EQUAL_YES-B
+    -->
+    TAG_EXISTS_NO-D
+
+    TAG_EXISTS_NO-D[**Remove** old<br>'latest-snapshot' tag]
+    -->
+    TAG_EXISTS_NO-E[**Add** new<br>'latest-snapshot' tag]
+    -->
+    TAG_EXISTS_NO-F[**Commit** new<br>changes]
+    -->
+    TAG_EXISTS_NO-G[**Update** badges]
+
+    TAG_EXISTS
+    -->
+    |Yes| END
+
+    TAG_EXISTS_NO-G
+    -->
+    END((End))
+```
 
 ## Disclaimer
-This repository assumes that because Mojang intentionally provides a public API for downloading the `client.jar`, they have no objection to the resulting generated data existing anywhere on the internet for public consumption. If this assumption is ever contradicted, the repository will be removed immediately.
+The purpose of this repository is **not** to "redistribute" Minecraft data! It should just simply serve as an easy and convenient way to view the differences between one version and another.
+
+This repository assumes that because Mojang intentionally provides a public API for downloading the `client.jar`, they have no objection to the resulting generated assets existing anywhere on the internet for public consumption. If this assumption is ever contradicted, the repository will be removed immediately.
