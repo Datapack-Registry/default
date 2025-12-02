@@ -4,7 +4,7 @@
 [![Latest Snapshot](https://github.com/Datapack-Registry/default/blob/badge/latest_snapshot.svg?raw=true)](https://github.com/Datapack-Registry/default/tree/latest-snapshot)
 [![Compare](https://github.com/Datapack-Registry/default/blob/badge/compare.svg?raw=true)](https://github.com/Datapack-Registry/default/compare/latest-release...latest-snapshot)
 
-<img align="right" width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/d7ee4e7b-4199-414d-abba-6c66e44fb6b5" />
+<img align="right" width="128" height="128" alt="image" src="https://github.com/Datapack-Registry/.github/blob/main/profile/profile.png" />
 
 This repository keeps track of Minecrafts generated default data for a datapack for every version since version [`17w43a`](https://minecraft.wiki/w/Java_Edition_17w43a). Every hour a check is made to see if there is a new Minecraft version. If a new version is available, it will be published on the [`generated`](https://github.com/Datapack-Registry/default/tree/generated) branch with the corresponding tag of the version.
 
