@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:white_stained_hardened_clay"
+      "minecraft:birch_bark"
     ]
   },
   "criteria": {
-    "has_hardened_clay": {
+    "has_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:hardened_clay"
+            "item": "minecraft:birch_log"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "white_stained_hardened_clay"
+        "recipe": "birch_bark"
       }
     }
   },
   "requirements": [
     [
-      "has_hardened_clay",
+      "has_log",
       "has_the_recipe"
     ]
   ]

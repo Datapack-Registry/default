@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:chiseled_sandstone"
+      "minecraft:light_gray_stained_terracotta"
     ]
   },
   "criteria": {
-    "has_stone_slab": {
+    "has_terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sandstone_slab"
+            "item": "minecraft:terracotta"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "chiseled_sandstone"
+        "recipe": "light_gray_stained_terracotta"
       }
     }
   },
   "requirements": [
     [
-      "has_stone_slab",
+      "has_terracotta",
       "has_the_recipe"
     ]
   ]
