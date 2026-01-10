@@ -3,9 +3,9 @@ env:
   GENERATED_BRANCH: 'generated'
   PROCESSED_BRANCH: 'processed'
   BADGE_BRANCH: 'badge'
-  DATA_PATH: './downloaded_data'
+  DATA_PATH: './generated_data'
   DATA_NAME: 'data'
-  REPORTS_PATH: './downloaded_reports'
+  REPORTS_PATH: './generated_reports'
   REPORTS_NAME: 'reports'
 
 on:
@@ -81,7 +81,7 @@ jobs:
 
     steps:
       - name: 'Generate data for version "${{ env.SELECTED_VERSION }}" to "${{ env.DATA_PATH }}"'
-        id: 'download_data'
+        id: 'generate_data'
         uses: MinecraftPlayground/generate-data@main
         with:
           version: ${{ env.SELECTED_VERSION }}
@@ -93,33 +93,59 @@ jobs:
           name: ${{ env.DATA_NAME }}
           path: ${{ env.DATA_PATH }}
 
-      - name: 'Generate reports for version "${{ env.SELECTED_VERSION }}" to "${{ env.REPORTS_PATH }}"'
-        id: 'download_reports'
-        uses: MinecraftPlayground/generate-reports@main
-        with:
-          version: ${{ env.SELECTED_VERSION }}
-          path: ${{ env.REPORTS_PATH }}
-
-      - name: 'Upload generated reports'
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.REPORTS_NAME }}
-          path: ${{ env.REPORTS_PATH }}
-
     outputs:
       INPUT_VERSION: ${{ needs.version.outputs.INPUT_VERSION }}
       SELECTED_VERSION: ${{ needs.version.outputs.SELECTED_VERSION }}
       LATEST_RELEASE: ${{ needs.version.outputs.LATEST_RELEASE }}
       LATEST_SNAPSHOT: ${{ needs.version.outputs.LATEST_SNAPSHOT }}
 
+  generate-new-reports:
+    name: "Generate new reports"
+    runs-on: ubuntu-24.04
+    needs: [version]
+    if: needs.version.outputs.TAG_EXISTS == 'FALSE'
+    env:
+      SELECTED_VERSION: ${{ needs.version.outputs.SELECTED_VERSION }}
+      LATEST_SNAPSHOT: ${{ needs.version.outputs.LATEST_SNAPSHOT }}
+
+    steps:
+      - name: 'Generate reports for version "${{ env.SELECTED_VERSION }}" to "${{ env.REPORTS_PATH }}"'
+        id: 'generate_reports'
+        uses: MinecraftPlayground/generate-reports@main
+        with:
+          version: ${{ env.SELECTED_VERSION }}
+          path: ${{ env.REPORTS_PATH }}
+
+      - name: 'Check for generated reports'
+        id: 'check_for_generated_reports'
+        run: |
+          if [ -z "$( ls -A $REPORTS_PATH )" ]; then
+            echo "No reports found. Skipping reports jobs."
+            echo "REPORTS_EXISTS=FALSE" >> "$GITHUB_OUTPUT"
+          else
+            echo "Reports found. Running reports jobs."
+            echo "REPORTS_EXISTS=TRUE" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 'Upload generated reports'
+        if: steps.check_for_generated_reports.outputs.REPORTS_EXISTS == 'TRUE'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.REPORTS_NAME }}
+          path: ${{ env.REPORTS_PATH }}
+
+    outputs:
+      REPORTS_EXISTS: ${{ steps.check_for_generated_reports.outputs.REPORTS_EXISTS }}
+
   commit-and-tag-new-data:
     name: 'Commit and tag new data'
     runs-on: ubuntu-24.04
-    needs: ['generate-new-data']
+    needs: ['generate-new-data', 'generate-new-reports']
     env:
       SELECTED_VERSION: ${{ needs.generate-new-data.outputs.SELECTED_VERSION }}
       LATEST_RELEASE: ${{ needs.generate-new-data.outputs.LATEST_RELEASE }}
       LATEST_SNAPSHOT: ${{ needs.generate-new-data.outputs.LATEST_SNAPSHOT }}
+      REPORTS_EXISTS: ${{ needs.generate-new-reports.outputs.REPORTS_EXISTS }}
 
     steps:
       - name: 'Generate GitHub App token'
@@ -151,6 +177,7 @@ jobs:
           path: './'
 
       - name: 'Download generated reports'
+        if: env.REPORTS_EXISTS == 'TRUE'
         uses: actions/download-artifact@v4
         with:
           name: ${{ env.REPORTS_NAME }}
