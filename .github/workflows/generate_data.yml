@@ -5,7 +5,8 @@ env:
   BADGE_BRANCH: 'badge'
   DATA_PATH: './downloaded_data'
   DATA_NAME: 'data'
-  MANIFEST_URL: 'https://piston-meta.mojang.com/mc/game/version_manifest_v2.json'
+  REPORTS_PATH: './downloaded_reports'
+  REPORTS_NAME: 'reports'
 
 on:
   schedule:
@@ -36,49 +37,22 @@ jobs:
     env:
       INPUT_VERSION: ${{ inputs.version || github.event.client_payload.version }}
     steps:
+      - name: 'Get Manifest information'
+        id: 'manifest'
+        uses: MinecraftPlayground/manifest@main
+        with:
+          version: ${{ env.INPUT_VERSION || 'latest-snapshot' }}
+          if-version-is-invalid: 'error'
+
       - name: 'Checkout repository'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 'Check if input version is valid'
-        if: env.INPUT_VERSION != ''
-        run: |          
-          if curl -sL "$MANIFEST_URL" \
-              | jq -e --arg v "$INPUT_VERSION" '.versions[].id | select(. == $v)' > /dev/null; then
-            echo "Version \"$INPUT_VERSION\" is valid."
-          else
-            echo "Version \"$INPUT_VERSION\" is not valid."
-            exit 1
-          fi
-
-      - name: 'Fetch latest Minecraft version'
-        id: 'fetch-latest-version'
-        run: |
-          read LATEST_RELEASE LATEST_SNAPSHOT < <(
-            curl -sL "$MANIFEST_URL" | jq -r '[.latest.release, .latest.snapshot] | @tsv'
-          )
-
-          if [ -z "$LATEST_RELEASE" ]; then
-            echo "::error:: Could not fetch latest release from manifest."
-            exit 1
-          fi
-          
-          if [ -z "$LATEST_SNAPSHOT" ]; then
-            echo "::error:: Could not fetch latest snapshot from manifest."
-            exit 1
-          fi
-          
-          echo "Latest release version: \"$LATEST_RELEASE\""
-          echo "Latest snapshot version: \"$LATEST_SNAPSHOT\""
-          
-          echo "LATEST_RELEASE=$LATEST_RELEASE" >> "$GITHUB_OUTPUT"
-          echo "LATEST_SNAPSHOT=$LATEST_SNAPSHOT" >> "$GITHUB_OUTPUT"
-
       - name: 'Check for existing version tag'
         id: 'check-for-existing-tag'
         run: |
-          version="${{ env.INPUT_VERSION || steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}"
+          version="${{ env.INPUT_VERSION || steps.manifest.outputs.latest-snapshot-version }}"
           tag="${version// /_}"
           
           if git show-ref --tags --verify --quiet "refs/tags/$tag"; then
@@ -92,9 +66,9 @@ jobs:
     outputs:
       TAG_EXISTS: ${{ steps.check-for-existing-tag.outputs.TAG_EXISTS }}
       INPUT_VERSION: ${{ inputs.version || github.event.client_payload.version }}
-      SELECTED_VERSION: ${{ inputs.version || github.event.client_payload.version || steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}
-      LATEST_RELEASE: ${{ steps.fetch-latest-version.outputs.LATEST_RELEASE }}
-      LATEST_SNAPSHOT: ${{ steps.fetch-latest-version.outputs.LATEST_SNAPSHOT }}
+      SELECTED_VERSION: ${{ inputs.version || github.event.client_payload.version || steps.manifest.outputs.latest-snapshot-version }}
+      LATEST_RELEASE: ${{ steps.manifest.outputs.latest-release-version }}
+      LATEST_SNAPSHOT: ${{ steps.manifest.outputs.latest-snapshot-version }}
 
   generate-new-data:
     name: "Generate new data"
@@ -118,6 +92,19 @@ jobs:
         with:
           name: ${{ env.DATA_NAME }}
           path: ${{ env.DATA_PATH }}
+
+      - name: 'Generate reports for version "${{ env.SELECTED_VERSION }}" to "${{ env.REPORTS_PATH }}"'
+        id: 'download_reports'
+        uses: MinecraftPlayground/generate-reports@main
+        with:
+          version: ${{ env.SELECTED_VERSION }}
+          path: ${{ env.REPORTS_PATH }}
+
+      - name: 'Upload generated reports'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.REPORTS_NAME }}
+          path: ${{ env.REPORTS_PATH }}
 
     outputs:
       INPUT_VERSION: ${{ needs.version.outputs.INPUT_VERSION }}
@@ -162,6 +149,12 @@ jobs:
         with:
           name: ${{ env.DATA_NAME }}
           path: './'
+
+      - name: 'Download generated reports'
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.REPORTS_NAME }}
+          path: './reports'
 
       - name: 'Commit and push data'
         env:
