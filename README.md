@@ -6,7 +6,7 @@
 
 <img align="right" width="128" height="128" alt="image" src="https://github.com/Datapack-Registry/.github/blob/main/profile/profile.png" />
 
-This repository keeps track of Minecrafts generated default data for a datapack for every version since version [`17w43a`](https://minecraft.wiki/w/Java_Edition_17w43a). Every hour a check is made to see if there is a new Minecraft version. If a new version is available, it will be published on the [`generated`](https://github.com/Datapack-Registry/default/tree/generated) branch with the corresponding tag of the version.
+This repository keeps track of Minecrafts generated default data and reports for a datapack for every version since version [`17w43a`](https://minecraft.wiki/w/Java_Edition_17w43a). Every hour a check is made to see if there is a new Minecraft version. If a new version is available, it will be published on the [`generated`](https://github.com/Datapack-Registry/default/tree/generated) branch with the corresponding tag of the version.
 
 Generated Assets can be found here: [Resourcepack-Registry/default](https://github.com/Resourcepack-Registry/default)
 
@@ -16,7 +16,7 @@ Individual files can be viewed by the corresponding version tag:
 https://github.com/Datapack-Registry/default/blob/<version>/<path to file>?raw=true
 ```
 
-Or to view the latest data, there is a [`latest-release`](https://github.com/Datapack-Registry/default/tree/latest-release) and [`latest-snapshot`](https://github.com/Datapack-Registry/default/tree/latest-snapshot) tag:
+Or to view the latest data/reports, there is a [`latest-release`](https://github.com/Datapack-Registry/default/tree/latest-release) and [`latest-snapshot`](https://github.com/Datapack-Registry/default/tree/latest-snapshot) tag:
 ```url
 https://github.com/Datapack-Registry/default/blob/latest-release/<path to file>?raw=true
 
