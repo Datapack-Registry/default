@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:wooden_pressure_plate"
+      "minecraft:jungle_button"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "wooden_pressure_plate"
+        "recipe": "jungle_button"
       }
     },
     "has_planks": {
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:planks"
+            "item": "minecraft:jungle_planks"
           }
         ]
       }
