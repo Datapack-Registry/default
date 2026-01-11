@@ -645,36 +645,10 @@
   },
   "sea_level": 32,
   "structures": {
-    "minecraft:jungle_pyramid": {
-      "salt": 14357619,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:monument": {
-      "spread_type": "triangular",
-      "salt": 10387313,
-      "spacing": 32,
-      "separation": 5,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:endcity": {
-      "spread_type": "triangular",
-      "salt": 10387313,
-      "spacing": 20,
-      "separation": 11,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:fortress": {
+    "minecraft:bastion_remnant": {
       "salt": 30084232,
       "spacing": 27,
       "separation": 4,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:village": {
-      "salt": 10387312,
-      "spacing": 34,
-      "separation": 8,
       "type": "minecraft:random_spread"
     },
     "minecraft:nether_fossil": {
@@ -683,16 +657,10 @@
       "separation": 1,
       "type": "minecraft:random_spread"
     },
-    "minecraft:bastion_remnant": {
+    "minecraft:fortress": {
       "salt": 30084232,
       "spacing": 27,
       "separation": 4,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ocean_ruin": {
-      "salt": 14357621,
-      "spacing": 20,
-      "separation": 8,
       "type": "minecraft:random_spread"
     },
     "minecraft:shipwreck": {
@@ -712,6 +680,57 @@
       "separation": 0,
       "type": "minecraft:random_spread"
     },
+    "minecraft:village": {
+      "salt": 10387312,
+      "spacing": 34,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:jungle_pyramid": {
+      "salt": 14357619,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:endcity": {
+      "spread_type": "triangular",
+      "salt": 10387313,
+      "spacing": 20,
+      "separation": 11,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:ruined_portal": {
+      "salt": 34222645,
+      "spacing": 25,
+      "separation": 10,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:mineshaft": {
+      "salt": 0,
+      "spacing": 1,
+      "separation": 0,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:monument": {
+      "spread_type": "triangular",
+      "salt": 10387313,
+      "spacing": 32,
+      "separation": 5,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:mansion": {
+      "spread_type": "triangular",
+      "salt": 10387319,
+      "spacing": 80,
+      "separation": 20,
+      "type": "minecraft:random_spread"
+    },
+    "minecraft:pillager_outpost": {
+      "salt": 165745296,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    },
     "minecraft:desert_pyramid": {
       "salt": 14357617,
       "spacing": 32,
@@ -724,33 +743,14 @@
       "separation": 8,
       "type": "minecraft:random_spread"
     },
-    "minecraft:mansion": {
-      "spread_type": "triangular",
-      "salt": 10387319,
-      "spacing": 80,
-      "separation": 20,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:mineshaft": {
-      "salt": 0,
-      "spacing": 1,
-      "separation": 0,
+    "minecraft:ocean_ruin": {
+      "salt": 14357621,
+      "spacing": 20,
+      "separation": 8,
       "type": "minecraft:random_spread"
     },
     "minecraft:swamp_hut": {
       "salt": 14357620,
-      "spacing": 32,
-      "separation": 8,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ruined_portal": {
-      "salt": 34222645,
-      "spacing": 25,
-      "separation": 10,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:pillager_outpost": {
-      "salt": 165745296,
       "spacing": 32,
       "separation": 8,
       "type": "minecraft:random_spread"
