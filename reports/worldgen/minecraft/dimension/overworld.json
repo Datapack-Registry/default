@@ -16174,7 +16174,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16201,7 +16201,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16336,7 +16336,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16363,7 +16363,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16498,7 +16498,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16525,7 +16525,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16930,7 +16930,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -16957,7 +16957,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -17092,7 +17092,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -17119,7 +17119,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -17254,7 +17254,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -17281,7 +17281,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34048,7 +34048,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34075,7 +34075,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34102,7 +34102,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34129,7 +34129,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34318,7 +34318,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34345,7 +34345,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34750,7 +34750,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34777,7 +34777,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34804,7 +34804,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -34831,7 +34831,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -35020,7 +35020,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -35047,7 +35047,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49330,7 +49330,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49357,7 +49357,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49384,7 +49384,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49411,7 +49411,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49438,7 +49438,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49465,7 +49465,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49600,7 +49600,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49627,7 +49627,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49924,7 +49924,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49951,7 +49951,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -49978,7 +49978,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -50005,7 +50005,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -50032,7 +50032,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -50059,7 +50059,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -50194,7 +50194,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -50221,7 +50221,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66448,7 +66448,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66475,7 +66475,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66502,7 +66502,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66529,7 +66529,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66718,7 +66718,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -66745,7 +66745,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67150,7 +67150,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67177,7 +67177,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67204,7 +67204,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67231,7 +67231,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67420,7 +67420,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -67447,7 +67447,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85402,7 +85402,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85429,7 +85429,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85564,7 +85564,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85591,7 +85591,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85726,7 +85726,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -85753,7 +85753,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86158,7 +86158,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86185,7 +86185,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86320,7 +86320,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86347,7 +86347,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86482,7 +86482,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -86509,7 +86509,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100306,7 +100306,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100333,7 +100333,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100360,7 +100360,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100387,7 +100387,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100396,33 +100396,6 @@
               0.05
             ],
             "depth": 0.0,
-            "weirdness": [
-              -0.2666,
-              -0.05
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
-            ],
-            "humidity": [
-              -1.0,
-              -0.35
-            ],
-            "continentalness": [
-              -0.11,
-              0.03
-            ]
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "depth": 1.0,
             "weirdness": [
               -0.2666,
               -0.05
@@ -100449,6 +100422,33 @@
               -0.375,
               0.05
             ],
+            "depth": 1.0,
+            "weirdness": [
+              -0.2666,
+              -0.05
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.35
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ]
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "erosion": [
+              -0.375,
+              0.05
+            ],
             "depth": 0.0,
             "weirdness": [
               -0.2666,
@@ -100468,7 +100468,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100495,7 +100495,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100846,7 +100846,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100873,7 +100873,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100900,7 +100900,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100927,7 +100927,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -100936,33 +100936,6 @@
               0.05
             ],
             "depth": 0.0,
-            "weirdness": [
-              -0.2666,
-              -0.05
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
-            ],
-            "humidity": [
-              -0.35,
-              -0.1
-            ],
-            "continentalness": [
-              -0.11,
-              0.03
-            ]
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "depth": 1.0,
             "weirdness": [
               -0.2666,
               -0.05
@@ -100989,6 +100962,33 @@
               -0.375,
               0.05
             ],
+            "depth": 1.0,
+            "weirdness": [
+              -0.2666,
+              -0.05
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.35,
+              -0.1
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ]
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "erosion": [
+              -0.375,
+              0.05
+            ],
             "depth": 0.0,
             "weirdness": [
               -0.2666,
@@ -101008,7 +101008,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -101035,7 +101035,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:eroded_badlands"
+          "biome": "minecraft:badlands"
         },
         {
           "parameters": {
@@ -104626,7 +104626,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -104653,7 +104653,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -104680,7 +104680,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -104707,7 +104707,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116074,7 +116074,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116101,7 +116101,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116128,7 +116128,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116155,7 +116155,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116164,33 +116164,6 @@
               0.05
             ],
             "depth": 0.0,
-            "weirdness": [
-              0.05,
-              0.2666
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
-            ],
-            "humidity": [
-              -1.0,
-              -0.35
-            ],
-            "continentalness": [
-              -0.11,
-              0.03
-            ]
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "depth": 1.0,
             "weirdness": [
               0.05,
               0.2666
@@ -116217,6 +116190,33 @@
               -0.375,
               0.05
             ],
+            "depth": 1.0,
+            "weirdness": [
+              0.05,
+              0.2666
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              -0.35
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ]
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "erosion": [
+              -0.375,
+              0.05
+            ],
             "depth": 0.0,
             "weirdness": [
               0.05,
@@ -116236,7 +116236,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116263,7 +116263,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116614,7 +116614,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116641,7 +116641,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116668,7 +116668,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116695,7 +116695,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116704,33 +116704,6 @@
               0.05
             ],
             "depth": 0.0,
-            "weirdness": [
-              0.05,
-              0.2666
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.55,
-              1.0
-            ],
-            "humidity": [
-              -0.35,
-              -0.1
-            ],
-            "continentalness": [
-              -0.11,
-              0.03
-            ]
-          },
-          "biome": "minecraft:desert"
-        },
-        {
-          "parameters": {
-            "erosion": [
-              -0.375,
-              0.05
-            ],
-            "depth": 1.0,
             "weirdness": [
               0.05,
               0.2666
@@ -116757,6 +116730,33 @@
               -0.375,
               0.05
             ],
+            "depth": 1.0,
+            "weirdness": [
+              0.05,
+              0.2666
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.55,
+              1.0
+            ],
+            "humidity": [
+              -0.35,
+              -0.1
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ]
+          },
+          "biome": "minecraft:desert"
+        },
+        {
+          "parameters": {
+            "erosion": [
+              -0.375,
+              0.05
+            ],
             "depth": 0.0,
             "weirdness": [
               0.05,
@@ -116776,7 +116776,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -116803,7 +116803,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133246,7 +133246,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133273,7 +133273,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133408,7 +133408,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133435,7 +133435,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133570,7 +133570,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133597,7 +133597,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133948,7 +133948,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -133975,7 +133975,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -134110,7 +134110,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -134137,7 +134137,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -134272,7 +134272,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -134299,7 +134299,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -150850,7 +150850,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -150877,7 +150877,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -150904,7 +150904,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -150931,7 +150931,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151120,7 +151120,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151147,7 +151147,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151552,7 +151552,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151579,7 +151579,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151606,7 +151606,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151633,7 +151633,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151822,7 +151822,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -151849,7 +151849,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166132,7 +166132,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166159,7 +166159,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166186,7 +166186,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166213,7 +166213,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166240,7 +166240,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166267,7 +166267,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166402,7 +166402,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166429,7 +166429,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166726,7 +166726,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166753,7 +166753,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166780,7 +166780,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166807,7 +166807,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166834,7 +166834,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166861,7 +166861,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -166996,7 +166996,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -167023,7 +167023,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183250,7 +183250,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183277,7 +183277,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183304,7 +183304,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183331,7 +183331,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183520,7 +183520,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183547,7 +183547,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183952,7 +183952,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -183979,7 +183979,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -184006,7 +184006,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -184033,7 +184033,7 @@
               0.03
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -184222,7 +184222,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -184249,7 +184249,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201124,7 +201124,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201151,7 +201151,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201286,7 +201286,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201313,7 +201313,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201448,7 +201448,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201475,7 +201475,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201826,7 +201826,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201853,7 +201853,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -201988,7 +201988,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -202015,7 +202015,7 @@
               0.3
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -202150,7 +202150,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
@@ -202177,7 +202177,7 @@
               1.0
             ]
           },
-          "biome": "minecraft:badlands"
+          "biome": "minecraft:eroded_badlands"
         },
         {
           "parameters": {
