@@ -88,7 +88,7 @@ jobs:
           path: ${{ env.DATA_PATH }}
 
       - name: 'Upload generated data'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.DATA_NAME }}
           path: ${{ env.DATA_PATH }}
@@ -129,7 +129,7 @@ jobs:
 
       - name: 'Upload generated reports'
         if: steps.check_for_generated_reports.outputs.REPORTS_EXISTS == 'TRUE'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ env.REPORTS_NAME }}
           path: ${{ env.REPORTS_PATH }}
@@ -171,14 +171,14 @@ jobs:
           git rm -rf --ignore-unmatch "./"
 
       - name: 'Download generated data'
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ env.DATA_NAME }}
           path: './'
 
       - name: 'Download generated reports'
         if: env.REPORTS_EXISTS == 'TRUE'
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ env.REPORTS_NAME }}
           path: './reports'
