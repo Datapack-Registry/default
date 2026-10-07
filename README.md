@@ -24,6 +24,12 @@ https://github.com/Datapack-Registry/default/blob/latest-snapshot/<path to file>
 ```
 
 ## How it works
+
+<details>
+<summary> <b>Show Diagram</b> </summary>
+
+<br>
+
 ```mermaid
 flowchart TD
     START((Start))
@@ -70,6 +76,8 @@ flowchart TD
     -->
     END((End))
 ```
+
+</details>
 
 ## Disclaimer
 The purpose of this repository is **not** to "redistribute" Minecraft data! It should just simply serve as an easy and convenient way to view the differences between one version and another.
